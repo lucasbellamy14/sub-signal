@@ -2,24 +2,11 @@
 
 import { useState } from "react";
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 import FeaturedCard from "@/components/FeaturedCard";
 import ArtistTimeline from "@/components/ArtistTimeline";
-import Newsletter from "@/components/Newsletter";
-import Footer from "@/components/Footer";
 
-const TICKER_ARTISTS = [
-  "Mk.gee",
-  "Nia Archives",
-  "Jean Dawson",
-  "Amaarae",
-  "Paris Texas",
-  "Raveena",
-  "Bladee",
-  "Emotional Oranges",
-  "Odunsi",
-];
-
-const FEATURED_CARDS = [
+const ARTICLES = [
   {
     number: "01",
     tag: "Discovery",
@@ -84,15 +71,13 @@ const ARTISTS = [
   },
 ];
 
-export default function Home() {
+export default function EditorialPage() {
   const [selectedArtist, setSelectedArtist] = useState<typeof ARTISTS[number] | null>(null);
-  const tickerText = TICKER_ARTISTS.join(" \u00b7 ");
 
   return (
     <>
       <Header />
 
-      {/* ── HERO ── */}
       <section className="section-hero">
         <p
           style={{
@@ -104,11 +89,11 @@ export default function Home() {
             marginBottom: "1.5rem",
           }}
         >
-          Music Discovery &middot; Underground &middot; Pre-Mainstream
+          Long reads &middot; Deep dives &middot; Stories
         </p>
 
         <h1 className="hero-headline">
-          Before The <span style={{ color: "#39ff5a" }}>World</span> Knows
+          <span style={{ color: "#39ff5a" }}>Editorial</span>
         </h1>
 
         <p
@@ -120,90 +105,14 @@ export default function Home() {
             maxWidth: "420px",
             lineHeight: 1.7,
             marginTop: "2rem",
-            marginBottom: "3rem",
           }}
         >
-          Sub Signal surfaces artists at the edge of breaking. No algorithms. No
-          playlists. Just the music that matters &mdash; found early.
+          The stories behind the sound. Deep dives into the artists, scenes, and
+          moments that define the underground.
         </p>
-
-        <a
-          href="/discover"
-          style={{
-            display: "inline-block",
-            fontFamily: "var(--font-display)",
-            fontWeight: 700,
-            fontSize: "0.75rem",
-            letterSpacing: "0.25em",
-            textTransform: "uppercase",
-            background: "#39ff5a",
-            color: "#0a0a0a",
-            padding: "0.75rem 2rem",
-            borderRadius: 0,
-            boxShadow: "none",
-            border: "none",
-            textDecoration: "none",
-            cursor: "pointer",
-          }}
-        >
-          Start Listening
-        </a>
       </section>
 
-      {/* ── TICKER STRIP ── */}
-      <div
-        style={{
-          borderTop: "1px solid #1a1a1a",
-          borderBottom: "1px solid #1a1a1a",
-          padding: "0.85rem 0",
-          overflow: "hidden",
-          whiteSpace: "nowrap",
-        }}
-      >
-        <div
-          className="animate-marquee"
-          style={{ display: "inline-flex", width: "max-content" }}
-        >
-          {[0, 1].map((i) => (
-            <span
-              key={i}
-              style={{ display: "inline-flex", alignItems: "center" }}
-            >
-              <span
-                style={{
-                  fontFamily: "var(--font-display)",
-                  fontSize: "0.65rem",
-                  letterSpacing: "0.25em",
-                  textTransform: "uppercase",
-                  color: "#39ff5a",
-                  marginRight: "1.5rem",
-                  fontWeight: 700,
-                }}
-              >
-                NOW LISTENING
-              </span>
-              <span
-                style={{
-                  fontFamily: "var(--font-display)",
-                  fontSize: "0.7rem",
-                  letterSpacing: "0.15em",
-                  textTransform: "uppercase",
-                  color: "#f0f0f0",
-                  marginRight: "1.5rem",
-                }}
-              >
-                {tickerText}
-                <span style={{ color: "#39ff5a", margin: "0 0.75rem" }}>
-                  &middot;
-                </span>
-              </span>
-            </span>
-          ))}
-        </div>
-      </div>
-
-      {/* ── FEATURED CARDS ── */}
-      <section id="discover" className="section-featured">
+      <section className="section-featured">
         <div
           style={{
             display: "flex",
@@ -224,7 +133,7 @@ export default function Home() {
               color: "#555",
             }}
           >
-            Featured This Week
+            Latest Stories
           </span>
           <span
             style={{
@@ -241,7 +150,7 @@ export default function Home() {
         </div>
 
         <div className="featured-grid">
-          {FEATURED_CARDS.map((card, i) => (
+          {ARTICLES.map((card, i) => (
             <FeaturedCard
               key={card.number}
               {...card}
@@ -251,7 +160,42 @@ export default function Home() {
         </div>
       </section>
 
-      <Newsletter />
+      {/* Coming Soon */}
+      <section
+        style={{
+          borderTop: "1px solid #1a1a1a",
+          padding: "5rem 2.5rem",
+          textAlign: "center",
+        }}
+      >
+        <p
+          style={{
+            fontFamily: "var(--font-display)",
+            fontWeight: 700,
+            fontSize: "0.7rem",
+            letterSpacing: "0.25em",
+            textTransform: "uppercase",
+            color: "#333",
+            marginBottom: "1rem",
+          }}
+        >
+          More Coming Soon
+        </p>
+        <p
+          style={{
+            fontFamily: "var(--font-body)",
+            fontWeight: 300,
+            fontSize: "0.85rem",
+            color: "#555",
+            maxWidth: "400px",
+            margin: "0 auto",
+            lineHeight: 1.7,
+          }}
+        >
+          New editorial pieces drop with every volume. Subscribe to get notified.
+        </p>
+      </section>
+
       <Footer />
 
       <ArtistTimeline
