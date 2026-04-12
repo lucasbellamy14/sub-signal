@@ -1,65 +1,98 @@
 "use client";
 
 import Link from "next/link";
+import { useState } from "react";
 
-/**
- * Signal bars icon — the little animated bars next to the logo.
- * These pulse to give a "receiving signal" vibe.
- */
-function SignalBars() {
-  return (
-    <div className="flex items-end gap-[3px] h-5">
-      <div className="w-[3px] h-[6px] bg-accent rounded-sm animate-signal-pulse" />
-      <div
-        className="w-[3px] h-[10px] bg-accent rounded-sm animate-signal-pulse"
-        style={{ animationDelay: "0.2s" }}
-      />
-      <div
-        className="w-[3px] h-[14px] bg-accent rounded-sm animate-signal-pulse"
-        style={{ animationDelay: "0.4s" }}
-      />
-      <div
-        className="w-[3px] h-[18px] bg-accent rounded-sm animate-signal-pulse"
-        style={{ animationDelay: "0.6s" }}
-      />
-    </div>
-  );
-}
+const NAV_LINKS = [
+  { label: "Discover", href: "/" },
+  { label: "Artists", href: "/" },
+  { label: "Editorial", href: "/" },
+  { label: "Submit", href: "/submit" },
+];
 
 export default function Header() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-bg/80 backdrop-blur-md border-b border-border">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
-        {/* Logo area */}
-        <Link href="/" className="flex items-center gap-3 group">
-          <SignalBars />
-          <span className="font-heading font-800 text-xl tracking-tight text-text-primary group-hover:text-accent transition-colors">
-            Sub Signal
+    <header className="header-nav">
+      <div className="header-inner">
+        {/* Logo */}
+        <Link href="/" style={{ textDecoration: "none" }}>
+          <span
+            style={{
+              fontFamily: "var(--font-display)",
+              fontWeight: 900,
+              fontSize: "1rem",
+              letterSpacing: "0.25em",
+              textTransform: "uppercase" as const,
+              color: "#f0f0f0",
+            }}
+          >
+            SUB SIGNAL
           </span>
         </Link>
 
-        {/* Navigation */}
-        <nav className="flex items-center gap-6">
-          <Link
-            href="/"
-            className="font-mono text-xs uppercase tracking-widest text-text-secondary hover:text-accent transition-colors"
-          >
-            Roster
-          </Link>
-          <a
-            href="#newsletter"
-            className="font-mono text-xs uppercase tracking-widest text-text-secondary hover:text-accent transition-colors"
-          >
-            Subscribe
-          </a>
-          <div className="hidden sm:flex items-center gap-1.5 ml-2">
-            <div className="w-2 h-2 rounded-full bg-accent animate-pulse-glow" />
-            <span className="font-mono text-[10px] uppercase text-accent tracking-wider">
-              Live
-            </span>
-          </div>
+        {/* Desktop nav */}
+        <nav className="nav-desktop">
+          {NAV_LINKS.map((link) => (
+            <Link
+              key={link.label}
+              href={link.href}
+              style={{
+                fontFamily: "var(--font-display)",
+                fontSize: "0.7rem",
+                letterSpacing: "0.18em",
+                textTransform: "uppercase" as const,
+                color: "#777",
+                textDecoration: "none",
+                transition: "color 0.2s",
+              }}
+              onMouseEnter={(e) => (e.currentTarget.style.color = "#39ff5a")}
+              onMouseLeave={(e) => (e.currentTarget.style.color = "#777")}
+            >
+              {link.label}
+            </Link>
+          ))}
         </nav>
+
+        {/* Hamburger button */}
+        <button
+          className="hamburger"
+          onClick={() => setMenuOpen(!menuOpen)}
+          aria-label="Toggle menu"
+        >
+          <span className="hamburger-line" />
+          <span className="hamburger-line" />
+          <span className="hamburger-line" />
+        </button>
       </div>
+
+      {/* Mobile menu */}
+      {menuOpen && (
+        <nav className="nav-mobile">
+          {NAV_LINKS.map((link) => (
+            <Link
+              key={link.label}
+              href={link.href}
+              onClick={() => setMenuOpen(false)}
+              style={{
+                fontFamily: "var(--font-display)",
+                fontSize: "1.2rem",
+                textTransform: "uppercase" as const,
+                letterSpacing: "0.18em",
+                color: "#777",
+                textDecoration: "none",
+                display: "block",
+                transition: "color 0.2s",
+              }}
+              onMouseEnter={(e) => (e.currentTarget.style.color = "#39ff5a")}
+              onMouseLeave={(e) => (e.currentTarget.style.color = "#777")}
+            >
+              {link.label}
+            </Link>
+          ))}
+        </nav>
+      )}
     </header>
   );
 }
