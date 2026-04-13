@@ -32,39 +32,17 @@ function splitName(name: string) {
   );
 }
 
-function SpineArrows() {
+function SpineLine() {
   return (
     <div
       style={{
-        display: "flex",
-        flexDirection: "column",
-        alignItems: "center",
-        gap: "2px",
-        padding: "8px 0 4px",
+        width: "1px",
+        flex: 1,
+        background: "#39ff5a",
+        opacity: 0.3,
+        minHeight: "40px",
       }}
-    >
-      {[0, 1, 2].map((i) => (
-        <svg
-          key={i}
-          viewBox="0 0 22 30"
-          width={22}
-          fill="none"
-          style={{
-            animation: `spineArrow 1.4s ease-in-out infinite`,
-            animationDelay: `${i * 0.25}s`,
-            opacity: i === 0 ? 1 : i === 1 ? 0.55 : 0.25,
-          }}
-        >
-          <path
-            d="M11 2 L11 20 M4 13 L11 22 L18 13"
-            stroke="#39ff5a"
-            strokeWidth={2.2}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-        </svg>
-      ))}
-    </div>
+    />
   );
 }
 
@@ -232,7 +210,7 @@ export default function ArtistTimeline({ artist, onClose }: ArtistTimelineProps)
                   {/* Spine */}
                   <div className="timeline-spine">
                     <div className="timeline-dot" />
-                    {i < artist.timeline.length - 1 && <SpineArrows />}
+                    {i < artist.timeline.length - 1 && <SpineLine />}
                   </div>
 
                   {/* Content */}
