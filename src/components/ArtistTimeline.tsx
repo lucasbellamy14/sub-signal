@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 interface TimelineEntry {
   year: string;
@@ -65,6 +65,55 @@ function SpineArrows() {
         </svg>
       ))}
     </div>
+  );
+}
+
+function PhotoWithFallback({ src, alt, name }: { src: string; alt: string; name: string }) {
+  const [failed, setFailed] = useState(false);
+  const initials = name.split(" ").map((w) => w[0]).join("").slice(0, 2).toUpperCase();
+
+  if (failed) {
+    return (
+      <div
+        style={{
+          width: "100%",
+          height: "100%",
+          background: "linear-gradient(135deg, #111 0%, #1a1a1a 100%)",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+        }}
+      >
+        <span
+          style={{
+            fontFamily: "var(--font-display)",
+            fontSize: "2.5rem",
+            fontWeight: 900,
+            color: "#39ff5a",
+            opacity: 0.3,
+          }}
+        >
+          {initials}
+        </span>
+      </div>
+    );
+  }
+
+  return (
+    // eslint-disable-next-line @next/next/no-img-element
+    <img
+      src={src}
+      alt={alt}
+      onError={() => setFailed(true)}
+      style={{
+        width: "100%",
+        height: "100%",
+        objectFit: "cover",
+        objectPosition: "center top",
+        filter: "contrast(1.05) brightness(0.95)",
+        display: "block",
+      }}
+    />
   );
 }
 
@@ -136,18 +185,10 @@ export default function ArtistTimeline({ artist, onClose }: ArtistTimelineProps)
               {[0, 1].map((i) => (
                 <div key={i} className="photo-slot">
                   <div className="photo-dashed-border" />
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
+                  <PhotoWithFallback
                     src={artist.photos[i]}
                     alt={artist.name}
-                    style={{
-                      width: "100%",
-                      height: "100%",
-                      objectFit: "cover",
-                      objectPosition: "center top",
-                      filter: "contrast(1.05) brightness(0.95)",
-                      display: "block",
-                    }}
+                    name={artist.name}
                   />
                   <div className="photo-gradient" />
                   <span className="photo-ghost-number">
