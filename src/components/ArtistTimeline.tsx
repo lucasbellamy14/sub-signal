@@ -119,6 +119,7 @@ function PhotoWithFallback({ src, alt, name }: { src: string; alt: string; name:
 
 export default function ArtistTimeline({ artist, onClose }: ArtistTimelineProps) {
   useEffect(() => {
+    if (!artist) return;
     const handleKey = (e: KeyboardEvent) => {
       if (e.key === "Escape") onClose();
     };
@@ -128,7 +129,7 @@ export default function ArtistTimeline({ artist, onClose }: ArtistTimelineProps)
       document.removeEventListener("keydown", handleKey);
       document.body.style.overflow = "";
     };
-  }, [onClose]);
+  }, [artist, onClose]);
 
   if (!artist) return null;
 
