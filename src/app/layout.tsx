@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
+import { SavedArtistsProvider } from "@/context/SavedArtistsContext";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://sub-signal.vercel.app"),
   title: {
     default: "Sub Signal — Underground Artist Discovery",
     template: "%s — Sub Signal",
@@ -57,7 +59,9 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
-      <body className="antialiased min-h-screen">{children}</body>
+      <body className="antialiased min-h-screen">
+        <SavedArtistsProvider>{children}</SavedArtistsProvider>
+      </body>
     </html>
   );
 }

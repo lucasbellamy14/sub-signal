@@ -6,7 +6,11 @@ import { ARTISTS } from "@/data/artists";
 
 const NAV_LINKS = [
   { label: "Discover", href: "/discover" },
-  { label: "Submit", href: "/submit" },
+  { label: "About", href: "/about" },
+  { label: "Read", href: "/read" },
+  { label: "Sessions", href: "/sessions" },
+  { label: "Drops", href: "/drops" },
+  { label: "Saved", href: "/saved" },
 ];
 
 function SearchIcon() {

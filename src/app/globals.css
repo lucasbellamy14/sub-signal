@@ -45,6 +45,25 @@ body {
   background: var(--color-green);
 }
 
+/* ── Horizontal scrollbar styling ── */
+.scroll-row::-webkit-scrollbar {
+  height: 4px;
+}
+.scroll-row::-webkit-scrollbar-track {
+  background: var(--color-bg);
+}
+.scroll-row::-webkit-scrollbar-thumb {
+  background: var(--color-border);
+  border-radius: 2px;
+}
+.scroll-row::-webkit-scrollbar-thumb:hover {
+  background: var(--color-green);
+}
+.scroll-row {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-border) var(--color-bg);
+}
+
 /* ── Selection color ── */
 ::selection {
   background: #39ff5a30;

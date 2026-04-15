@@ -17,17 +17,79 @@ export default function Footer() {
             SUB SIGNAL
           </span>
 
-          {/* Tagline */}
-          <p
-            style={{
-              fontFamily: "var(--font-body)",
-              fontSize: "0.7rem",
-              color: "#555",
-              letterSpacing: "0.1em",
-            }}
-          >
-            Spotlighting artists before they break through
-          </p>
+          {/* Nav */}
+          <nav style={{ display: "flex", alignItems: "center", gap: "1.5rem" }}>
+            <a
+              href="/discover"
+              style={{
+                fontFamily: "var(--font-display)",
+                fontSize: "0.65rem",
+                letterSpacing: "0.15em",
+                textTransform: "uppercase",
+                color: "#555",
+                textDecoration: "none",
+                transition: "color 0.2s",
+              }}
+            >
+              Discover
+            </a>
+            <a
+              href="/read"
+              style={{
+                fontFamily: "var(--font-display)",
+                fontSize: "0.65rem",
+                letterSpacing: "0.15em",
+                textTransform: "uppercase",
+                color: "#555",
+                textDecoration: "none",
+                transition: "color 0.2s",
+              }}
+            >
+              Read
+            </a>
+            <a
+              href="/sessions"
+              style={{
+                fontFamily: "var(--font-display)",
+                fontSize: "0.65rem",
+                letterSpacing: "0.15em",
+                textTransform: "uppercase",
+                color: "#555",
+                textDecoration: "none",
+                transition: "color 0.2s",
+              }}
+            >
+              Sessions
+            </a>
+            <a
+              href="/saved"
+              style={{
+                fontFamily: "var(--font-display)",
+                fontSize: "0.65rem",
+                letterSpacing: "0.15em",
+                textTransform: "uppercase",
+                color: "#555",
+                textDecoration: "none",
+                transition: "color 0.2s",
+              }}
+            >
+              Saved
+            </a>
+            <a
+              href="/contact"
+              style={{
+                fontFamily: "var(--font-display)",
+                fontSize: "0.65rem",
+                letterSpacing: "0.15em",
+                textTransform: "uppercase",
+                color: "#555",
+                textDecoration: "none",
+                transition: "color 0.2s",
+              }}
+            >
+              Contact
+            </a>
+          </nav>
 
           {/* Copyright */}
           <p

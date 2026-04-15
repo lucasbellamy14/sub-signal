@@ -51,11 +51,16 @@ export default function DiscoverFeatured() {
           {ARTISTS.map((artist) => (
             <FeaturedCard
               key={artist.id}
+              slug={artist.slug}
               number={artist.cardNumber}
               tag={artist.cardTag}
               title={artist.cardTitle}
               body={artist.cardBody}
               spotifyTrackId={artist.spotifyTrackId}
+              instagram={artist.instagram}
+              tiktok={artist.tiktok}
+              twitter={artist.twitter}
+              spotify={artist.spotify}
               onClick={() => setSelectedArtist(artist)}
             />
           ))}

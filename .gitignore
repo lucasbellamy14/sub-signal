@@ -34,3 +34,11 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Claude scratch files
+.claude/
+
+# Research docs (kept out of website repo)
+Sub_Signal_*.xlsx
+Sub_Signal_*.docx
+.~lock.*

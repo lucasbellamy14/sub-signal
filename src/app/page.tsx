@@ -6,9 +6,13 @@ import FeaturedCard from "@/components/FeaturedCard";
 import ArtistTimeline from "@/components/ArtistTimeline";
 import Newsletter from "@/components/Newsletter";
 import Footer from "@/components/Footer";
+import Link from "next/link";
 import { ARTISTS, TICKER_ARTISTS } from "@/data/artists";
 
 const HOMEPAGE_ARTISTS = ARTISTS.slice(0, 3);
+const TRENDING_ARTISTS = [...ARTISTS]
+  .sort((a, b) => b.featuredDate.localeCompare(a.featuredDate))
+  .slice(0, 6);
 
 export default function Home() {
   const [selectedArtist, setSelectedArtist] = useState<typeof ARTISTS[number] | null>(null);
@@ -128,6 +132,117 @@ export default function Home() {
         </div>
       </div>
 
+      {/* ── TRENDING NOW ── */}
+      <section style={{ padding: "3rem 2.5rem 2rem" }}>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "space-between",
+            alignItems: "center",
+            borderBottom: "1px solid #1a1a1a",
+            paddingBottom: "1rem",
+            marginBottom: "1.5rem",
+          }}
+        >
+          <span
+            style={{
+              fontFamily: "var(--font-display)",
+              fontWeight: 700,
+              fontSize: "0.7rem",
+              letterSpacing: "0.25em",
+              textTransform: "uppercase",
+              color: "#555",
+            }}
+          >
+            Trending Now
+          </span>
+          <span
+            style={{
+              fontFamily: "var(--font-display)",
+              fontWeight: 700,
+              fontSize: "0.7rem",
+              letterSpacing: "0.25em",
+              textTransform: "uppercase",
+              color: "#333",
+            }}
+          >
+            {TRENDING_ARTISTS.length} Artists
+          </span>
+        </div>
+
+        <div
+          className="scroll-row"
+          style={{
+            display: "flex",
+            gap: "1px",
+            overflowX: "auto",
+            paddingBottom: "0.75rem",
+          }}
+        >
+          {TRENDING_ARTISTS.map((artist) => (
+            <Link
+              key={artist.id}
+              href={`/artists/${artist.slug}`}
+              style={{
+                flex: "0 0 180px",
+                background: "#0a0a0a",
+                border: "1px solid #1a1a1a",
+                padding: "1.5rem 1.25rem",
+                textDecoration: "none",
+                transition: "background 0.2s, border-color 0.2s",
+              }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.background = "#111";
+                e.currentTarget.style.borderColor = "#222";
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.background = "#0a0a0a";
+                e.currentTarget.style.borderColor = "#1a1a1a";
+              }}
+            >
+              <div
+                style={{
+                  fontFamily: "var(--font-display)",
+                  fontWeight: 900,
+                  fontSize: "1.8rem",
+                  color: "#39ff5a",
+                  lineHeight: 1,
+                  marginBottom: "1rem",
+                  opacity: 0.4,
+                }}
+              >
+                {artist.cardNumber}
+              </div>
+              <div
+                style={{
+                  fontFamily: "var(--font-display)",
+                  fontWeight: 700,
+                  fontSize: "0.9rem",
+                  textTransform: "uppercase",
+                  letterSpacing: "0.05em",
+                  color: "#e8e8e8",
+                  lineHeight: 1.2,
+                  marginBottom: "0.4rem",
+                }}
+              >
+                {artist.name}
+              </div>
+              <div
+                style={{
+                  fontFamily: "var(--font-display)",
+                  fontSize: "0.55rem",
+                  letterSpacing: "0.15em",
+                  textTransform: "uppercase",
+                  color: "#555",
+                }}
+              >
+                {artist.meta.split("·")[1]?.trim()}
+              </div>
+            </Link>
+          ))}
+        </div>
+      </section>
+
       {/* ── FEATURED CARDS ── */}
       <section id="discover" className="section-featured">
         <div
@@ -170,11 +285,16 @@ export default function Home() {
           {HOMEPAGE_ARTISTS.map((artist) => (
             <FeaturedCard
               key={artist.id}
+              slug={artist.slug}
               number={artist.cardNumber}
               tag={artist.cardTag}
               title={artist.cardTitle}
               body={artist.cardBody}
               spotifyTrackId={artist.spotifyTrackId}
+              instagram={artist.instagram}
+              tiktok={artist.tiktok}
+              twitter={artist.twitter}
+              spotify={artist.spotify}
               onClick={() => setSelectedArtist(artist)}
             />
           ))}

@@ -1,15 +1,23 @@
 "use client";
 
+import SocialLinks from "@/components/SocialLinks";
+import SaveButton from "@/components/SaveButton";
+
 interface FeaturedCardProps {
+  slug: string;
   number: string;
   tag: string;
   title: string;
   body: string;
   spotifyTrackId?: string;
+  instagram?: string;
+  tiktok?: string;
+  twitter?: string;
+  spotify?: string;
   onClick?: () => void;
 }
 
-export default function FeaturedCard({ number, tag, title, body, spotifyTrackId, onClick }: FeaturedCardProps) {
+export default function FeaturedCard({ slug, number, tag, title, body, spotifyTrackId, instagram, tiktok, twitter, spotify, onClick }: FeaturedCardProps) {
   return (
     <article
       style={{
@@ -22,17 +30,26 @@ export default function FeaturedCard({ number, tag, title, body, spotifyTrackId,
       onMouseEnter={(e) => (e.currentTarget.style.background = "#111")}
       onMouseLeave={(e) => (e.currentTarget.style.background = "#0a0a0a")}
     >
-      {/* Number */}
+      {/* Number + Save */}
       <div
         style={{
-          fontFamily: "var(--font-display)",
-          fontSize: "0.6rem",
-          letterSpacing: "0.2em",
-          color: "#333",
+          display: "flex",
+          justifyContent: "space-between",
+          alignItems: "center",
           marginBottom: "2rem",
         }}
       >
-        {number}
+        <span
+          style={{
+            fontFamily: "var(--font-display)",
+            fontSize: "0.6rem",
+            letterSpacing: "0.2em",
+            color: "#333",
+          }}
+        >
+          {number}
+        </span>
+        <SaveButton slug={slug} size={16} />
       </div>
 
       {/* Tag badge */}
@@ -92,6 +109,17 @@ export default function FeaturedCard({ number, tag, title, body, spotifyTrackId,
       >
         {body}
       </p>
+
+      {/* Social Links */}
+      <div style={{ marginTop: "1rem" }}>
+        <SocialLinks
+          instagram={instagram}
+          tiktok={tiktok}
+          twitter={twitter}
+          spotify={spotify}
+          size={16}
+        />
+      </div>
 
       {/* Spotify Embed */}
       <div

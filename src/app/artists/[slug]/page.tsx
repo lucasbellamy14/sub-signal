@@ -2,6 +2,8 @@ import { notFound } from "next/navigation";
 import { ARTISTS } from "@/data/artists";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import SocialLinks from "@/components/SocialLinks";
+import SaveButton from "@/components/SaveButton";
 
 export function generateStaticParams() {
   return ARTISTS.map((artist) => ({ slug: artist.slug }));
@@ -10,7 +12,19 @@ export function generateStaticParams() {
 export function generateMetadata({ params }: { params: { slug: string } }) {
   const artist = ARTISTS.find((a) => a.slug === params.slug);
   if (!artist) return { title: "Artist Not Found — Sub Signal" };
-  return { title: `${artist.name} — Sub Signal` };
+  return {
+    title: `${artist.name} — Sub Signal`,
+    openGraph: {
+      title: `${artist.name} — Sub Signal`,
+      description: artist.cardBody,
+      type: "article",
+    },
+    twitter: {
+      card: "summary_large_image" as const,
+      title: `${artist.name} — Sub Signal`,
+      description: artist.cardBody,
+    },
+  };
 }
 
 export default function ArtistPage({ params }: { params: { slug: string } }) {
@@ -42,19 +56,29 @@ export default function ArtistPage({ params }: { params: { slug: string } }) {
           {artist.cardTag}
         </div>
 
-        <h1
+        <div
           style={{
-            fontFamily: "var(--font-display)",
-            fontWeight: 700,
-            fontSize: "clamp(2.5rem, 8vw, 5rem)",
-            textTransform: "uppercase",
-            color: "#f0f0f0",
-            lineHeight: 0.95,
+            display: "flex",
+            alignItems: "center",
+            gap: "1rem",
             margin: "0 0 1.5rem",
           }}
         >
-          {artist.name}
-        </h1>
+          <h1
+            style={{
+              fontFamily: "var(--font-display)",
+              fontWeight: 700,
+              fontSize: "clamp(2.5rem, 8vw, 5rem)",
+              textTransform: "uppercase",
+              color: "#f0f0f0",
+              lineHeight: 0.95,
+              margin: 0,
+            }}
+          >
+            {artist.name}
+          </h1>
+          <SaveButton slug={artist.slug} size={24} />
+        </div>
 
         <p
           style={{
@@ -68,6 +92,15 @@ export default function ArtistPage({ params }: { params: { slug: string } }) {
         >
           {artist.meta}
         </p>
+
+        <div style={{ marginBottom: "2rem" }}>
+          <SocialLinks
+            instagram={artist.instagram}
+            tiktok={artist.tiktok}
+            twitter={artist.twitter}
+            spotify={artist.spotify}
+          />
+        </div>
 
         <p
           style={{
