@@ -1,5 +1,6 @@
 export interface TimelineArtist {
   id: string;
+  slug: string;
   name: string;
   meta: string;
   photos: [string, string];
@@ -8,12 +9,14 @@ export interface TimelineArtist {
   cardTag: string;
   cardTitle: string;
   cardBody: string;
+  spotifyTrackId?: string;
   timeline: { year: string; title: string; body: string }[];
 }
 
 export const ARTISTS: TimelineArtist[] = [
   {
     id: "mkgee",
+    slug: "mk-gee",
     name: "Mk.gee",
     meta: "Los Angeles · Alt-R&B · b. 1996",
     photos: ["/images/mkgee-early.jpg", "/images/mkgee-recent.jpg"],
@@ -22,6 +25,7 @@ export const ARTISTS: TimelineArtist[] = [
     cardTag: "Discovery",
     cardTitle: "Mk.gee Is Building Cathedrals",
     cardBody: "From bedroom recordings in New Jersey to a critically acclaimed debut — Mk.gee turned years of quiet obsession into one of 2024's most talked-about albums.",
+    spotifyTrackId: "00uvWPbNBali6gKlZxUxIU",
     timeline: [
       { year: "1996", title: "Linwood, New Jersey", body: "Michael Todd Gordon was born in Somers Point, New Jersey, and grew up in nearby Linwood. He started studying piano and composing music at the age of five. Guitar lessons came next, and by his teenage years he had developed a deep interest in jazz." },
       { year: "2015", title: "Mainland Regional to LA", body: "Graduated from Mainland Regional High School and moved to Los Angeles to study Popular Music at USC Thornton School of Music. He would eventually drop out before finishing his degree — but LA had already become home." },
@@ -33,6 +37,7 @@ export const ARTISTS: TimelineArtist[] = [
   },
   {
     id: "nia-archives",
+    slug: "nia-archives",
     name: "Nia Archives",
     meta: "London · Jungle · b. 1999",
     photos: ["/images/nia-early.jpg", "/images/nia-recent.jpg"],
@@ -41,6 +46,7 @@ export const ARTISTS: TimelineArtist[] = [
     cardTag: "Profile",
     cardTitle: "Nia Archives and the New Jungle Sound",
     cardBody: "From Bradford to Beyoncé's world tour — how a self-taught producer from West Yorkshire became the face of jungle's resurgence.",
+    spotifyTrackId: "7wLHg91FTqYc2aZKpWmG9r",
     timeline: [
       { year: "1999", title: "Bradford Born, Leeds Raised", body: "Born Dehaney Nia Lishahn Hunt in Bradford, West Yorkshire. Moved to Leeds at age seven. Half-Jamaican, she grew up surrounded by dub, reggae, and electronic sounds at her parents' backyard parties." },
       { year: "2017", title: "A Bootleg Copy of Logic Pro", body: "Fed up with how local producers were treating her, she downloaded a bootleg copy of Logic Pro and started making music on her own. As she sped her productions up, she realized she was making jungle — and started researching the genre's roots." },
@@ -52,6 +58,7 @@ export const ARTISTS: TimelineArtist[] = [
   },
   {
     id: "paris-texas",
+    slug: "paris-texas",
     name: "Paris Texas",
     meta: "Los Angeles · Alt-Rap · Est. 2018",
     photos: ["/images/paristexas-early.jpg", "/images/paristexas-recent.jpg"],
@@ -60,6 +67,7 @@ export const ARTISTS: TimelineArtist[] = [
     cardTag: "Mix",
     cardTitle: "90 Minutes with Paris Texas",
     cardBody: "An exclusive mixtape session blending hip-hop, noise rock, and internet-age absurdism — a snapshot of two artists who refuse to be categorized.",
+    spotifyTrackId: "35ZDgSGHRkV04aYdkP1VfI",
     timeline: [
       { year: "2013", title: "El Camino College. A Mutual Friend.", body: "Louie Pastel and Felix — both pseudonyms, real names unknown — met during freshman year at El Camino College. A mutual friend introduced them. They bonded over Florida rapper Robb Banks and started making music together within months." },
       { year: "2018", title: "Paris Texas Is Born.", body: "After years of making music together, they formalized as a duo and took the name Paris Texas — a reference to Wim Wenders' 1984 road film. Louie, a Compton native who once dreamed of being an actor or comic book artist. Felix, from South Central. Both found their thing in the space between rap, punk, and noise rock." },
@@ -70,6 +78,7 @@ export const ARTISTS: TimelineArtist[] = [
   },
   {
     id: "riz-la-vie",
+    slug: "riz-la-vie",
     name: "Riz La Vie",
     meta: "New York · Alt-R&B",
     photos: ["/images/rizlavie-early.jpg", "/images/rizlavie-recent.jpg"],
@@ -78,6 +87,7 @@ export const ARTISTS: TimelineArtist[] = [
     cardTag: "Discovery",
     cardTitle: "Riz La Vie and the Art of the Slow Burn",
     cardBody: "A second-generation Lebanese American from New Jersey who turned quiet vulnerability into one of indie R&B's most honest voices — 37 million streams and counting.",
+    spotifyTrackId: "0YvzawIC5nFFYj5YAvv5HP",
     timeline: [
       { year: "Early", title: "New Jersey. Music First.", body: "A second-generation Lebanese American raised in New Jersey. He had a passion for music for as long as he can remember. Started making his own music at fourteen, inspired by Lil Wayne dropping No Ceilings — which kicked off his DIY approach to recording and releasing on his own terms." },
       { year: "2017", title: "Two EPs. Nobody Watching.", body: "Released his debut EP Found, followed later that year by Keep. An artful, grainy hybrid of R&B, hip-hop, and pop — occasionally bluesy, always personal. A few hundred plays. Enough to know the songs were finding people." },
@@ -88,6 +98,7 @@ export const ARTISTS: TimelineArtist[] = [
   },
   {
     id: "oliver-malcolm",
+    slug: "oliver-malcolm",
     name: "Oliver Malcolm",
     meta: "London · Alt-Pop",
     photos: ["/images/olivermalcolm-early.jpg", "/images/olivermalcolm-recent.jpg"],
@@ -96,6 +107,7 @@ export const ARTISTS: TimelineArtist[] = [
     cardTag: "Profile",
     cardTitle: "Oliver Malcolm: Producer First, Artist Always",
     cardBody: "A Swedish-born, London-raised producer who built his name behind the boards for MF DOOM and Joey Bada$$ — then stepped in front of the mic himself.",
+    spotifyTrackId: "2qtJUSJmPz5mkVhFHrtCd7",
     timeline: [
       { year: "Early", title: "Sweden to London.", body: "Born in Sweden, raised in London. Bought his own set of turntables and started DJing before realizing producing was what he really wanted to do. At fifteen, he began making beats in a cracked copy of Logic Pro." },
       { year: "2017", title: "MF DOOM. First Credit.", body: "His first major production credit landed at age seventeen — IDK's \"Pizza Shop\" featuring MF DOOM. He followed it up by co-producing IDK's \"Lil Arrogant\" featuring Joey Bada$$. Production credits for Russ, Cee-Lo Green, and Masego followed. All of this under his producer alias, Big Kidd." },
@@ -106,6 +118,7 @@ export const ARTISTS: TimelineArtist[] = [
   },
   {
     id: "contradash",
+    slug: "contradash",
     name: "Contradash",
     meta: "SoCal · Alt-Pop",
     photos: ["/images/contradash-early.jpg", "/images/contradash-recent.jpg"],
@@ -114,6 +127,7 @@ export const ARTISTS: TimelineArtist[] = [
     cardTag: "Discovery",
     cardTitle: "Contradash: From Cover Art to Center Stage",
     cardBody: "A graphic designer from Southern California who made cover art for Tyga and Ski Mask — then built his own world of early-2000s pop-soaked songs that Interscope couldn't ignore.",
+    spotifyTrackId: "5rhWIr9NmeuwRU3MFC8LBM",
     timeline: [
       { year: "Early", title: "Southern California. Design First.", body: "Grew up in Southern California with a gift for graphic design. Built a reputation creating cover art for rappers like Tyga, Ski Mask the Slump God, and Desiigner — all commissioned through the internet, all before he ever released a song of his own." },
       { year: "2017", title: "Dominic Fike. A Door Opens.", body: "His design work caught the attention of Dominic Fike. What started as an online connection led to a trip to Florida in 2018 to record in a real studio for the first time. Being around working musicians flipped something — he realized he wanted to make music, not just design for it." },

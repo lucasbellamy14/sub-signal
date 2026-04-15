@@ -5,10 +5,11 @@ interface FeaturedCardProps {
   tag: string;
   title: string;
   body: string;
+  spotifyTrackId?: string;
   onClick?: () => void;
 }
 
-export default function FeaturedCard({ number, tag, title, body, onClick }: FeaturedCardProps) {
+export default function FeaturedCard({ number, tag, title, body, spotifyTrackId, onClick }: FeaturedCardProps) {
   return (
     <article
       style={{
@@ -91,6 +92,43 @@ export default function FeaturedCard({ number, tag, title, body, onClick }: Feat
       >
         {body}
       </p>
+
+      {/* Spotify Embed */}
+      <div
+        style={{ marginTop: "1.25rem" }}
+        onClick={(e) => e.stopPropagation()}
+      >
+        {spotifyTrackId ? (
+          <iframe
+            src={`https://open.spotify.com/embed/track/${spotifyTrackId}?utm_source=generator&theme=0`}
+            width="100%"
+            height={80}
+            frameBorder={0}
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            loading="lazy"
+            style={{
+              borderRadius: "8px",
+              border: "none",
+              background: "transparent",
+              display: "block",
+            }}
+          />
+        ) : (
+          <div
+            style={{
+              fontFamily: "var(--font-display)",
+              fontSize: "0.6rem",
+              letterSpacing: "0.2em",
+              textTransform: "uppercase",
+              color: "#39ff5a",
+              opacity: 0.5,
+              paddingTop: "0.5rem",
+            }}
+          >
+            Listen soon
+          </div>
+        )}
+      </div>
     </article>
   );
 }

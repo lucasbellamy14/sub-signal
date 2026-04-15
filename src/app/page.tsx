@@ -174,6 +174,7 @@ export default function Home() {
               tag={artist.cardTag}
               title={artist.cardTitle}
               body={artist.cardBody}
+              spotifyTrackId={artist.spotifyTrackId}
               onClick={() => setSelectedArtist(artist)}
             />
           ))}
