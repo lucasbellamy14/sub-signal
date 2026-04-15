@@ -71,7 +71,7 @@ export default function SavedPage() {
                 fontSize: "1.2rem",
                 letterSpacing: "0.15em",
                 textTransform: "uppercase",
-                color: "#555",
+                color: "#9a9a9a",
                 marginBottom: "1.5rem",
               }}
             >

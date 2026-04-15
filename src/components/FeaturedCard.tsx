@@ -42,9 +42,9 @@ export default function FeaturedCard({ slug, number, tag, title, body, spotifyTr
         <span
           style={{
             fontFamily: "var(--font-display)",
-            fontSize: "0.6rem",
+            fontSize: "0.75rem",
             letterSpacing: "0.2em",
-            color: "#333",
+            color: "#555",
           }}
         >
           {number}
@@ -58,12 +58,12 @@ export default function FeaturedCard({ slug, number, tag, title, body, spotifyTr
           style={{
             display: "inline-block",
             fontFamily: "var(--font-display)",
-            fontSize: "0.6rem",
+            fontSize: "0.75rem",
             letterSpacing: "0.2em",
             textTransform: "uppercase",
             color: "#39ff5a",
             border: "1px solid #1e4a28",
-            padding: "0.25rem 0.6rem",
+            padding: "0.3rem 0.75rem",
           }}
         >
           {tag}
@@ -75,7 +75,7 @@ export default function FeaturedCard({ slug, number, tag, title, body, spotifyTr
         style={{
           fontFamily: "var(--font-display)",
           fontWeight: 700,
-          fontSize: "1.6rem",
+          fontSize: "2rem",
           textTransform: "uppercase",
           color: "#e8e8e8",
           lineHeight: 1.1,
@@ -101,8 +101,8 @@ export default function FeaturedCard({ slug, number, tag, title, body, spotifyTr
         style={{
           fontFamily: "var(--font-body)",
           fontWeight: 300,
-          fontSize: "0.75rem",
-          color: "#555",
+          fontSize: "0.95rem",
+          color: "#b0b0b0",
           lineHeight: 1.5,
           margin: 0,
         }}
@@ -145,11 +145,11 @@ export default function FeaturedCard({ slug, number, tag, title, body, spotifyTr
           <div
             style={{
               fontFamily: "var(--font-display)",
-              fontSize: "0.6rem",
+              fontSize: "0.75rem",
               letterSpacing: "0.2em",
               textTransform: "uppercase",
               color: "#39ff5a",
-              opacity: 0.5,
+              opacity: 0.6,
               paddingTop: "0.5rem",
             }}
           >

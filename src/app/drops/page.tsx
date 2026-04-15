@@ -43,7 +43,7 @@ export default function DropsPage() {
             fontFamily: "var(--font-body)",
             fontWeight: 300,
             fontSize: "0.95rem",
-            color: "#777",
+            color: "#b0b0b0",
             maxWidth: "420px",
             lineHeight: 1.7,
             marginTop: "2rem",
@@ -113,7 +113,7 @@ export default function DropsPage() {
                 fontFamily: "var(--font-body)",
                 fontWeight: 300,
                 fontSize: "0.85rem",
-                color: "#555",
+                color: "#9a9a9a",
                 lineHeight: 1.6,
                 margin: 0,
               }}

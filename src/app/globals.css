@@ -9,7 +9,8 @@
   --color-border: #1a1a1a;
   --color-green: #39ff5a;
   --color-white: #f0f0f0;
-  --color-muted: #777777;
+  --color-muted: #b0b0b0;
+  --color-muted-dim: #8a8a8a;
   --font-display: 'Barlow Condensed', sans-serif;
   --font-body: 'Barlow', sans-serif;
 
@@ -28,6 +29,37 @@ body {
   font-family: var(--font-body);
   font-weight: 300;
   -webkit-font-smoothing: antialiased;
+  position: relative;
+}
+
+/* Grain overlay */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 1;
+  opacity: 0.04;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='200' height='200'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>");
+  mix-blend-mode: overlay;
+}
+
+/* Ambient green drift */
+body::after {
+  content: "";
+  position: fixed;
+  inset: -20%;
+  pointer-events: none;
+  z-index: 0;
+  background:
+    radial-gradient(circle at 30% 20%, rgba(57,255,90,0.04), transparent 50%),
+    radial-gradient(circle at 70% 80%, rgba(57,255,90,0.03), transparent 55%);
+  animation: ambientDrift 28s ease-in-out infinite alternate;
+}
+
+@keyframes ambientDrift {
+  0%   { transform: translate3d(0, 0, 0) scale(1); }
+  100% { transform: translate3d(3%, -2%, 0) scale(1.08); }
 }
 
 /* ── Scrollbar styling ── */
@@ -129,15 +161,15 @@ body {
   position: sticky;
   top: 0;
   z-index: 50;
-  background: #0a0a0a;
+  background: #f5f1e8;
   border-bottom: 1px solid #1a1a1a;
 }
 
 .header-inner {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 2.5rem;
-  height: 3.5rem;
+  padding: 0 3rem;
+  height: 4.75rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -163,7 +195,7 @@ body {
   display: block;
   width: 20px;
   height: 0;
-  border-top: 1px solid #777;
+  border-top: 1px solid #0a0a0a;
 }
 
 .nav-mobile {
@@ -178,7 +210,7 @@ body {
 .hero-headline {
   font-family: var(--font-display);
   font-weight: 900;
-  font-size: clamp(4rem, 10vw, 8rem);
+  font-size: clamp(4.5rem, 11vw, 9rem);
   text-transform: uppercase;
   line-height: 0.9;
   color: #f0f0f0;

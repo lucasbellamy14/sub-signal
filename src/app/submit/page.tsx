@@ -18,7 +18,7 @@ const labelStyle: React.CSSProperties = {
   fontSize: "0.7rem",
   letterSpacing: "0.2em",
   textTransform: "uppercase",
-  color: "#555",
+  color: "#9a9a9a",
   marginBottom: "0.5rem",
 };
 
@@ -64,7 +64,7 @@ export default function SubmitPage() {
             fontFamily: "var(--font-body)",
             fontWeight: 300,
             fontSize: "1rem",
-            color: "#777",
+            color: "#b0b0b0",
             margin: 0,
           }}
         >

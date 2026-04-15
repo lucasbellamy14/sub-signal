@@ -31,7 +31,7 @@ export default function DiscoverPage() {
             fontFamily: "var(--font-body)",
             fontWeight: 300,
             fontSize: "0.95rem",
-            color: "#777",
+            color: "#b0b0b0",
             maxWidth: "420px",
             lineHeight: 1.7,
             marginTop: "2rem",

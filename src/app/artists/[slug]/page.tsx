@@ -86,7 +86,7 @@ export default function ArtistPage({ params }: { params: { slug: string } }) {
             fontSize: "0.7rem",
             letterSpacing: "0.15em",
             textTransform: "uppercase",
-            color: "#555",
+            color: "#9a9a9a",
             marginBottom: "2rem",
           }}
         >
@@ -107,7 +107,7 @@ export default function ArtistPage({ params }: { params: { slug: string } }) {
             fontFamily: "var(--font-body)",
             fontWeight: 300,
             fontSize: "1rem",
-            color: "#888",
+            color: "#b8b8b8",
             lineHeight: 1.7,
             maxWidth: "600px",
             marginBottom: "3rem",
@@ -152,7 +152,7 @@ export default function ArtistPage({ params }: { params: { slug: string } }) {
             fontSize: "0.7rem",
             letterSpacing: "0.25em",
             textTransform: "uppercase",
-            color: "#555",
+            color: "#9a9a9a",
             borderBottom: "1px solid #1a1a1a",
             paddingBottom: "1rem",
             marginBottom: "2.5rem",

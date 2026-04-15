@@ -49,7 +49,7 @@ export default function Newsletter() {
             fontSize: "0.7rem",
             letterSpacing: "0.25em",
             textTransform: "uppercase",
-            color: "#555",
+            color: "#9a9a9a",
             marginBottom: "1.5rem",
           }}
         >
@@ -60,7 +60,7 @@ export default function Newsletter() {
             fontFamily: "var(--font-body)",
             fontWeight: 300,
             fontSize: "0.85rem",
-            color: "#777",
+            color: "#b0b0b0",
             lineHeight: 1.7,
             marginBottom: "2rem",
           }}

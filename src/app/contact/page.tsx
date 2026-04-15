@@ -39,7 +39,7 @@ export default function ContactPage() {
             fontSize: "0.75rem",
             letterSpacing: "0.15em",
             textTransform: "uppercase",
-            color: "#555",
+            color: "#9a9a9a",
             marginBottom: "1.5rem",
           }}
         >

@@ -28,7 +28,7 @@ export default function DiscoverFeatured() {
               fontSize: "0.7rem",
               letterSpacing: "0.25em",
               textTransform: "uppercase",
-              color: "#555",
+              color: "#9a9a9a",
             }}
           >
             Featured Artists

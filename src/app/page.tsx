@@ -46,7 +46,7 @@ export default function Home() {
             fontFamily: "var(--font-body)",
             fontWeight: 300,
             fontSize: "0.95rem",
-            color: "#777",
+            color: "#b0b0b0",
             maxWidth: "420px",
             lineHeight: 1.7,
             marginTop: "2rem",
@@ -151,7 +151,7 @@ export default function Home() {
               fontSize: "0.7rem",
               letterSpacing: "0.25em",
               textTransform: "uppercase",
-              color: "#555",
+              color: "#9a9a9a",
             }}
           >
             Trending Now
@@ -233,7 +233,7 @@ export default function Home() {
                   fontSize: "0.55rem",
                   letterSpacing: "0.15em",
                   textTransform: "uppercase",
-                  color: "#555",
+                  color: "#9a9a9a",
                 }}
               >
                 {artist.meta.split("·")[1]?.trim()}
@@ -262,7 +262,7 @@ export default function Home() {
               fontSize: "0.7rem",
               letterSpacing: "0.25em",
               textTransform: "uppercase",
-              color: "#555",
+              color: "#9a9a9a",
             }}
           >
             Featured This Week

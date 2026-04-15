@@ -8,10 +8,10 @@ export default function Footer() {
             style={{
               fontFamily: "var(--font-display)",
               fontWeight: 900,
-              fontSize: "0.75rem",
+              fontSize: "0.9rem",
               letterSpacing: "0.25em",
               textTransform: "uppercase",
-              color: "#777",
+              color: "#b0b0b0",
             }}
           >
             SUB SIGNAL
@@ -23,10 +23,10 @@ export default function Footer() {
               href="/discover"
               style={{
                 fontFamily: "var(--font-display)",
-                fontSize: "0.65rem",
+                fontSize: "0.8rem",
                 letterSpacing: "0.15em",
                 textTransform: "uppercase",
-                color: "#555",
+                color: "#9a9a9a",
                 textDecoration: "none",
                 transition: "color 0.2s",
               }}
@@ -37,10 +37,10 @@ export default function Footer() {
               href="/read"
               style={{
                 fontFamily: "var(--font-display)",
-                fontSize: "0.65rem",
+                fontSize: "0.8rem",
                 letterSpacing: "0.15em",
                 textTransform: "uppercase",
-                color: "#555",
+                color: "#9a9a9a",
                 textDecoration: "none",
                 transition: "color 0.2s",
               }}
@@ -51,10 +51,10 @@ export default function Footer() {
               href="/sessions"
               style={{
                 fontFamily: "var(--font-display)",
-                fontSize: "0.65rem",
+                fontSize: "0.8rem",
                 letterSpacing: "0.15em",
                 textTransform: "uppercase",
-                color: "#555",
+                color: "#9a9a9a",
                 textDecoration: "none",
                 transition: "color 0.2s",
               }}
@@ -65,10 +65,10 @@ export default function Footer() {
               href="/saved"
               style={{
                 fontFamily: "var(--font-display)",
-                fontSize: "0.65rem",
+                fontSize: "0.8rem",
                 letterSpacing: "0.15em",
                 textTransform: "uppercase",
-                color: "#555",
+                color: "#9a9a9a",
                 textDecoration: "none",
                 transition: "color 0.2s",
               }}
@@ -79,10 +79,10 @@ export default function Footer() {
               href="/contact"
               style={{
                 fontFamily: "var(--font-display)",
-                fontSize: "0.65rem",
+                fontSize: "0.8rem",
                 letterSpacing: "0.15em",
                 textTransform: "uppercase",
-                color: "#555",
+                color: "#9a9a9a",
                 textDecoration: "none",
                 transition: "color 0.2s",
               }}
@@ -95,8 +95,8 @@ export default function Footer() {
           <p
             style={{
               fontFamily: "var(--font-body)",
-              fontSize: "0.65rem",
-              color: "#333",
+              fontSize: "0.75rem",
+              color: "#8a8a8a",
             }}
           >
             &copy; {new Date().getFullYear()} Sub Signal

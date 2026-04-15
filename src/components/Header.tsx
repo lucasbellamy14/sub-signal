@@ -20,7 +20,7 @@ function SearchIcon() {
       height="14"
       viewBox="0 0 24 24"
       fill="none"
-      stroke="#777"
+      stroke="#1a1a1a"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -79,10 +79,10 @@ export default function Header() {
             style={{
               fontFamily: "var(--font-display)",
               fontWeight: 900,
-              fontSize: "1rem",
+              fontSize: "1.25rem",
               letterSpacing: "0.25em",
               textTransform: "uppercase" as const,
-              color: "#f0f0f0",
+              color: "#0a0a0a",
             }}
           >
             SUB SIGNAL
@@ -98,8 +98,8 @@ export default function Header() {
                 display: "flex",
                 alignItems: "center",
                 gap: "0.4rem",
-                background: searchFocused ? "#111" : "transparent",
-                border: searchFocused ? "1px solid #222" : "1px solid transparent",
+                background: searchFocused ? "#e8e3d6" : "transparent",
+                border: searchFocused ? "1px solid #1a1a1a" : "1px solid transparent",
                 borderRadius: "4px",
                 padding: "0.35rem 0.5rem",
                 transition: "all 0.3s ease",
@@ -129,9 +129,9 @@ export default function Header() {
                   background: "transparent",
                   border: "none",
                   outline: "none",
-                  color: "#f0f0f0",
+                  color: "#0a0a0a",
                   fontFamily: "var(--font-display)",
-                  fontSize: "0.65rem",
+                  fontSize: "0.8rem",
                   letterSpacing: "0.1em",
                   width: searchFocused ? "100%" : "0",
                   opacity: searchFocused ? 1 : 0,
@@ -217,15 +217,15 @@ export default function Header() {
               href={link.href}
               style={{
                 fontFamily: "var(--font-display)",
-                fontSize: "0.7rem",
+                fontSize: "0.85rem",
                 letterSpacing: "0.18em",
                 textTransform: "uppercase" as const,
-                color: "#777",
+                color: "#1a1a1a",
                 textDecoration: "none",
                 transition: "color 0.2s",
               }}
               onMouseEnter={(e) => (e.currentTarget.style.color = "#39ff5a")}
-              onMouseLeave={(e) => (e.currentTarget.style.color = "#777")}
+              onMouseLeave={(e) => (e.currentTarget.style.color = "#1a1a1a")}
             >
               {link.label}
             </Link>

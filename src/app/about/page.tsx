@@ -16,7 +16,7 @@ const LABEL_STYLE = {
   fontSize: "0.7rem",
   letterSpacing: "0.25em",
   textTransform: "uppercase" as const,
-  color: "#555",
+  color: "#9a9a9a",
   marginBottom: "1.25rem",
   marginTop: 0,
 };
@@ -185,7 +185,7 @@ export default function AboutPage() {
               fontFamily: "var(--font-display)",
               fontSize: "1.75rem",
               fontWeight: 700,
-              color: "#555",
+              color: "#9a9a9a",
               letterSpacing: "0.15em",
             }}
           >
@@ -208,7 +208,7 @@ export default function AboutPage() {
               style={{
                 fontFamily: "var(--font-body)",
                 fontSize: "0.9rem",
-                color: "#777",
+                color: "#b0b0b0",
                 marginTop: "0.35rem",
                 marginBottom: "0.75rem",
               }}
@@ -290,7 +290,7 @@ export default function AboutPage() {
             fontFamily: "var(--font-body)",
             fontStyle: "italic",
             fontSize: "0.9rem",
-            color: "#888",
+            color: "#b8b8b8",
             lineHeight: 1.8,
             margin: 0,
           }}
@@ -335,7 +335,7 @@ export default function AboutPage() {
           fontFamily: "var(--font-display)",
           fontSize: "0.7rem",
           letterSpacing: "0.2em",
-          color: "#555",
+          color: "#9a9a9a",
           textAlign: "center",
           marginTop: "1.5rem",
           marginBottom: "2rem",
