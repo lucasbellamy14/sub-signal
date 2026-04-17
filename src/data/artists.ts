@@ -9,6 +9,7 @@ export interface TimelineArtist {
   cardTag: string;
   cardTitle: string;
   cardBody: string;
+  genres: string[];
   spotifyTrackId?: string;
   instagram?: string;
   tiktok?: string;
@@ -30,6 +31,7 @@ export const ARTISTS: TimelineArtist[] = [
     cardTag: "Discovery",
     cardTitle: "Mk.gee Is Building Cathedrals",
     cardBody: "From bedroom recordings in New Jersey to a critically acclaimed debut — Mk.gee turned years of quiet obsession into one of 2024's most talked-about albums.",
+    genres: ["Alt-R&B", "Indie Rock"],
     spotifyTrackId: "00uvWPbNBali6gKlZxUxIU",
     instagram: "https://www.instagram.com/mk.gee_/",
     tiktok: "https://www.tiktok.com/@mk.gee_",
@@ -56,6 +58,7 @@ export const ARTISTS: TimelineArtist[] = [
     cardTag: "Profile",
     cardTitle: "Nia Archives and the New Jungle Sound",
     cardBody: "From Bradford to Beyoncé's world tour — how a self-taught producer from West Yorkshire became the face of jungle's resurgence.",
+    genres: ["Jungle / D&B", "Electronic"],
     spotifyTrackId: "7wLHg91FTqYc2aZKpWmG9r",
     instagram: "https://www.instagram.com/archives.nia/",
     tiktok: "https://www.tiktok.com/@archives_nia",
@@ -82,6 +85,7 @@ export const ARTISTS: TimelineArtist[] = [
     cardTag: "Mix",
     cardTitle: "90 Minutes with Paris Texas",
     cardBody: "An exclusive mixtape session blending hip-hop, noise rock, and internet-age absurdism — a snapshot of two artists who refuse to be categorized.",
+    genres: ["Alt-Rap", "Experimental"],
     spotifyTrackId: "35ZDgSGHRkV04aYdkP1VfI",
     instagram: "https://www.instagram.com/paristexas/",
     twitter: "https://x.com/ParisTexasUSA",
@@ -106,6 +110,7 @@ export const ARTISTS: TimelineArtist[] = [
     cardTag: "Discovery",
     cardTitle: "Riz La Vie and the Art of the Slow Burn",
     cardBody: "A second-generation Lebanese American from New Jersey who turned quiet vulnerability into one of indie R&B's most honest voices — 37 million streams and counting.",
+    genres: ["Alt-R&B", "Neo-Soul"],
     spotifyTrackId: "0YvzawIC5nFFYj5YAvv5HP",
     instagram: "https://www.instagram.com/thankyouriz/",
     tiktok: "https://www.tiktok.com/@thankyouriz",
@@ -131,6 +136,7 @@ export const ARTISTS: TimelineArtist[] = [
     cardTag: "Profile",
     cardTitle: "Oliver Malcolm: Producer First, Artist Always",
     cardBody: "A Swedish-born, London-raised producer who built his name behind the boards for MF DOOM and Joey Bada$$ — then stepped in front of the mic himself.",
+    genres: ["Alt-Pop", "Electronic"],
     spotifyTrackId: "2qtJUSJmPz5mkVhFHrtCd7",
     instagram: "https://www.instagram.com/olivermalcolm/",
     tiktok: "https://www.tiktok.com/@olivermalcolm",
@@ -156,6 +162,7 @@ export const ARTISTS: TimelineArtist[] = [
     cardTag: "Discovery",
     cardTitle: "Contradash: From Cover Art to Center Stage",
     cardBody: "A graphic designer from Southern California who made cover art for Tyga and Ski Mask — then built his own world of early-2000s pop-soaked songs that Interscope couldn't ignore.",
+    genres: ["Alt-Pop", "Pop"],
     spotifyTrackId: "5rhWIr9NmeuwRU3MFC8LBM",
     instagram: "https://www.instagram.com/contradash/",
     tiktok: "https://www.tiktok.com/@neverstopdash",

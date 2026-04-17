@@ -1,4 +1,6 @@
 import { notFound } from "next/navigation";
+import Image from "next/image";
+import Link from "next/link";
 import { ARTISTS } from "@/data/artists";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -35,10 +37,38 @@ export default function ArtistPage({ params }: { params: { slug: string } }) {
     <>
       <Header />
 
+      {/* Hero Image */}
+      <div style={{ maxWidth: "800px", margin: "0 auto", padding: "6rem 2rem 0" }}>
+        <div
+          style={{
+            width: "100%",
+            aspectRatio: "16/9",
+            position: "relative",
+            overflow: "hidden",
+            marginBottom: "0",
+          }}
+        >
+          <Image
+            src={`/images/artists/${artist.slug}.svg`}
+            alt={artist.name}
+            width={800}
+            height={450}
+            style={{
+              width: "100%",
+              height: "100%",
+              objectFit: "cover",
+              objectPosition: "center",
+            }}
+            priority
+          />
+        </div>
+        <div style={{ height: "1px", background: "rgba(57,255,90,0.15)", marginBottom: "2rem" }} />
+      </div>
+
       {/* Hero */}
       <section
         style={{
-          padding: "6rem 2rem 3rem",
+          padding: "0 2rem 3rem",
           maxWidth: "800px",
           margin: "0 auto",
         }}
@@ -87,11 +117,33 @@ export default function ArtistPage({ params }: { params: { slug: string } }) {
             letterSpacing: "0.15em",
             textTransform: "uppercase",
             color: "#9a9a9a",
-            marginBottom: "2rem",
+            marginBottom: "1rem",
           }}
         >
           {artist.meta}
         </p>
+
+        {/* Genre Tags */}
+        {artist.genres && artist.genres.length > 0 && (
+          <div style={{ display: "flex", flexWrap: "wrap", gap: "0.4rem", marginBottom: "2rem" }}>
+            {artist.genres.map((genre) => (
+              <span
+                key={genre}
+                style={{
+                  fontFamily: "var(--font-display)",
+                  fontSize: "0.6rem",
+                  letterSpacing: "0.15em",
+                  textTransform: "uppercase",
+                  color: "#b0b0b0",
+                  border: "1px solid #222",
+                  padding: "0.3rem 0.7rem",
+                }}
+              >
+                {genre}
+              </span>
+            ))}
+          </div>
+        )}
 
         <div style={{ marginBottom: "2rem" }}>
           <SocialLinks
@@ -256,7 +308,7 @@ export default function ArtistPage({ params }: { params: { slug: string } }) {
           margin: "0 auto",
         }}
       >
-        <a
+        <Link
           href="/discover"
           style={{
             fontFamily: "var(--font-display)",
@@ -271,7 +323,7 @@ export default function ArtistPage({ params }: { params: { slug: string } }) {
           }}
         >
           &larr; Back to Discover
-        </a>
+        </Link>
       </div>
 
       <Footer />

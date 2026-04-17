@@ -10,6 +10,7 @@ export default function DiscoverPage() {
 
       <section className="section-hero">
         <p
+          className="animate-fade-in-up stagger-1"
           style={{
             fontFamily: "var(--font-display)",
             fontSize: "0.7rem",
@@ -22,11 +23,12 @@ export default function DiscoverPage() {
           Music Discovery &middot; Underground &middot; Pre-Mainstream
         </p>
 
-        <h1 className="hero-headline">
+        <h1 className="hero-headline animate-fade-in-up stagger-2">
           Discover New <span style={{ color: "#39ff5a" }}>Sound</span>
         </h1>
 
         <p
+          className="animate-fade-in-up stagger-3"
           style={{
             fontFamily: "var(--font-body)",
             fontWeight: 300,

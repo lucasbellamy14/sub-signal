@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { SavedArtistsProvider } from "@/context/SavedArtistsContext";
+import ClientLayout from "@/components/ClientLayout";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -60,7 +60,7 @@ export default function RootLayout({
         />
       </head>
       <body className="antialiased min-h-screen">
-        <SavedArtistsProvider>{children}</SavedArtistsProvider>
+        <ClientLayout>{children}</ClientLayout>
       </body>
     </html>
   );

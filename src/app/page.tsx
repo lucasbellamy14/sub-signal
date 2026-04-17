@@ -1,12 +1,11 @@
 "use client";
 
-import { useState } from "react";
 import Header from "@/components/Header";
 import FeaturedCard from "@/components/FeaturedCard";
-import ArtistTimeline from "@/components/ArtistTimeline";
 import Newsletter from "@/components/Newsletter";
 import Footer from "@/components/Footer";
 import Link from "next/link";
+import Image from "next/image";
 import { ARTISTS, TICKER_ARTISTS } from "@/data/artists";
 
 const HOMEPAGE_ARTISTS = ARTISTS.slice(0, 3);
@@ -15,7 +14,6 @@ const TRENDING_ARTISTS = [...ARTISTS]
   .slice(0, 6);
 
 export default function Home() {
-  const [selectedArtist, setSelectedArtist] = useState<typeof ARTISTS[number] | null>(null);
   const tickerText = TICKER_ARTISTS.join(" \u00b7 ");
 
   return (
@@ -25,6 +23,7 @@ export default function Home() {
       {/* ── HERO ── */}
       <section className="section-hero">
         <p
+          className="animate-fade-in-up stagger-1"
           style={{
             fontFamily: "var(--font-display)",
             fontSize: "0.7rem",
@@ -37,11 +36,12 @@ export default function Home() {
           Music Discovery &middot; Underground &middot; Pre-Mainstream
         </p>
 
-        <h1 className="hero-headline">
+        <h1 className="hero-headline animate-fade-in-up stagger-2">
           Before The <span style={{ color: "#39ff5a" }}>World</span> Knows
         </h1>
 
         <p
+          className="animate-fade-in-up stagger-3"
           style={{
             fontFamily: "var(--font-body)",
             fontWeight: 300,
@@ -57,8 +57,9 @@ export default function Home() {
           playlists. Just the music that matters &mdash; found early.
         </p>
 
-        <a
+        <Link
           href="/discover"
+          className="animate-fade-in-up stagger-4"
           style={{
             display: "inline-block",
             fontFamily: "var(--font-display)",
@@ -77,7 +78,7 @@ export default function Home() {
           }}
         >
           Start Listening
-        </a>
+        </Link>
       </section>
 
       {/* ── TICKER STRIP ── */}
@@ -133,7 +134,7 @@ export default function Home() {
       </div>
 
       {/* ── TRENDING NOW ── */}
-      <section style={{ padding: "3rem 2.5rem 2rem" }}>
+      <section className="animate-fade-in-up stagger-5" style={{ padding: "3rem 2.5rem 2rem" }}>
         <div
           style={{
             display: "flex",
@@ -200,43 +201,44 @@ export default function Home() {
                 e.currentTarget.style.borderColor = "#1a1a1a";
               }}
             >
-              <div
-                style={{
-                  fontFamily: "var(--font-display)",
-                  fontWeight: 900,
-                  fontSize: "1.8rem",
-                  color: "#39ff5a",
-                  lineHeight: 1,
-                  marginBottom: "1rem",
-                  opacity: 0.4,
-                }}
-              >
-                {artist.cardNumber}
-              </div>
-              <div
-                style={{
-                  fontFamily: "var(--font-display)",
-                  fontWeight: 700,
-                  fontSize: "0.9rem",
-                  textTransform: "uppercase",
-                  letterSpacing: "0.05em",
-                  color: "#e8e8e8",
-                  lineHeight: 1.2,
-                  marginBottom: "0.4rem",
-                }}
-              >
-                {artist.name}
-              </div>
-              <div
-                style={{
-                  fontFamily: "var(--font-display)",
-                  fontSize: "0.55rem",
-                  letterSpacing: "0.15em",
-                  textTransform: "uppercase",
-                  color: "#9a9a9a",
-                }}
-              >
-                {artist.meta.split("·")[1]?.trim()}
+              <div style={{ display: "flex", gap: "1rem", alignItems: "flex-start" }}>
+                {/* Thumbnail */}
+                <div style={{ width: "60px", height: "60px", flexShrink: 0, overflow: "hidden", borderRadius: "2px" }}>
+                  <Image
+                    src={`/images/artists/${artist.slug}.svg`}
+                    alt={artist.name}
+                    width={60}
+                    height={60}
+                    style={{ width: "100%", height: "100%", objectFit: "cover" }}
+                  />
+                </div>
+                <div>
+                  <div
+                    style={{
+                      fontFamily: "var(--font-display)",
+                      fontWeight: 700,
+                      fontSize: "0.9rem",
+                      textTransform: "uppercase",
+                      letterSpacing: "0.05em",
+                      color: "#e8e8e8",
+                      lineHeight: 1.2,
+                      marginBottom: "0.4rem",
+                    }}
+                  >
+                    {artist.name}
+                  </div>
+                  <div
+                    style={{
+                      fontFamily: "var(--font-display)",
+                      fontSize: "0.55rem",
+                      letterSpacing: "0.15em",
+                      textTransform: "uppercase",
+                      color: "#9a9a9a",
+                    }}
+                  >
+                    {artist.meta.split("·")[1]?.trim()}
+                  </div>
+                </div>
               </div>
             </Link>
           ))}
@@ -244,7 +246,7 @@ export default function Home() {
       </section>
 
       {/* ── FEATURED CARDS ── */}
-      <section id="discover" className="section-featured">
+      <section id="discover" className="section-featured animate-fade-in-up stagger-7">
         <div
           style={{
             display: "flex",
@@ -290,12 +292,13 @@ export default function Home() {
               tag={artist.cardTag}
               title={artist.cardTitle}
               body={artist.cardBody}
+              image={`/images/artists/${artist.slug}.svg`}
+              genres={artist.genres}
               spotifyTrackId={artist.spotifyTrackId}
               instagram={artist.instagram}
               tiktok={artist.tiktok}
               twitter={artist.twitter}
               spotify={artist.spotify}
-              onClick={() => setSelectedArtist(artist)}
             />
           ))}
         </div>
@@ -303,11 +306,6 @@ export default function Home() {
 
       <Newsletter />
       <Footer />
-
-      <ArtistTimeline
-        artist={selectedArtist}
-        onClose={() => setSelectedArtist(null)}
-      />
     </>
   );
 }

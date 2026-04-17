@@ -1,38 +1,35 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { usePathname } from "next/navigation";
 
 /**
- * PageTransition wraps page content and fades it in when the page loads.
- *
- * How it works:
- * - When the component first renders, it's invisible (opacity 0, shifted down).
- * - After a tiny delay (so the browser has time to paint), it transitions
- *   to fully visible and in its normal position.
- * - This creates a smooth "slide up and fade in" effect on every page load.
+ * PageTransition wraps page content and fades it in on page load
+ * and route changes.
  */
 export default function PageTransition({
   children,
 }: {
   children: React.ReactNode;
 }) {
+  const pathname = usePathname();
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
-    // Small delay to ensure the initial state is painted first
+    setIsVisible(false);
     const timer = requestAnimationFrame(() => {
       setIsVisible(true);
     });
     return () => cancelAnimationFrame(timer);
-  }, []);
+  }, [pathname]);
 
   return (
     <div
-      className={`transition-all duration-700 ease-out ${
-        isVisible
-          ? "opacity-100 translate-y-0"
-          : "opacity-0 translate-y-4"
-      }`}
+      style={{
+        opacity: isVisible ? 1 : 0,
+        transform: isVisible ? "translateY(0)" : "translateY(12px)",
+        transition: "opacity 0.5s ease-out, transform 0.5s ease-out",
+      }}
     >
       {children}
     </div>
