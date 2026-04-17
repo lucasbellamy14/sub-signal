@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import Image from "next/image";
 import Link from "next/link";
 import SocialLinks from "@/components/SocialLinks";
 import SaveButton from "@/components/SaveButton";
@@ -50,17 +49,17 @@ export default function FeaturedCard({ slug, number, tag, title, body, image, ge
             overflow: "hidden",
           }}
         >
-          <Image
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
             src={image}
             alt={title}
-            width={600}
-            height={600}
             style={{
               width: "100%",
               height: "100%",
               objectFit: "cover",
               transition: "transform 400ms ease",
               transform: hovered ? "scale(1.03)" : "scale(1)",
+              display: "block",
             }}
             onError={() => setImgError(true)}
           />

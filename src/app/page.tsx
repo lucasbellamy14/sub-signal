@@ -5,7 +5,6 @@ import FeaturedCard from "@/components/FeaturedCard";
 import Newsletter from "@/components/Newsletter";
 import Footer from "@/components/Footer";
 import Link from "next/link";
-import Image from "next/image";
 import { ARTISTS, TICKER_ARTISTS } from "@/data/artists";
 
 const HOMEPAGE_ARTISTS = ARTISTS.slice(0, 3);
@@ -204,12 +203,11 @@ export default function Home() {
               <div style={{ display: "flex", gap: "1rem", alignItems: "flex-start" }}>
                 {/* Thumbnail */}
                 <div style={{ width: "60px", height: "60px", flexShrink: 0, overflow: "hidden", borderRadius: "2px" }}>
-                  <Image
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
                     src={`/images/artists/${artist.slug}.svg`}
                     alt={artist.name}
-                    width={60}
-                    height={60}
-                    style={{ width: "100%", height: "100%", objectFit: "cover" }}
+                    style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }}
                   />
                 </div>
                 <div>

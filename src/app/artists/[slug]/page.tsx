@@ -1,5 +1,4 @@
 import { notFound } from "next/navigation";
-import Image from "next/image";
 import Link from "next/link";
 import { ARTISTS } from "@/data/artists";
 import Header from "@/components/Header";
@@ -48,18 +47,17 @@ export default function ArtistPage({ params }: { params: { slug: string } }) {
             marginBottom: "0",
           }}
         >
-          <Image
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
             src={`/images/artists/${artist.slug}.svg`}
             alt={artist.name}
-            width={800}
-            height={450}
             style={{
               width: "100%",
               height: "100%",
               objectFit: "cover",
               objectPosition: "center",
+              display: "block",
             }}
-            priority
           />
         </div>
         <div style={{ height: "1px", background: "rgba(57,255,90,0.15)", marginBottom: "2rem" }} />
