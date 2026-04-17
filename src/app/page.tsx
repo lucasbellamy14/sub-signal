@@ -278,7 +278,7 @@ export default function Home() {
         </div>
 
         <div className="featured-grid">
-          {HOMEPAGE_ARTISTS.map((artist, i) => (
+          {HOMEPAGE_ARTISTS.map((artist) => (
             <FeaturedCard
               key={artist.id}
               slug={artist.slug}

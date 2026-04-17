@@ -19,10 +19,9 @@ interface FeaturedCardProps {
   tiktok?: string;
   twitter?: string;
   spotify?: string;
-  onClick?: () => void;
 }
 
-export default function FeaturedCard({ slug, number, tag, title, body, artistIndex = 0, genres, spotifyTrackId, instagram, tiktok, twitter, spotify, onClick }: FeaturedCardProps) {
+export default function FeaturedCard({ slug, number, tag, title, body, artistIndex = 0, genres, spotifyTrackId, instagram, tiktok, twitter, spotify }: FeaturedCardProps) {
   const [hovered, setHovered] = useState(false);
 
   const cardContent = (
