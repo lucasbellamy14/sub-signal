@@ -1,16 +1,13 @@
 "use client";
 
-import { useState } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FeaturedCard from "@/components/FeaturedCard";
-import ArtistTimeline from "@/components/ArtistTimeline";
 import { ARTISTS } from "@/data/artists";
 import { useSavedArtists } from "@/context/SavedArtistsContext";
 
 export default function SavedPage() {
   const { savedSlugs } = useSavedArtists();
-  const [selectedArtist, setSelectedArtist] = useState<typeof ARTISTS[number] | null>(null);
 
   const savedArtists = ARTISTS.filter((a) => savedSlugs.includes(a.slug));
 
@@ -40,7 +37,7 @@ export default function SavedPage() {
       <section className="section-featured">
         {savedArtists.length > 0 ? (
           <div className="featured-grid">
-            {savedArtists.map((artist) => (
+            {savedArtists.map((artist, idx) => (
               <FeaturedCard
                 key={artist.id}
                 slug={artist.slug}
@@ -48,12 +45,13 @@ export default function SavedPage() {
                 tag={artist.cardTag}
                 title={artist.cardTitle}
                 body={artist.cardBody}
+                artistIndex={idx}
+                genres={artist.genres}
                 spotifyTrackId={artist.spotifyTrackId}
                 instagram={artist.instagram}
                 tiktok={artist.tiktok}
                 twitter={artist.twitter}
                 spotify={artist.spotify}
-                onClick={() => setSelectedArtist(artist)}
               />
             ))}
           </div>
@@ -98,11 +96,6 @@ export default function SavedPage() {
       </section>
 
       <Footer />
-
-      <ArtistTimeline
-        artist={selectedArtist}
-        onClose={() => setSelectedArtist(null)}
-      />
     </>
   );
 }
