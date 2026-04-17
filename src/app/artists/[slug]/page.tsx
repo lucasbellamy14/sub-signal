@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { ARTISTS } from "@/data/artists";
+import GenerativeArt from "@/components/GenerativeArt";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import SocialLinks from "@/components/SocialLinks";
@@ -47,18 +48,7 @@ export default function ArtistPage({ params }: { params: { slug: string } }) {
             marginBottom: "0",
           }}
         >
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
-            src={`/images/artists/${artist.slug}.svg`}
-            alt={artist.name}
-            style={{
-              width: "100%",
-              height: "100%",
-              objectFit: "cover",
-              objectPosition: "center",
-              display: "block",
-            }}
-          />
+          <GenerativeArt slug={artist.slug} index={ARTISTS.indexOf(artist)} />
         </div>
         <div style={{ height: "1px", background: "rgba(57,255,90,0.15)", marginBottom: "2rem" }} />
       </div>

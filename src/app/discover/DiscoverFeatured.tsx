@@ -158,7 +158,7 @@ export default function DiscoverFeatured() {
               tag={artist.cardTag}
               title={artist.cardTitle}
               body={artist.cardBody}
-              image={`/images/artists/${artist.slug}.svg`}
+              artistIndex={ARTISTS.indexOf(artist)}
               genres={artist.genres}
               spotifyTrackId={artist.spotifyTrackId}
               instagram={artist.instagram}

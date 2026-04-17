@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import GenerativeArt from "@/components/GenerativeArt";
 import SocialLinks from "@/components/SocialLinks";
 import SaveButton from "@/components/SaveButton";
 
@@ -11,7 +12,7 @@ interface FeaturedCardProps {
   tag: string;
   title: string;
   body: string;
-  image?: string;
+  artistIndex?: number;
   genres?: string[];
   spotifyTrackId?: string;
   instagram?: string;
@@ -21,8 +22,7 @@ interface FeaturedCardProps {
   onClick?: () => void;
 }
 
-export default function FeaturedCard({ slug, number, tag, title, body, image, genres, spotifyTrackId, instagram, tiktok, twitter, spotify, onClick }: FeaturedCardProps) {
-  const [imgError, setImgError] = useState(false);
+export default function FeaturedCard({ slug, number, tag, title, body, artistIndex = 0, genres, spotifyTrackId, instagram, tiktok, twitter, spotify, onClick }: FeaturedCardProps) {
   const [hovered, setHovered] = useState(false);
 
   const cardContent = (
@@ -39,40 +39,25 @@ export default function FeaturedCard({ slug, number, tag, title, body, image, ge
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
     >
-      {/* Artist Image */}
-      {image && !imgError ? (
+      {/* Artist Generative Art */}
+      <div
+        style={{
+          width: "100%",
+          aspectRatio: "1/1",
+          overflow: "hidden",
+        }}
+      >
         <div
           style={{
             width: "100%",
-            aspectRatio: "1/1",
-            position: "relative",
-            overflow: "hidden",
+            height: "100%",
+            transition: "transform 400ms ease",
+            transform: hovered ? "scale(1.03)" : "scale(1)",
           }}
         >
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
-            src={image}
-            alt={title}
-            style={{
-              width: "100%",
-              height: "100%",
-              objectFit: "cover",
-              transition: "transform 400ms ease",
-              transform: hovered ? "scale(1.03)" : "scale(1)",
-              display: "block",
-            }}
-            onError={() => setImgError(true)}
-          />
+          <GenerativeArt slug={slug} index={artistIndex} />
         </div>
-      ) : image ? (
-        <div
-          style={{
-            width: "100%",
-            aspectRatio: "1/1",
-            background: `linear-gradient(135deg, #0a0a0a 0%, #111 50%, #0a0a0a 100%)`,
-          }}
-        />
-      ) : null}
+      </div>
 
       <div style={{ padding: "2rem" }}>
         {/* Number + Save */}

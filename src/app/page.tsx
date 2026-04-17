@@ -2,6 +2,7 @@
 
 import Header from "@/components/Header";
 import FeaturedCard from "@/components/FeaturedCard";
+import GenerativeArt from "@/components/GenerativeArt";
 import Newsletter from "@/components/Newsletter";
 import Footer from "@/components/Footer";
 import Link from "next/link";
@@ -203,12 +204,7 @@ export default function Home() {
               <div style={{ display: "flex", gap: "1rem", alignItems: "flex-start" }}>
                 {/* Thumbnail */}
                 <div style={{ width: "60px", height: "60px", flexShrink: 0, overflow: "hidden", borderRadius: "2px" }}>
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
-                    src={`/images/artists/${artist.slug}.svg`}
-                    alt={artist.name}
-                    style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }}
-                  />
+                  <GenerativeArt slug={artist.slug} index={ARTISTS.indexOf(artist)} size={120} />
                 </div>
                 <div>
                   <div
@@ -282,7 +278,7 @@ export default function Home() {
         </div>
 
         <div className="featured-grid">
-          {HOMEPAGE_ARTISTS.map((artist) => (
+          {HOMEPAGE_ARTISTS.map((artist, i) => (
             <FeaturedCard
               key={artist.id}
               slug={artist.slug}
@@ -290,7 +286,7 @@ export default function Home() {
               tag={artist.cardTag}
               title={artist.cardTitle}
               body={artist.cardBody}
-              image={`/images/artists/${artist.slug}.svg`}
+              artistIndex={ARTISTS.indexOf(artist)}
               genres={artist.genres}
               spotifyTrackId={artist.spotifyTrackId}
               instagram={artist.instagram}
