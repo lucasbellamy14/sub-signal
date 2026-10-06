@@ -23,6 +23,14 @@ type DeezerTrack = {
 
 const norm = (s: string) => s.toLowerCase().normalize("NFKD").replace(/[^a-z0-9]/g, "");
 
+/**
+ * The same song is titled differently across regions and releases
+ * ("Song - A COLORS SHOW", "Song (feat. X)", "Song - Remastered"), so compare
+ * only the part before the first " - ", "(" or "[".
+ */
+const baseTitle = (s: string) => s.split(/ - | \(| \[/)[0].trim();
+const sameSong = (a: string, b: string) => norm(baseTitle(a)) === norm(baseTitle(b));
+
 async function deezer<T>(url: string): Promise<T | null> {
   try {
     const res = await fetch(url, { cache: "no-store" });
@@ -49,15 +57,23 @@ export async function GET(_req: Request, { params }: { params: { slug: string } 
 
   // Put the featured song first, fetching it if it isn't in their top tracks.
   if (info.featuredTitle) {
-    const want = norm(info.featuredTitle);
-    let featured = tracks.find((t) => norm(t.title) === want);
+    const wanted = info.featuredTitle;
+    let featured = tracks.find((t) => sameSong(t.title, wanted));
     if (!featured) {
-      const found = await deezer<{ data: DeezerTrack[] }>(
-        `https://api.deezer.com/search/track?q=${encodeURIComponent(`artist:"${artist.name}" track:"${info.featuredTitle}"`)}&limit=8`,
-      );
-      featured = found?.data?.find(
-        (t) => t.preview && t.artist?.id === info.deezerId && norm(t.title) === want,
-      );
+      // Try a strict search first, then a looser one (Deezer's catalog differs by region).
+      const queries = [
+        `artist:"${artist.name}" track:"${baseTitle(wanted)}"`,
+        `${artist.name} ${baseTitle(wanted)}`,
+      ];
+      for (const q of queries) {
+        const found = await deezer<{ data: DeezerTrack[] }>(
+          `https://api.deezer.com/search/track?q=${encodeURIComponent(q)}&limit=15`,
+        );
+        featured = found?.data?.find(
+          (t) => t.preview && t.artist?.id === info.deezerId && sameSong(t.title, wanted),
+        );
+        if (featured) break;
+      }
     }
     if (featured) tracks = [featured, ...tracks.filter((t) => t.id !== featured!.id)];
   }
