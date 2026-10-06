@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import SocialLinks from "@/components/SocialLinks";
+import ContactForm from "@/components/ContactForm";
 
 export const metadata = {
   title: "Contact",
@@ -46,22 +47,9 @@ export default function ContactPage() {
           Press, partnerships, and artist inquiries.
         </p>
 
-        <a
-          href="mailto:hello@subsignal.fm"
-          style={{
-            fontFamily: "var(--font-display)",
-            fontWeight: 700,
-            fontSize: "clamp(1.2rem, 4vw, 2rem)",
-            letterSpacing: "0.1em",
-            color: "#39ff5a",
-            textDecoration: "none",
-            borderBottom: "2px solid #1e4a28",
-            paddingBottom: "0.25rem",
-            transition: "border-color 0.2s",
-          }}
-        >
-          hello@subsignal.fm
-        </a>
+        <div style={{ maxWidth: "480px", margin: "0 auto" }}>
+          <ContactForm />
+        </div>
 
         <div
           style={{

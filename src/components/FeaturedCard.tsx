@@ -2,12 +2,14 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import GenerativeArt from "@/components/GenerativeArt";
+import ArtistImage from "@/components/ArtistImage";
 import SocialLinks from "@/components/SocialLinks";
 import SaveButton from "@/components/SaveButton";
+import { PlayArtistButton } from "@/components/PlayButtons";
 
 interface FeaturedCardProps {
   slug: string;
+  name: string;
   number: string;
   tag: string;
   title: string;
@@ -21,7 +23,7 @@ interface FeaturedCardProps {
   spotify?: string;
 }
 
-export default function FeaturedCard({ slug, number, tag, title, body, artistIndex = 0, genres, spotifyTrackId, instagram, tiktok, twitter, spotify }: FeaturedCardProps) {
+export default function FeaturedCard({ slug, name, number, tag, title, body, artistIndex = 0, genres, spotifyTrackId, instagram, tiktok, twitter, spotify }: FeaturedCardProps) {
   const [hovered, setHovered] = useState(false);
 
   const cardContent = (
@@ -34,27 +36,41 @@ export default function FeaturedCard({ slug, number, tag, title, body, artistInd
         border: "1px solid",
         borderColor: hovered ? "rgba(57,255,90,0.25)" : "transparent",
         transform: hovered ? "translateY(-4px)" : "translateY(0)",
+        position: "relative",
       }}
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
     >
+      {/* Card-wide link. A sibling overlay (not a wrapper) so the social links
+          and Spotify player inside the card are never nested inside an <a>. */}
+      <Link
+        href={`/artists/${slug}`}
+        aria-label={`${name} — read the story`}
+        style={{ position: "absolute", inset: 0, zIndex: 1 }}
+      />
       {/* Artist Generative Art */}
       <div
         style={{
           width: "100%",
           aspectRatio: "1/1",
           overflow: "hidden",
+          position: "relative",
         }}
       >
         <div
           style={{
             width: "100%",
             height: "100%",
-            transition: "transform 400ms ease",
-            transform: hovered ? "scale(1.03)" : "scale(1)",
+            position: "relative",
+            transition: "transform 600ms cubic-bezier(0.22,1,0.36,1), filter 400ms ease",
+            transform: hovered ? "scale(1.05)" : "scale(1)",
+            filter: hovered ? "grayscale(0) saturate(1.05)" : "grayscale(0.85) contrast(1.05)",
           }}
         >
-          <GenerativeArt slug={slug} index={artistIndex} />
+          <ArtistImage slug={slug} name={name} index={artistIndex} />
+        </div>
+        <div style={{ position: "absolute", left: "0.9rem", bottom: "0.9rem", zIndex: 2 }}>
+          <PlayArtistButton slug={slug} name={name} ghost />
         </div>
       </div>
 
@@ -78,7 +94,9 @@ export default function FeaturedCard({ slug, number, tag, title, body, artistInd
         >
           {number}
         </span>
-        <SaveButton slug={slug} size={16} />
+        <span style={{ position: "relative", zIndex: 2 }}>
+          <SaveButton slug={slug} size={16} />
+        </span>
       </div>
 
       {/* Tag badge */}
@@ -149,12 +167,11 @@ export default function FeaturedCard({ slug, number, tag, title, body, artistInd
 
       {/* Body */}
       <p
+        className="artist-desc"
         style={{
-          fontFamily: "var(--font-body)",
-          fontWeight: 300,
-          fontSize: "0.95rem",
-          color: "#b0b0b0",
-          lineHeight: 1.5,
+          fontSize: "1.075rem",
+          color: "#c4c4c4",
+          lineHeight: 1.55,
           margin: 0,
         }}
       >
@@ -162,7 +179,7 @@ export default function FeaturedCard({ slug, number, tag, title, body, artistInd
       </p>
 
       {/* Social Links */}
-      <div style={{ marginTop: "1rem" }}>
+      <div style={{ marginTop: "1rem", position: "relative", zIndex: 2, width: "fit-content" }}>
         <SocialLinks
           instagram={instagram}
           tiktok={tiktok}
@@ -173,13 +190,7 @@ export default function FeaturedCard({ slug, number, tag, title, body, artistInd
       </div>
 
       {/* Spotify Embed */}
-      <div
-        style={{ marginTop: "1.25rem" }}
-        onClick={(e) => {
-          e.stopPropagation();
-          e.preventDefault();
-        }}
-      >
+      <div style={{ marginTop: "1.25rem", position: "relative", zIndex: 2 }}>
         {spotifyTrackId ? (
           <iframe
             src={`https://open.spotify.com/embed/track/${spotifyTrackId}?utm_source=generator&theme=0`}
@@ -234,20 +245,5 @@ export default function FeaturedCard({ slug, number, tag, title, body, artistInd
     </article>
   );
 
-  // Wrap in Link for navigation to artist page
-  return (
-    <Link
-      href={`/artists/${slug}`}
-      style={{ textDecoration: "none", color: "inherit", display: "block" }}
-      onClick={(e) => {
-        // Allow social links and spotify to work without navigating
-        const target = e.target as HTMLElement;
-        if (target.closest("iframe") || target.closest("[data-social]")) {
-          e.preventDefault();
-        }
-      }}
-    >
-      {cardContent}
-    </Link>
-  );
+  return cardContent;
 }

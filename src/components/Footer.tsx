@@ -1,3 +1,5 @@
+import { POSTS } from "@/data/interviews";
+
 export default function Footer() {
   return (
     <footer className="border-t border-border bg-bg py-12">
@@ -33,20 +35,22 @@ export default function Footer() {
             >
               Discover
             </a>
-            <a
-              href="/read"
-              style={{
-                fontFamily: "var(--font-display)",
-                fontSize: "0.8rem",
-                letterSpacing: "0.15em",
-                textTransform: "uppercase",
-                color: "#9a9a9a",
-                textDecoration: "none",
-                transition: "color 0.2s",
-              }}
-            >
-              Read
-            </a>
+            {POSTS.length > 0 && (
+              <a
+                href="/read"
+                style={{
+                  fontFamily: "var(--font-display)",
+                  fontSize: "0.8rem",
+                  letterSpacing: "0.15em",
+                  textTransform: "uppercase",
+                  color: "#9a9a9a",
+                  textDecoration: "none",
+                  transition: "color 0.2s",
+                }}
+              >
+                Read
+              </a>
+            )}
             <a
               href="/sessions"
               style={{

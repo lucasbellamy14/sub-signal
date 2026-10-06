@@ -7,7 +7,10 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "photos": "node scripts/download-photos.mjs"
+    "photos": "node scripts/fetch-artist-photos.mjs",
+    "add-artist": "node scripts/add-artist.mjs",
+    "check-links": "node scripts/check-links.mjs",
+    "sync-artists": "node scripts/sync-artists.mjs"
   },
   "dependencies": {
     "html2canvas": "^1.4.1",

@@ -55,7 +55,7 @@ export default function RootLayout({
         />
         {/* eslint-disable-next-line @next/next/no-page-custom-font */}
         <link
-          href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;700;900&family=Barlow:wght@300;400;500&family=Playfair+Display:ital,wght@1,400;1,600&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;700;900&family=Barlow:wght@300;400;500&family=Playfair+Display:ital,wght@1,400;1,600&family=Space+Grotesk:wght@300;400;500&display=swap"
           rel="stylesheet"
         />
       </head>

@@ -16,12 +16,21 @@ export interface Post {
   intro?: string;
   transcript?: QAPair[];
   videoUrl?: string;
+  /** Drafts are hidden everywhere on the site. */
+  draft?: boolean;
 }
 
-export const POSTS: Post[] = [
+/**
+ * UNPUBLISHED (2026-10): these four pieces were written as placeholder content.
+ * Three are first-person interviews and one quotes an artist, none sourced from
+ * real conversations, so they must not appear as real journalism. Rewrite them
+ * from real, cited sources (or run real interviews), then remove `draft: true`.
+ */
+const ALL_POSTS: Post[] = [
   {
     id: "mk-gee-interview",
     type: "interview",
+    draft: true,
     title: "Mk.gee on Cathedrals, Chaos, and the Sound in Between",
     date: "2026-04-13",
     summary:
@@ -54,6 +63,7 @@ export const POSTS: Post[] = [
   {
     id: "nia-archives-interview",
     type: "interview",
+    draft: true,
     title: "Nia Archives: Jungle Is a Feeling",
     date: "2026-04-10",
     summary:
@@ -85,6 +95,7 @@ export const POSTS: Post[] = [
   {
     id: "paris-texas-feature",
     type: "article",
+    draft: true,
     title: "Why Paris Texas Refuse to Be Categorized",
     date: "2026-04-06",
     summary:
@@ -94,6 +105,7 @@ export const POSTS: Post[] = [
   {
     id: "contradash-interview",
     type: "interview",
+    draft: true,
     title: "Contradash: The Designer Who Became the Artist",
     date: "2026-03-28",
     summary:
@@ -124,3 +136,5 @@ export const POSTS: Post[] = [
     videoUrl: "https://vimeo.com/123456789",
   },
 ];
+
+export const POSTS: Post[] = ALL_POSTS.filter((p) => !p.draft);

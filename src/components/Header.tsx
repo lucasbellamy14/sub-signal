@@ -3,8 +3,10 @@
 import Link from "next/link";
 import { useState, useRef, useEffect } from "react";
 import { ARTISTS } from "@/data/artists";
+import { POSTS } from "@/data/interviews";
+import { PlayFeedButton } from "@/components/PlayButtons";
 
-const NAV_LINKS = [
+const ALL_NAV_LINKS = [
   { label: "Discover", href: "/discover" },
   { label: "About", href: "/about" },
   { label: "Read", href: "/read" },
@@ -12,6 +14,9 @@ const NAV_LINKS = [
   { label: "Drops", href: "/drops" },
   { label: "Saved", href: "/saved" },
 ];
+
+// Hide Read until there is real, published editorial content
+const NAV_LINKS = ALL_NAV_LINKS.filter((l) => l.href !== "/read" || POSTS.length > 0);
 
 function SearchIcon() {
   return (
@@ -90,7 +95,7 @@ export default function Header() {
         </Link>
 
         {/* Desktop nav */}
-        <nav className="nav-desktop" style={{ display: "flex", alignItems: "center", gap: "1.5rem" }}>
+        <nav className="nav-desktop" style={{ gap: "1.5rem" }}>
           {/* Search */}
           <div ref={searchRef} style={{ position: "relative" }}>
             <div
@@ -211,6 +216,7 @@ export default function Header() {
             )}
           </div>
 
+          <PlayFeedButton>Listen</PlayFeedButton>
           {NAV_LINKS.map((link) => (
             <Link
               key={link.label}
@@ -247,6 +253,7 @@ export default function Header() {
       {/* Mobile menu */}
       {menuOpen && (
         <nav className="nav-mobile">
+          <div><PlayFeedButton>Listen to the feed</PlayFeedButton></div>
           {NAV_LINKS.map((link) => (
             <Link
               key={link.label}

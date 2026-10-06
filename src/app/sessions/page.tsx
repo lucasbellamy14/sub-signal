@@ -7,12 +7,6 @@ import VideoEmbed, { VideoThumbnail } from "@/components/VideoEmbed";
 import { SESSIONS } from "@/data/sessions";
 import { ARTISTS } from "@/data/artists";
 
-function formatDate(iso: string) {
-  return new Date(iso + "T00:00:00").toLocaleDateString("en-US", {
-    year: "numeric",
-    month: "short",
-  });
-}
 
 export default function SessionsPage() {
   const [activeSession, setActiveSession] = useState<string | null>(null);
@@ -50,7 +44,7 @@ export default function SessionsPage() {
             marginTop: "2rem",
           }}
         >
-          Live performances and studio sessions from the artists on our radar.
+          Live sessions and official videos from the artists on our radar.
           Click any thumbnail to watch.
         </p>
       </section>
@@ -69,7 +63,7 @@ export default function SessionsPage() {
             gap: "1.5rem",
           }}
         >
-          {SESSIONS.map((session) => {
+          {SESSIONS.filter((x) => ARTISTS.some((a) => a.slug === x.artistSlug)).map((session) => {
             const artist = ARTISTS.find((a) => a.slug === session.artistSlug);
             const isActive = activeSession === session.id;
 
@@ -78,6 +72,7 @@ export default function SessionsPage() {
                 {/* Video area — thumbnail or embed */}
                 {isActive ? (
                   <VideoEmbed
+                    autoPlay
                     url={session.videoUrl}
                     title={`${artist?.name ?? "Artist"} — ${session.songTitle}`}
                   />
@@ -124,7 +119,7 @@ export default function SessionsPage() {
                         color: "#39ff5a",
                       }}
                     >
-                      {formatDate(session.recordingDate)}
+                      {session.kind}
                     </span>
                   </div>
 
@@ -149,7 +144,7 @@ export default function SessionsPage() {
                       color: "#333",
                     }}
                   >
-                    {session.venue}
+                    {session.source}
                   </div>
                 </div>
               </div>

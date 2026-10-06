@@ -2,9 +2,9 @@
 
 import { useState } from "react";
 import FeaturedCard from "@/components/FeaturedCard";
-import { ARTISTS } from "@/data/artists";
+import { ARTISTS, LANES, lanesOf } from "@/data/artists";
 
-const allGenres = Array.from(new Set(ARTISTS.flatMap((a) => a.genres))).sort();
+const allGenres = LANES.filter((lane) => ARTISTS.some((a) => lanesOf(a.genres).includes(lane)));
 
 export default function DiscoverFeatured() {
   const [activeGenres, setActiveGenres] = useState<Set<string>>(new Set());
@@ -26,7 +26,7 @@ export default function DiscoverFeatured() {
   const filteredArtists =
     activeGenres.size === 0
       ? ARTISTS
-      : ARTISTS.filter((a) => a.genres.some((g) => activeGenres.has(g)));
+      : ARTISTS.filter((a) => lanesOf(a.genres).some((l) => activeGenres.has(l)));
 
   const chipBase: React.CSSProperties = {
     fontFamily: "var(--font-display)",
@@ -154,6 +154,7 @@ export default function DiscoverFeatured() {
             <FeaturedCard
               key={artist.id}
               slug={artist.slug}
+              name={artist.name}
               number={artist.cardNumber}
               tag={artist.cardTag}
               title={artist.cardTitle}

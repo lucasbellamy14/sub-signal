@@ -115,7 +115,7 @@ git push
 
 - **IG Post Generator:** https://sub-signal.vercel.app/admin/generate-ig
 - **Newsletter Generator:** https://sub-signal.vercel.app/admin/newsletter
-- **Subscriber list:** stored in `data/subscribers.json`
+- **Signups, Submit and Contact forms:** all post to one Formspree form. Set `NEXT_PUBLIC_FORM_URL` (e.g. `https://formspree.io/f/yourFormId`) in Vercel → Settings → Environment Variables, then redeploy. Submissions arrive in your Formspree inbox, tagged by a `form` field. Until it is set, the forms say they aren't connected.
 
 ---
 

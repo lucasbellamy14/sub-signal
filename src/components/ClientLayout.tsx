@@ -2,6 +2,8 @@
 
 import { SavedArtistsProvider } from "@/context/SavedArtistsContext";
 import PageTransition from "@/components/PageTransition";
+import { ListenProvider } from "@/context/ListenContext";
+import ListenBar from "@/components/ListenBar";
 
 export default function ClientLayout({
   children,
@@ -10,7 +12,10 @@ export default function ClientLayout({
 }) {
   return (
     <SavedArtistsProvider>
-      <PageTransition>{children}</PageTransition>
+      <ListenProvider>
+        <PageTransition>{children}</PageTransition>
+        <ListenBar />
+      </ListenProvider>
     </SavedArtistsProvider>
   );
 }

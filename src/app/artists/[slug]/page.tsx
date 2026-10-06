@@ -1,11 +1,13 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { ARTISTS } from "@/data/artists";
-import GenerativeArt from "@/components/GenerativeArt";
+import ArtistImage from "@/components/ArtistImage";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import SocialLinks from "@/components/SocialLinks";
 import SaveButton from "@/components/SaveButton";
+import ArtistSpecSheet from "@/components/ArtistSpecSheet";
+import { PlayArtistButton } from "@/components/PlayButtons";
 
 export function generateStaticParams() {
   return ARTISTS.map((artist) => ({ slug: artist.slug }));
@@ -13,9 +15,9 @@ export function generateStaticParams() {
 
 export function generateMetadata({ params }: { params: { slug: string } }) {
   const artist = ARTISTS.find((a) => a.slug === params.slug);
-  if (!artist) return { title: "Artist Not Found — Sub Signal" };
+  if (!artist) return { title: "Artist Not Found" };
   return {
-    title: `${artist.name} — Sub Signal`,
+    title: `${artist.name}`,
     openGraph: {
       title: `${artist.name} — Sub Signal`,
       description: artist.cardBody,
@@ -42,13 +44,27 @@ export default function ArtistPage({ params }: { params: { slug: string } }) {
         <div
           style={{
             width: "100%",
-            aspectRatio: "16/9",
+            aspectRatio: "16/10",
             position: "relative",
             overflow: "hidden",
             marginBottom: "0",
           }}
         >
-          <GenerativeArt slug={artist.slug} index={ARTISTS.indexOf(artist)} />
+          <ArtistImage
+            slug={artist.slug}
+            name={artist.name}
+            index={ARTISTS.indexOf(artist)}
+            priority
+            sizes="(max-width: 840px) 100vw, 800px"
+          />
+          <div
+            aria-hidden="true"
+            style={{
+              position: "absolute",
+              inset: 0,
+              background: "linear-gradient(to top, rgba(10,10,10,0.85) 0%, rgba(10,10,10,0) 45%)",
+            }}
+          />
         </div>
         <div style={{ height: "1px", background: "rgba(57,255,90,0.15)", marginBottom: "2rem" }} />
       </div>
@@ -98,40 +114,11 @@ export default function ArtistPage({ params }: { params: { slug: string } }) {
           <SaveButton slug={artist.slug} size={24} />
         </div>
 
-        <p
-          style={{
-            fontFamily: "var(--font-display)",
-            fontSize: "0.7rem",
-            letterSpacing: "0.15em",
-            textTransform: "uppercase",
-            color: "#9a9a9a",
-            marginBottom: "1rem",
-          }}
-        >
-          {artist.meta}
-        </p>
+        <div style={{ marginBottom: "1.5rem" }}>
+          <PlayArtistButton slug={artist.slug} name={artist.name} />
+        </div>
 
-        {/* Genre Tags */}
-        {artist.genres && artist.genres.length > 0 && (
-          <div style={{ display: "flex", flexWrap: "wrap", gap: "0.4rem", marginBottom: "2rem" }}>
-            {artist.genres.map((genre) => (
-              <span
-                key={genre}
-                style={{
-                  fontFamily: "var(--font-display)",
-                  fontSize: "0.6rem",
-                  letterSpacing: "0.15em",
-                  textTransform: "uppercase",
-                  color: "#b0b0b0",
-                  border: "1px solid #222",
-                  padding: "0.3rem 0.7rem",
-                }}
-              >
-                {genre}
-              </span>
-            ))}
-          </div>
-        )}
+        <ArtistSpecSheet artist={artist} />
 
         <div style={{ marginBottom: "2rem" }}>
           <SocialLinks
@@ -143,13 +130,12 @@ export default function ArtistPage({ params }: { params: { slug: string } }) {
         </div>
 
         <p
+          className="artist-desc"
           style={{
-            fontFamily: "var(--font-body)",
-            fontWeight: 300,
-            fontSize: "1rem",
-            color: "#b8b8b8",
-            lineHeight: 1.7,
-            maxWidth: "600px",
+            fontSize: "1.2rem",
+            color: "#d0d0d0",
+            lineHeight: 1.65,
+            maxWidth: "620px",
             marginBottom: "3rem",
           }}
         >
@@ -272,17 +258,25 @@ export default function ArtistPage({ params }: { params: { slug: string } }) {
                 {entry.title}
               </h3>
               <p
+                className="artist-desc"
                 style={{
-                  fontFamily: "var(--font-body)",
-                  fontWeight: 300,
-                  fontSize: "0.85rem",
-                  color: "#666",
-                  lineHeight: 1.6,
+                  fontSize: "0.98rem",
+                  color: "#9a9a9a",
+                  lineHeight: 1.65,
                   margin: 0,
                 }}
               >
                 {entry.body}
               </p>
+              {entry.sources && entry.sources.length > 0 && (
+                <div className="src-links">
+                  {entry.sources.map((u, k) => (
+                    <a key={u} href={u} target="_blank" rel="noopener noreferrer">
+                      Source{entry.sources!.length > 1 ? ` ${k + 1}` : ""}
+                    </a>
+                  ))}
+                </div>
+              )}
             </div>
           </div>
         ))}

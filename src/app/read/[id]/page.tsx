@@ -12,7 +12,7 @@ export function generateStaticParams() {
 
 export function generateMetadata({ params }: { params: { id: string } }) {
   const post = POSTS.find((p) => p.id === params.id);
-  if (!post) return { title: "Not Found — Sub Signal" };
+  if (!post) return { title: "Not Found" };
   return {
     title: post.title,
     openGraph: {

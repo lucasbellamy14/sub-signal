@@ -41,6 +41,7 @@ export default function SavedPage() {
               <FeaturedCard
                 key={artist.id}
                 slug={artist.slug}
+                name={artist.name}
                 number={artist.cardNumber}
                 tag={artist.cardTag}
                 title={artist.cardTitle}

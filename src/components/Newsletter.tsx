@@ -1,34 +1,31 @@
 "use client";
 
 import { useState } from "react";
+import { postForm, formsConfigured } from "@/lib/forms";
 
 export default function Newsletter() {
   const [email, setEmail] = useState("");
   const [submitted, setSubmitted] = useState(false);
   const [error, setError] = useState("");
 
-  const handleSubmit = async (e: React.FormEvent) => {
+  const [sending, setSending] = useState(false);
+
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    if (!email) return;
+    if (!email || sending) return;
+    const honeypot = (new FormData(e.currentTarget).get("_gotcha") as string) || "";
+    if (honeypot) return; // a bot filled the hidden field
 
-    try {
-      const res = await fetch("/api/subscribe", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email }),
-      });
+    setSending(true);
+    const result = await postForm("newsletter", { email });
+    setSending(false);
 
-      if (res.ok) {
-        setSubmitted(true);
-        setEmail("");
-        setError("");
-      } else {
-        const data = await res.json();
-        setError(data.error || "Something went wrong");
-      }
-    // eslint-disable-next-line @typescript-eslint/no-unused-vars
-    } catch (_e) {
-      setError("Could not connect. Try again.");
+    if (result.ok) {
+      setSubmitted(true);
+      setEmail("");
+      setError("");
+    } else {
+      setError(result.error);
     }
   };
 
@@ -88,12 +85,27 @@ export default function Newsletter() {
               You&apos;re locked in. First signal incoming soon.
             </p>
           </div>
+        ) : !formsConfigured ? (
+          <p
+            style={{
+              fontFamily: "var(--font-display)",
+              fontSize: "0.7rem",
+              letterSpacing: "0.2em",
+              textTransform: "uppercase",
+              color: "#9a9a9a",
+              border: "1px dashed #1a1a1a",
+              padding: "1rem 1.5rem",
+            }}
+          >
+            Newsletter signups open soon.
+          </p>
         ) : (
           <>
             <form
               onSubmit={handleSubmit}
               style={{ display: "flex", gap: "1px", maxWidth: "400px", margin: "0 auto" }}
             >
+              <input type="text" name="_gotcha" tabIndex={-1} autoComplete="off" aria-hidden="true" style={{ position: "absolute", left: "-9999px", opacity: 0 }} />
               <input
                 type="email"
                 value={email}
@@ -129,7 +141,7 @@ export default function Newsletter() {
                   cursor: "pointer",
                 }}
               >
-                Subscribe
+                {sending ? "Sending…" : "Subscribe"}
               </button>
             </form>
             {error && (

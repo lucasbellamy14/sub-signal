@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import { postForm, formsConfigured, NOT_CONNECTED_MESSAGE } from "@/lib/forms";
 
 const FIELDS = [
   { name: "artistName", label: "Artist Name", type: "text" },
@@ -38,10 +39,22 @@ const inputStyle: React.CSSProperties = {
 
 export default function SubmitPage() {
   const [submitted, setSubmitted] = useState(false);
+  const [sending, setSending] = useState(false);
+  const [error, setError] = useState("");
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    setSubmitted(true);
+    if (sending) return;
+    const data = Object.fromEntries(new FormData(e.currentTarget)) as Record<string, string>;
+    if (data._gotcha) return; // a bot filled the hidden field
+    delete data._gotcha;
+
+    setSending(true);
+    setError("");
+    const result = await postForm("submit", data);
+    setSending(false);
+    if (result.ok) setSubmitted(true);
+    else setError(result.error === "not-configured" ? NOT_CONNECTED_MESSAGE : result.error);
   };
 
   const handleFocus = (e: React.FocusEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -84,11 +97,16 @@ export default function SubmitPage() {
           >
             We got it. We&apos;ll be in touch.
           </p>
+        ) : !formsConfigured ? (
+          <p style={{ fontFamily: "var(--font-body)", fontWeight: 300, color: "#b0b0b0", maxWidth: "600px", margin: 0 }}>
+            Submissions aren&apos;t open just yet. Check back soon.
+          </p>
         ) : (
           <form
             onSubmit={handleSubmit}
             style={{ maxWidth: "600px", display: "flex", flexDirection: "column", gap: "1.5rem" }}
           >
+            <input type="text" name="_gotcha" tabIndex={-1} autoComplete="off" aria-hidden="true" style={{ position: "absolute", left: "-9999px", opacity: 0 }} />
             {FIELDS.map((field) => (
               <div key={field.name}>
                 <label style={labelStyle}>{field.label}</label>
@@ -131,8 +149,13 @@ export default function SubmitPage() {
                   cursor: "pointer",
                 }}
               >
-                Submit
+                {sending ? "Sending…" : "Submit"}
               </button>
+              {error && (
+                <p role="alert" style={{ fontFamily: "var(--font-body)", fontSize: "0.8rem", color: "#ff5a5a", marginTop: "1rem" }}>
+                  {error}
+                </p>
+              )}
             </div>
           </form>
         )}

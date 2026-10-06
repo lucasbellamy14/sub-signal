@@ -2,8 +2,9 @@
 
 import Header from "@/components/Header";
 import FeaturedCard from "@/components/FeaturedCard";
-import GenerativeArt from "@/components/GenerativeArt";
+import ArtistImage from "@/components/ArtistImage";
 import Newsletter from "@/components/Newsletter";
+import { PlayFeedButton } from "@/components/PlayButtons";
 import Footer from "@/components/Footer";
 import Link from "next/link";
 import { ARTISTS, TICKER_ARTISTS } from "@/data/artists";
@@ -12,6 +13,7 @@ const HOMEPAGE_ARTISTS = ARTISTS.slice(0, 3);
 const TRENDING_ARTISTS = [...ARTISTS]
   .sort((a, b) => b.featuredDate.localeCompare(a.featuredDate))
   .slice(0, 6);
+const COLLAGE_ARTISTS = TRENDING_ARTISTS.slice(0, 3);
 
 export default function Home() {
   const tickerText = TICKER_ARTISTS.join(" \u00b7 ");
@@ -21,7 +23,8 @@ export default function Home() {
       <Header />
 
       {/* ── HERO ── */}
-      <section className="section-hero">
+      <section className="section-hero hero-grid">
+        <div className="hero-copy">
         <p
           className="animate-fade-in-up stagger-1"
           style={{
@@ -79,6 +82,34 @@ export default function Home() {
         >
           Start Listening
         </Link>
+        <span style={{ marginLeft: "0.75rem", display: "inline-block" }} className="animate-fade-in-up stagger-4">
+          <PlayFeedButton ghost>Play the feed</PlayFeedButton>
+        </span>
+        </div>
+
+        <div className="hero-collage animate-fade-in-up stagger-3" aria-label="Featured artists">
+          {COLLAGE_ARTISTS.map((artist, i) => (
+            <Link
+              key={artist.id}
+              href={`/artists/${artist.slug}`}
+              className={`collage-tile collage-tile-${i + 1}`}
+            >
+              <div className="collage-photo">
+                <ArtistImage
+                  slug={artist.slug}
+                  name={artist.name}
+                  index={ARTISTS.indexOf(artist)}
+                  priority={i === 0}
+                  sizes="(max-width: 900px) 50vw, 25vw"
+                />
+              </div>
+              <div className="collage-caption">
+                <span className="collage-name">{artist.name}</span>
+                <span className="collage-meta">{artist.meta.split("·")[1]?.trim()}</span>
+              </div>
+            </Link>
+          ))}
+        </div>
       </section>
 
       {/* ── TICKER STRIP ── */}
@@ -184,6 +215,7 @@ export default function Home() {
             <Link
               key={artist.id}
               href={`/artists/${artist.slug}`}
+              className="trend-card"
               style={{
                 flex: "0 0 180px",
                 background: "#0a0a0a",
@@ -203,8 +235,8 @@ export default function Home() {
             >
               <div style={{ display: "flex", gap: "1rem", alignItems: "flex-start" }}>
                 {/* Thumbnail */}
-                <div style={{ width: "60px", height: "60px", flexShrink: 0, overflow: "hidden", borderRadius: "2px" }}>
-                  <GenerativeArt slug={artist.slug} index={ARTISTS.indexOf(artist)} size={120} />
+                <div className="trend-thumb" style={{ width: "60px", height: "60px", flexShrink: 0, overflow: "hidden", borderRadius: "2px", position: "relative" }}>
+                  <ArtistImage slug={artist.slug} name={artist.name} index={ARTISTS.indexOf(artist)} sizes="60px" />
                 </div>
                 <div>
                   <div
@@ -282,6 +314,7 @@ export default function Home() {
             <FeaturedCard
               key={artist.id}
               slug={artist.slug}
+              name={artist.name}
               number={artist.cardNumber}
               tag={artist.cardTag}
               title={artist.cardTitle}

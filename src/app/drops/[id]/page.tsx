@@ -11,7 +11,7 @@ export function generateStaticParams() {
 
 export function generateMetadata({ params }: { params: { id: string } }) {
   const drop = DROPS.find((d) => d.id === params.id);
-  if (!drop) return { title: "Drop Not Found — Sub Signal" };
+  if (!drop) return { title: "Drop Not Found" };
   return {
     title: drop.title,
     openGraph: {

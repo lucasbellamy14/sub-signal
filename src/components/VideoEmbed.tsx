@@ -5,6 +5,8 @@ import { useState } from "react";
 interface VideoEmbedProps {
   url: string;
   title?: string;
+  /** Start playing immediately (use when the viewer already clicked a thumbnail). */
+  autoPlay?: boolean;
 }
 
 function parseVideo(url: string): { type: "youtube" | "vimeo" | null; id: string } {
@@ -39,8 +41,8 @@ function getEmbedUrl(type: "youtube" | "vimeo" | null, id: string): string {
   return "";
 }
 
-export default function VideoEmbed({ url, title = "Video" }: VideoEmbedProps) {
-  const [playing, setPlaying] = useState(false);
+export default function VideoEmbed({ url, title = "Video", autoPlay = false }: VideoEmbedProps) {
+  const [playing, setPlaying] = useState(autoPlay);
   const { type, id } = parseVideo(url);
 
   if (!type) return null;
