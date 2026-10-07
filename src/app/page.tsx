@@ -4,6 +4,7 @@ import Header from "@/components/Header";
 import FeaturedCard from "@/components/FeaturedCard";
 import ArtistImage from "@/components/ArtistImage";
 import Newsletter from "@/components/Newsletter";
+import HomeMapBand from "@/components/HomeMapBand";
 import { PlayFeedButton } from "@/components/PlayButtons";
 import Footer from "@/components/Footer";
 import Link from "next/link";
@@ -330,6 +331,8 @@ export default function Home() {
           ))}
         </div>
       </section>
+
+      <HomeMapBand />
 
       <Newsletter />
       <Footer />

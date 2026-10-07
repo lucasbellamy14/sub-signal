@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useState } from "react";
 import FeaturedCard from "@/components/FeaturedCard";
 import { ARTISTS, LANES, lanesOf } from "@/data/artists";
@@ -132,6 +133,19 @@ export default function DiscoverFeatured() {
             </button>
           );
         })}
+
+        <Link
+          href="/map"
+          style={{ ...chipBase, textDecoration: "none", display: "inline-block", color: "#39ff5a", borderColor: "#1e4a28" }}
+        >
+          On the map &rarr;
+        </Link>
+        <Link
+          href="/sessions"
+          style={{ ...chipBase, textDecoration: "none", display: "inline-block", color: "#39ff5a", borderColor: "#1e4a28" }}
+        >
+          Watch sessions &rarr;
+        </Link>
       </div>
 
       {/* Result count */}

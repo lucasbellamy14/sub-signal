@@ -10,13 +10,31 @@ const ALL_NAV_LINKS = [
   { label: "Discover", href: "/discover" },
   { label: "About", href: "/about" },
   { label: "Read", href: "/read" },
-  { label: "Sessions", href: "/sessions" },
   { label: "Drops", href: "/drops" },
-  { label: "Saved", href: "/saved" },
 ];
+// Sessions lives on the Discover page; Saved is an icon on desktop and a link in the phone menu.
 
 // Hide Read until there is real, published editorial content
 const NAV_LINKS = ALL_NAV_LINKS.filter((l) => l.href !== "/read" || POSTS.length > 0);
+
+function BookmarkIcon() {
+  return (
+    <svg
+      width="16"
+      height="16"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="#1a1a1a"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      style={{ flexShrink: 0 }}
+      aria-hidden="true"
+    >
+      <path d="M6 3h12a1 1 0 0 1 1 1v17l-7-4-7 4V4a1 1 0 0 1 1-1z" />
+    </svg>
+  );
+}
 
 function SearchIcon() {
   return (
@@ -216,6 +234,10 @@ export default function Header() {
             )}
           </div>
 
+          <Link href="/saved" aria-label="Saved artists" title="Saved" style={{ display: "flex", alignItems: "center", padding: "0.35rem 0.25rem" }}>
+            <BookmarkIcon />
+          </Link>
+
           <PlayFeedButton>Listen</PlayFeedButton>
           {NAV_LINKS.map((link) => (
             <Link
@@ -254,7 +276,7 @@ export default function Header() {
       {menuOpen && (
         <nav className="nav-mobile">
           <div><PlayFeedButton>Listen to the feed</PlayFeedButton></div>
-          {NAV_LINKS.map((link) => (
+          {[...NAV_LINKS, { label: "Saved", href: "/saved" }].map((link) => (
             <Link
               key={link.label}
               href={link.href}
