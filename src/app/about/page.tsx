@@ -2,7 +2,6 @@ import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Newsletter from "@/components/Newsletter";
-import SocialLinks from "@/components/SocialLinks";
 import { TICKER_ARTISTS } from "@/data/artists";
 
 export const metadata = {
@@ -315,20 +314,6 @@ export default function AboutPage() {
       </section>
 
       {/* 7. SOCIAL ICON ROW */}
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          marginTop: "2rem",
-        }}
-      >
-        <SocialLinks
-          instagram="https://instagram.com/subsignal"
-          twitter="https://x.com/subsignal"
-          tiktok="https://tiktok.com/@subsignal"
-        />
-      </div>
-
       {/* 8. EST. LINE */}
       <div
         style={{

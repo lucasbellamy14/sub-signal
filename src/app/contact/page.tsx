@@ -1,6 +1,5 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import SocialLinks from "@/components/SocialLinks";
 import ContactForm from "@/components/ContactForm";
 
 export const metadata = {
@@ -49,20 +48,6 @@ export default function ContactPage() {
 
         <div style={{ maxWidth: "480px", margin: "0 auto" }}>
           <ContactForm />
-        </div>
-
-        <div
-          style={{
-            marginTop: "3rem",
-            display: "flex",
-            justifyContent: "center",
-          }}
-        >
-          <SocialLinks
-            instagram="https://instagram.com/subsignal"
-            twitter="https://x.com/subsignal"
-            tiktok="https://tiktok.com/@subsignal"
-          />
         </div>
       </section>
 
