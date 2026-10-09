@@ -5,7 +5,8 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import ArtistImage from "@/components/ArtistImage";
 import { PlayArtistButton } from "@/components/PlayButtons";
 import { ARTISTS } from "@/data/artists";
-import { MAP_H, MAP_W, ORIGINS, VIEWS, WORLD_PATH } from "@/data/origins";
+import { MAP_H, MAP_W, ORIGINS, VIEWS } from "@/data/origins";
+import { WORLD_PATH } from "@/data/world-path";
 
 type Box = { x: number; y: number; w: number; h: number };
 
@@ -140,6 +141,24 @@ export default function OriginMap({ compact = false }: { compact?: boolean }) {
     };
     raf.current = requestAnimationFrame(step);
   };
+
+  // Arriving from a carousel card (/map?focus=slug): zoom to that artist's pin and open it.
+  useEffect(() => {
+    if (compact) return;
+    const slug = new URLSearchParams(window.location.search).get("focus");
+    if (!slug) return;
+    const g = groups.find((x) => x.slugs.includes(slug));
+    if (!g) return;
+    setSelected(g.key);
+    setHover(g.key);
+    const inside = Object.entries(VIEWS)
+      .filter(([name, [x, y, w, h]]) => name !== "World" && g.x >= x && g.x <= x + w && g.y >= y && g.y <= y + h)
+      .sort((a, b) => a[1][2] * a[1][3] - b[1][2] * b[1][3])[0];
+    goTo(inside ? inside[0] : "World");
+    const t = setTimeout(() => wrapRef.current?.scrollIntoView({ behavior: "smooth", block: "center" }), 350);
+    return () => clearTimeout(t);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   const s = box.w / MAP_W; // keeps pins the same on-screen size at every zoom
   const sel = groups.find((g) => g.key === selected) ?? null;

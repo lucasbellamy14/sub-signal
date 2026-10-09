@@ -2,6 +2,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Newsletter from "@/components/Newsletter";
 import DiscoverFeatured from "./DiscoverFeatured";
+import ActsCarousel from "@/components/ActsCarousel";
 
 export default function DiscoverPage() {
   return (
@@ -43,6 +44,8 @@ export default function DiscoverPage() {
           explore their timeline.
         </p>
       </section>
+
+      <ActsCarousel />
 
       <DiscoverFeatured />
 
