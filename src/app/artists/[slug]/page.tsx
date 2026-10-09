@@ -8,6 +8,7 @@ import SocialLinks from "@/components/SocialLinks";
 import SaveButton from "@/components/SaveButton";
 import ArtistSpecSheet from "@/components/ArtistSpecSheet";
 import { PlayArtistButton } from "@/components/PlayButtons";
+import SpotifyEmbed from "@/components/SpotifyEmbed";
 
 export function generateStaticParams() {
   return ARTISTS.map((artist) => ({ slug: artist.slug }));
@@ -145,20 +146,7 @@ export default function ArtistPage({ params }: { params: { slug: string } }) {
         {/* Spotify Player */}
         {artist.spotifyTrackId && (
           <div style={{ marginBottom: "3rem" }}>
-            <iframe
-              src={`https://open.spotify.com/embed/track/${artist.spotifyTrackId}?utm_source=generator&theme=0`}
-              width="100%"
-              height={352}
-              frameBorder={0}
-              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-              loading="lazy"
-              style={{
-                borderRadius: "12px",
-                border: "none",
-                background: "transparent",
-                display: "block",
-              }}
-            />
+            <SpotifyEmbed trackId={artist.spotifyTrackId} title={`${artist.name} on Spotify`} height={352} radius={12} />
           </div>
         )}
       </section>

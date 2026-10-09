@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import SpotifyEmbed from "@/components/SpotifyEmbed";
 import Link from "next/link";
 import ArtistImage from "@/components/ArtistImage";
 import SocialLinks from "@/components/SocialLinks";
@@ -192,20 +193,7 @@ export default function FeaturedCard({ slug, name, number, tag, title, body, art
       {/* Spotify Embed */}
       <div style={{ marginTop: "1.25rem", position: "relative", zIndex: 2 }}>
         {spotifyTrackId ? (
-          <iframe
-            src={`https://open.spotify.com/embed/track/${spotifyTrackId}?utm_source=generator&theme=0`}
-            width="100%"
-            height={80}
-            frameBorder={0}
-            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-            loading="lazy"
-            style={{
-              borderRadius: "8px",
-              border: "none",
-              background: "transparent",
-              display: "block",
-            }}
-          />
+          <SpotifyEmbed trackId={spotifyTrackId} title={`${name} on Spotify`} height={80} radius={8} />
         ) : (
           <div
             style={{

@@ -45,19 +45,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      {/* eslint-disable-next-line @next/next/no-page-custom-font */}
       <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link
-          rel="preconnect"
-          href="https://fonts.gstatic.com"
-          crossOrigin="anonymous"
-        />
-        {/* eslint-disable-next-line @next/next/no-page-custom-font */}
-        <link
-          href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;700;900&family=Barlow:wght@300;400;500&family=Playfair+Display:ital,wght@1,400;1,600&family=Space+Grotesk:wght@300;400;500&display=swap"
-          rel="stylesheet"
-        />
+        {/* Fonts are self-hosted (see globals.css). Preload only the ones the first screen uses. */}
+        <link rel="preload" href="/fonts/barlow-condensed-normal-900-latin.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
+        <link rel="preload" href="/fonts/barlow-condensed-normal-700-latin.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
+        <link rel="preload" href="/fonts/barlow-normal-300-latin.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
       </head>
       <body className="antialiased min-h-screen">
         <ClientLayout>{children}</ClientLayout>

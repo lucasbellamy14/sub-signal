@@ -41,7 +41,8 @@ export default function ActsCarousel() {
   const drag = useRef<{ x: number; pos: number; moved: boolean; lastX: number; lastT: number; v: number } | null>(null);
   const suppressClick = useRef(false);
   const stageRef = useRef<HTMLDivElement | null>(null);
-  const [stageW, setStageW] = useState(0);
+  // Start from a desktop-sized stage so the first cards are in the server HTML; the real width replaces it right after load.
+  const [stageW, setStageW] = useState(900);
   const [reduced, setReduced] = useState(false);
   const [tilt, setTilt] = useState<Tilt>(FLAT);
 
