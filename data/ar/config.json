@@ -1,0 +1,153 @@
+{
+  "schedule": "Monday 08:07 America/Los_Angeles (cron 7 15 * * 1 UTC)",
+  "weeklyCap": 5,
+  "thresholds": {
+    "priority": 85,
+    "publish": 75,
+    "secondWave": 85,
+    "watch": 60,
+    "minCoverage": 0.7,
+    "minSources": 2
+  },
+  "sizeBands": {
+    "micro": 5000,
+    "small": 50000,
+    "mid": 250000
+  },
+  "appleCountries": [
+    "us",
+    "gb",
+    "ca",
+    "au"
+  ],
+  "deezerGenres": [
+    0
+  ],
+  "neighbourSeeds": 10,
+  "musicbrainzPerRun": 250,
+  "historyWeeks": 8,
+  "watchlistExpiryWeeks": 8,
+  "scoring": {
+    "streaming": {
+      "lo": 0.01,
+      "hi": 0.15,
+      "absFloor": 500,
+      "rankLo": 0.02,
+      "rankHi": 0.2
+    },
+    "audience": {
+      "micro": {
+        "lo": 0.03,
+        "hi": 0.25,
+        "absFloor": 100
+      },
+      "small": {
+        "lo": 0.02,
+        "hi": 0.15,
+        "absFloor": 250
+      },
+      "mid": {
+        "lo": 0.01,
+        "hi": 0.08,
+        "absFloor": 1000
+      },
+      "established": {
+        "lo": 0.005,
+        "hi": 0.04,
+        "absFloor": 5000
+      },
+      "unknown": {
+        "lo": 0.02,
+        "hi": 0.15,
+        "absFloor": 250
+      }
+    },
+    "suspiciousFanRate": 0.5,
+    "validation": {
+      "outlets": [
+        0,
+        6,
+        11,
+        15
+      ],
+      "multiCountryBonus": 3
+    },
+    "breakout": {
+      "chartByBand": {
+        "micro": 10,
+        "small": 8,
+        "mid": 5,
+        "established": 2,
+        "unknown": 5
+      },
+      "ratio": {
+        "strong": 1.8,
+        "mild": 1.4,
+        "minBandSize": 10
+      },
+      "recentDays": 90
+    }
+  },
+  "pressFeeds": [
+    {
+      "outlet": "Stereogum",
+      "url": "https://www.stereogum.com/feed"
+    },
+    {
+      "outlet": "The FADER",
+      "url": "https://www.thefader.com/feed"
+    },
+    {
+      "outlet": "NME",
+      "url": "https://www.nme.com/feed"
+    },
+    {
+      "outlet": "The Line of Best Fit",
+      "url": "https://www.thelineofbestfit.com/feed"
+    },
+    {
+      "outlet": "DIY",
+      "url": "https://diymag.com/feed"
+    },
+    {
+      "outlet": "Bandcamp Daily",
+      "url": "https://daily.bandcamp.com/feed"
+    },
+    {
+      "outlet": "Gorilla vs. Bear",
+      "url": "https://www.gorillavsbear.net/feed"
+    },
+    {
+      "outlet": "Music Business Worldwide",
+      "url": "https://www.musicbusinessworldwide.com/feed"
+    },
+    {
+      "outlet": "Billboard",
+      "url": "https://www.billboard.com/feed"
+    },
+    {
+      "outlet": "Consequence",
+      "url": "https://consequence.net/feed"
+    },
+    {
+      "outlet": "Dummy",
+      "url": "https://www.dummymag.com/rss"
+    },
+    {
+      "outlet": "BrooklynVegan",
+      "url": "https://www.brooklynvegan.com/feed"
+    },
+    {
+      "outlet": "Clash",
+      "url": "https://www.clashmusic.com/feed"
+    },
+    {
+      "outlet": "Rolling Stone",
+      "url": "https://www.rollingstone.com/music/feed/"
+    },
+    {
+      "outlet": "Pitchfork",
+      "url": "https://pitchfork.com/feed/feed-news/rss"
+    }
+  ]
+}

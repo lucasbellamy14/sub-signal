@@ -1,0 +1,92 @@
+# Sub Signal · weekly A&R data run (phase 1: data only, no site changes)
+#
+# Every Monday at 15:07 UTC (08:07 Pacific in winter, 07:07 in summer; GitHub
+# cron is UTC) this pulls the week's numbers, scores everyone, commits the
+# snapshot + ledger + shortlist + report to main, and opens a GitHub issue
+# with the report. GitHub emails the repo owner about the issue and about any
+# failed run. The weekly commit also keeps the schedule alive (public-repo
+# schedules pause after 60 days without activity).
+#
+# Run it by hand from the Actions tab ("Run workflow"), optionally with a
+# pool limit for a quick check.
+name: A&R weekly data run
+
+on:
+  schedule:
+    - cron: "7 15 * * 1"
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "Limit the pool to N non-roster artists (0 = full run)"
+        default: "0"
+        required: false
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: ar-weekly
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Tests (scoring rules and failure drills)
+        run: node --test scripts/ar/tests/*.test.mjs
+
+      - name: Data run
+        id: run
+        env:
+          LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}
+        run: |
+          set -o pipefail
+          LIMIT="${{ github.event.inputs.limit || '0' }}"
+          node scripts/ar/run.mjs --limit "$LIMIT" | tee report.md
+          WEEK=$(ls data/ar/reports | sort | tail -n 1 | sed 's/\.md$//')
+          echo "week=$WEEK" >> "$GITHUB_OUTPUT"
+
+      - name: Commit the week's data
+        if: always() && steps.run.outcome != 'skipped'
+        run: |
+          git config user.name "sub-signal-ar[bot]"
+          git config user.email "sub-signal-ar@users.noreply.github.com"
+          git add data/ar
+          if git diff --cached --quiet; then
+            echo "nothing to commit"
+          else
+            git commit -m "A&R data: week ${{ steps.run.outputs.week }}"
+            git push
+          fi
+
+      - name: Post the report as an issue
+        if: always() && steps.run.outcome != 'skipped'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          WEEK: ${{ steps.run.outputs.week }}
+          OUTCOME: ${{ steps.run.outcome }}
+        run: |
+          TITLE="A&R week ${WEEK:-unknown}: data run"
+          if [ "$OUTCOME" != "success" ]; then
+            TITLE="$TITLE FAILED"
+            { echo "The data run exited with an error. See the workflow log:"; echo "${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"; echo; cat report.md 2>/dev/null || true; } > body.md
+          else
+            cp report.md body.md
+            { echo; echo "---"; echo "Workflow run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"; } >> body.md
+          fi
+          EXISTING=$(gh issue list --repo "${{ github.repository }}" --search "\"$TITLE\" in:title" --state open --json number --jq '.[0].number')
+          if [ -n "$EXISTING" ]; then
+            gh issue comment "$EXISTING" --repo "${{ github.repository }}" --body-file body.md
+          else
+            gh issue create --repo "${{ github.repository }}" --title "$TITLE" --body-file body.md
+          fi

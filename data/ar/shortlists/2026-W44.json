@@ -1,0 +1,109 @@
+{
+  "week": "2026-W44",
+  "baseline": true,
+  "cap": 5,
+  "eligible": [],
+  "overflow": [],
+  "watch": [],
+  "rosterMomentum": [
+    {
+      "key": "mb:09d6b57e-9cd9-4a74-b7cb-842b8443a1cd",
+      "name": "Nia Archives",
+      "slug": "nia-archives",
+      "total": 6,
+      "coverage": 0.3,
+      "band": "small",
+      "category": "Early Signal",
+      "components": {
+        "streaming": {
+          "pts": 0,
+          "max": 0
+        },
+        "audience": {
+          "pts": 0,
+          "max": 0
+        },
+        "sustained": {
+          "pts": 0,
+          "max": 0
+        },
+        "validation": {
+          "pts": 6,
+          "max": 15
+        },
+        "breakout": {
+          "pts": 0,
+          "max": 10
+        },
+        "editorial": {
+          "pts": 0,
+          "max": 5
+        }
+      },
+      "evidence": [
+        "Press: DIY"
+      ],
+      "flags": [],
+      "notes": [],
+      "gate": [
+        "score 6 < 75",
+        "coverage 30% < 70%",
+        "already on Sub Signal"
+      ]
+    },
+    {
+      "key": "mb:08c7863c-715d-475d-b726-2cc925f151e1",
+      "name": "Dove Ellis",
+      "slug": "dove-ellis",
+      "total": 6,
+      "coverage": 0.3,
+      "band": "micro",
+      "category": "Early Signal",
+      "components": {
+        "streaming": {
+          "pts": 0,
+          "max": 0
+        },
+        "audience": {
+          "pts": 0,
+          "max": 0
+        },
+        "sustained": {
+          "pts": 0,
+          "max": 0
+        },
+        "validation": {
+          "pts": 6,
+          "max": 15
+        },
+        "breakout": {
+          "pts": 0,
+          "max": 10
+        },
+        "editorial": {
+          "pts": 0,
+          "max": 5
+        }
+      },
+      "evidence": [
+        "Press: DIY"
+      ],
+      "flags": [],
+      "notes": [],
+      "gate": [
+        "score 6 < 75",
+        "coverage 30% < 70%",
+        "already on Sub Signal"
+      ]
+    }
+  ],
+  "excluded": [],
+  "stats": {
+    "scored": 503,
+    "candidates": 454,
+    "roster": 49,
+    "eligible": 0,
+    "watch": 0,
+    "meanCoverage": 0.3
+  }
+}
