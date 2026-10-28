@@ -74,16 +74,19 @@ WEEK=$(ls data/ar/shortlists | sort | tail -n 1 | sed 's/\.json$//')
 5. **Keep `draft: true` on every new entry.** Lucas merges the PR and removes
    the flags, or asks you to. (After launch approval this step changes to:
    remove the flags, push to main, verify the live pages.)
-6. **Commit** on a branch `claude/ar-$WEEK` with message
-   `A&R $WEEK: <n> draft profile(s): <names>`. Push it. Open a pull request
-   titled `A&R $WEEK: <n> draft profile(s)` whose body is the report from
-   step 8. The Vercel preview URL for the branch shows the drafts only when
-   `NEXT_PUBLIC_SHOW_DRAFTS=1`, so also tell Lucas: `npm run dev` with that
-   variable, or review the diff.
-7. **Record** what you did in `data/ar/reports/$WEEK.md` under a heading
-   `## Editorial run` (append; keep the data run's text).
-8. **Report**, in this shape, as a comment on the open issue titled
-   `A&R week $WEEK: data run` (use `gh issue comment`), and as the PR body:
+6. **Record** the report (step 8's text) in `data/ar/reports/$WEEK.md`
+   under a heading `## Editorial run` (append; keep the data run's text).
+   Do this even when no artist cleared the gate.
+7. **Commit and push** on a branch `claude/ar-$WEEK` with message
+   `A&R $WEEK: <n> draft profile(s): <names>` (or `A&R $WEEK: no drafts`).
+   Push with `git push -u git@github.com:lucasbellamy14/sub-signal.git claude/ar-$WEEK`
+   (SSH; never HTTPS). You do NOT open the pull request or comment on the
+   issue yourself: the repository workflow `.github/workflows/ar-editorial.yml`
+   runs on every push to a `claude/ar-*` branch, opens or updates the PR when
+   `src/` changed, and posts the `## Editorial run` section of the report as a
+   comment on the week's issue. If `gh` happens to be installed and
+   authenticated you may additionally run `gh pr view` to confirm, nothing more.
+8. **Report**, in this shape (it is what the workflow posts):
 
 ```
 SUB SIGNAL WEEKLY A&R REPORT — editorial
@@ -99,5 +102,12 @@ System status: <sources line from the data report>
 Issues: <anything that failed, or "none">
 ```
 
-If GitHub access is missing, the repo cannot be pushed, or a gate cannot be
-run, stop and report that instead of working around it.
+Running locally (Desktop scheduled task on Lucas's Mac): the repository is at
+`/Users/lucasbellamy/Desktop/CLAUDE MISC/sub-signal`. Start with
+`git checkout main && git pull git@github.com:lucasbellamy14/sub-signal.git main`
+so this week's data-run commit is present, and `npm ci` only if
+`node_modules` is missing. Never run `npm run build` while a dev server is
+running in that folder (it corrupts `.next`); stop the dev server first.
+
+If the repo cannot be pushed or a gate cannot be run, stop and write what
+happened into the report section instead of working around it.

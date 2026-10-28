@@ -1,0 +1,40 @@
+# Sub Signal · Tuesday watchdog
+#
+# A missed week must never be silent. Every Tuesday this checks that the
+# current week's issue exists (the data run) and carries an editorial
+# comment (the editorial run), and posts what is missing so GitHub emails it.
+name: A&R watchdog
+
+on:
+  schedule:
+    - cron: "0 17 * * 2"
+  workflow_dispatch:
+
+permissions:
+  issues: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      GH_TOKEN: ${{ github.token }}
+      REPO: ${{ github.repository }}
+    steps:
+      - name: Check this week's issue and editorial comment
+        run: |
+          WEEK=$(date -u +%G-W%V)
+          TITLE="A&R week $WEEK: data run"
+          ISSUE=$(gh issue list --repo "$REPO" --search "\"$TITLE\" in:title" --state open --json number --jq '.[0].number')
+          if [ -z "$ISSUE" ]; then
+            gh issue create --repo "$REPO" --title "A&R week $WEEK: DATA RUN MISSING" --body "The watchdog found no issue for week $WEEK, so Monday's data run did not open one. Check the Actions tab: https://github.com/$REPO/actions"
+            echo "data run missing"; exit 1
+          fi
+          if gh issue view "$ISSUE" --repo "$REPO" --comments --json comments --jq '.comments[].body' | grep -q '^## Editorial run'; then
+            echo "week $WEEK: data run and editorial run both reported"
+          else
+            gh issue comment "$ISSUE" --repo "$REPO" --body "## Watchdog
+
+No editorial run reported for week $WEEK by Tuesday. The Monday desktop scheduled task on Lucas's Mac did not run (app closed or asleep?) or failed before pushing. It runs on the next app launch; otherwise start it by hand from the Scheduled list in the Claude app."
+            echo "editorial run missing"; exit 1
+          fi

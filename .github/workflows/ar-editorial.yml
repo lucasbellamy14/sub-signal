@@ -1,0 +1,74 @@
+# Sub Signal · editorial run delivery
+#
+# The editorial run (a scheduled Claude Code task) pushes a branch named
+# claude/ar-<week> containing draft profiles and the week's report with an
+# "## Editorial run" section. This workflow, which needs no credentials beyond
+# the repository's own token, then:
+#   - opens (or updates) a pull request for the branch when src/ changed
+#   - posts the editorial section as a comment on the week's "A&R week <week>:
+#     data run" issue (creating the issue if the data run never opened one)
+# GitHub emails the repository owner about both.
+name: A&R editorial delivery
+
+on:
+  push:
+    branches: ["claude/ar-*"]
+
+permissions:
+  contents: read
+  pull-requests: write
+  issues: write
+
+jobs:
+  deliver:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      GH_TOKEN: ${{ github.token }}
+      REPO: ${{ github.repository }}
+      BRANCH: ${{ github.ref_name }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Find the week and its editorial report
+        id: info
+        run: |
+          WEEK="${BRANCH#claude/ar-}"
+          echo "week=$WEEK" >> "$GITHUB_OUTPUT"
+          REPORT="data/ar/reports/$WEEK.md"
+          if [ -f "$REPORT" ] && grep -q '^## Editorial run' "$REPORT"; then
+            sed -n '/^## Editorial run/,$p' "$REPORT" > editorial.md
+          else
+            { echo "## Editorial run"; echo; echo "The branch \`$BRANCH\` was pushed without an editorial section in \`$REPORT\`."; } > editorial.md
+          fi
+          if git diff --quiet origin/main...HEAD -- src public; then echo "site_changed=false" >> "$GITHUB_OUTPUT"; else echo "site_changed=true" >> "$GITHUB_OUTPUT"; fi
+          N=$(git diff origin/main...HEAD -- src/data/artists.ts | grep -c '^+    draft: true' || true)
+          echo "drafts=$N" >> "$GITHUB_OUTPUT"
+
+      - name: Open or update the pull request
+        if: steps.info.outputs.site_changed == 'true'
+        run: |
+          TITLE="A&R ${{ steps.info.outputs.week }}: ${{ steps.info.outputs.drafts }} draft profile(s)"
+          { cat editorial.md; echo; echo "---"; echo "Drafts stay hidden until \`draft: true\` is removed. Preview locally with \`NEXT_PUBLIC_SHOW_DRAFTS=1 npm run dev\`."; } > pr.md
+          EXISTING=$(gh pr list --repo "$REPO" --head "$BRANCH" --state open --json number --jq '.[0].number')
+          if [ -n "$EXISTING" ]; then
+            gh pr edit "$EXISTING" --repo "$REPO" --title "$TITLE" --body-file pr.md
+            echo "updated PR #$EXISTING"
+          else
+            gh pr create --repo "$REPO" --head "$BRANCH" --base main --title "$TITLE" --body-file pr.md
+          fi
+
+      - name: Post the report on the week's issue
+        run: |
+          WEEK="${{ steps.info.outputs.week }}"
+          TITLE="A&R week $WEEK: data run"
+          PR=$(gh pr list --repo "$REPO" --head "$BRANCH" --state open --json url --jq '.[0].url')
+          { cat editorial.md; echo; [ -n "$PR" ] && echo "Pull request: $PR"; echo "Branch: $BRANCH"; } > comment.md
+          ISSUE=$(gh issue list --repo "$REPO" --search "\"$TITLE\" in:title" --state open --json number --jq '.[0].number')
+          if [ -z "$ISSUE" ]; then
+            ISSUE=$(gh issue create --repo "$REPO" --title "$TITLE" --body "Opened by the editorial delivery workflow; the data run did not open an issue for this week." | grep -o '[0-9]*$')
+          fi
+          gh issue comment "$ISSUE" --repo "$REPO" --body-file comment.md
+          echo "commented on issue #$ISSUE"

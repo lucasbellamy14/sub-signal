@@ -58,7 +58,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 6,
+          "total": 22.8,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "small"
@@ -68,7 +68,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "small",
-      "lastScore": 6,
+      "lastScore": 22.8,
       "lastCategory": "Early Signal"
     },
     "mb:c2a41668-983f-4f73-af00-45000a252811": {
@@ -159,7 +159,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 3,
+          "total": 11.4,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -169,7 +169,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "micro",
-      "lastScore": 3,
+      "lastScore": 11.4,
       "lastCategory": "Early Signal"
     },
     "mb:44001148-f49a-43d8-aa8a-63e2dee217cb": {
@@ -261,7 +261,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.5,
+          "total": 5.7,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "small"
@@ -271,7 +271,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "small",
-      "lastScore": 1.5,
+      "lastScore": 5.7,
       "lastCategory": "Early Signal"
     },
     "mb:380bcc00-83b4-495e-aea6-73f2f4c22b0f": {
@@ -331,7 +331,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 6,
+          "total": 22.8,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -341,7 +341,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "micro",
-      "lastScore": 6,
+      "lastScore": 22.8,
       "lastCategory": "Early Signal"
     },
     "mb:30ef765d-f7bb-4e7e-8972-13be03aa4f2c": {
@@ -364,7 +364,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 3,
+          "total": 11.4,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -374,7 +374,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "micro",
-      "lastScore": 3,
+      "lastScore": 11.4,
       "lastCategory": "Early Signal"
     },
     "mb:beaa1f19-19a0-4059-93bb-8f0c097f53fe": {
@@ -534,7 +534,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.5,
+          "total": 5.7,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -544,7 +544,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "micro",
-      "lastScore": 1.5,
+      "lastScore": 5.7,
       "lastCategory": "Early Signal"
     },
     "mb:e4013038-97aa-4233-92f4-4f3536fb31d2": {
@@ -881,7 +881,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 3,
+          "total": 11.4,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -891,7 +891,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "micro",
-      "lastScore": 3,
+      "lastScore": 11.4,
       "lastCategory": "Early Signal"
     },
     "mb:77127115-2daf-4ca8-81c2-c3acb4ce0c31": {
@@ -948,7 +948,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 3,
+          "total": 11.4,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -958,7 +958,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "micro",
-      "lastScore": 3,
+      "lastScore": 11.4,
       "lastCategory": "Early Signal"
     },
     "mb:c9e3089c-a7bc-4df5-80f9-9161eaa74a02": {
@@ -984,7 +984,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.5,
+          "total": 5.7,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -994,7 +994,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "micro",
-      "lastScore": 1.5,
+      "lastScore": 5.7,
       "lastCategory": "Early Signal"
     },
     "dz:165006527": {
@@ -1327,7 +1327,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.5,
+          "total": 5.7,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "small"
@@ -1337,7 +1337,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "small",
-      "lastScore": 1.5,
+      "lastScore": 5.7,
       "lastCategory": "Early Signal"
     },
     "mb:8319a659-b885-4b48-927b-3ce8580fb32b": {
@@ -1657,7 +1657,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.5,
+          "total": 5.7,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -1667,7 +1667,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "micro",
-      "lastScore": 1.5,
+      "lastScore": 5.7,
       "lastCategory": "Early Signal"
     },
     "mb:2e088ea8-b8f7-4df4-ac83-7024a50aabf1": {
@@ -1693,7 +1693,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.5,
+          "total": 5.7,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -1703,7 +1703,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "micro",
-      "lastScore": 1.5,
+      "lastScore": 5.7,
       "lastCategory": "Early Signal"
     },
     "mb:f9133869-f87c-459c-9aa7-2f176cda7e06": {
@@ -1733,7 +1733,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 11,
+          "total": 41.8,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -1742,7 +1742,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "established",
-      "lastScore": 11,
+      "lastScore": 41.8,
       "lastCategory": "Second Wave"
     },
     "mb:b16c0872-31a7-4db9-8569-0e3146fcecfc": {
@@ -1771,7 +1771,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 7.8,
+          "total": 29.6,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "small"
@@ -1780,7 +1780,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "small",
-      "lastScore": 7.8,
+      "lastScore": 29.6,
       "lastCategory": "Early Signal"
     },
     "mb:51e90731-08c0-4f60-89b6-5b78e5844de8": {
@@ -1811,7 +1811,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 8,
+          "total": 30.4,
           "coverage": 0.3,
           "category": "Rising Momentum",
           "band": "mid"
@@ -1820,7 +1820,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "mid",
-      "lastScore": 8,
+      "lastScore": 30.4,
       "lastCategory": "Rising Momentum"
     },
     "nm:karolgjudeline": {
@@ -1878,7 +1878,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 4.2,
+          "total": 16,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -1887,7 +1887,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "established",
-      "lastScore": 4.2,
+      "lastScore": 16,
       "lastCategory": "Second Wave"
     },
     "mb:2077273e-eaa1-4f49-903c-f286ededecb9": {
@@ -1917,7 +1917,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 4.2,
+          "total": 16,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -1927,7 +1927,7 @@
       "identity": "strong",
       "identityConflict": true,
       "band": "established",
-      "lastScore": 4.2,
+      "lastScore": 16,
       "lastCategory": "Second Wave"
     },
     "mb:f40856e6-079f-4a0a-916e-9e6a5e04f646": {
@@ -1951,12 +1951,12 @@
         "Pop"
       ],
       "area": "Bratislava",
-      "status": "candidate",
+      "status": "watchlist",
       "firstSeen": "2026-W44",
       "history": [
         {
           "week": "2026-W44",
-          "total": 17,
+          "total": 64.6,
           "coverage": 0.3,
           "category": "Breakout Track",
           "band": "small"
@@ -1965,8 +1965,9 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "small",
-      "lastScore": 17,
-      "lastCategory": "Breakout Track"
+      "lastScore": 64.6,
+      "lastCategory": "Breakout Track",
+      "watchSince": "2026-W44"
     },
     "mb:d42a5768-ada1-4fb6-85fd-f61aba6264e0": {
       "key": "mb:d42a5768-ada1-4fb6-85fd-f61aba6264e0",
@@ -1993,7 +1994,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -2002,7 +2003,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "mb:f27ec8db-af05-4f36-916e-3d57f91ecf5e": {
@@ -2034,7 +2035,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 4.2,
+          "total": 16,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -2043,7 +2044,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "established",
-      "lastScore": 4.2,
+      "lastScore": 16,
       "lastCategory": "Second Wave"
     },
     "mb:48262e82-db9f-4a92-b650-dfef979b73ec": {
@@ -2072,7 +2073,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -2081,7 +2082,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "mb:6925db17-f35e-42f3-a4eb-84ee6bf5d4b0": {
@@ -2110,7 +2111,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 15.2,
+          "total": 57.8,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -2119,7 +2120,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "established",
-      "lastScore": 15.2,
+      "lastScore": 57.8,
       "lastCategory": "Second Wave"
     },
     "nm:drakedontoliver": {
@@ -2176,7 +2177,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 15.2,
+          "total": 57.8,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -2185,7 +2186,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "established",
-      "lastScore": 15.2,
+      "lastScore": 57.8,
       "lastCategory": "Second Wave"
     },
     "mb:ee27b2d8-648c-4a9d-a68c-e55066959975": {
@@ -2214,7 +2215,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -2223,7 +2224,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "mb:15e0d608-0869-429b-898d-3d8db3ecedd5": {
@@ -2253,7 +2254,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 12,
+          "total": 45.6,
           "coverage": 0.3,
           "category": "Rising Momentum",
           "band": "mid"
@@ -2262,7 +2263,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "mid",
-      "lastScore": 12,
+      "lastScore": 45.6,
       "lastCategory": "Rising Momentum"
     },
     "mb:921e6603-320c-4dde-8611-3049332d2b61": {
@@ -2290,7 +2291,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 7.8,
+          "total": 29.6,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "small"
@@ -2299,7 +2300,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "small",
-      "lastScore": 7.8,
+      "lastScore": 29.6,
       "lastCategory": "Early Signal"
     },
     "mb:20244d07-534f-4eff-b4d4-930878889970": {
@@ -2325,12 +2326,12 @@
         "Country"
       ],
       "area": "West Reading",
-      "status": "candidate",
+      "status": "watchlist",
       "firstSeen": "2026-W44",
       "history": [
         {
           "week": "2026-W44",
-          "total": 16.2,
+          "total": 61.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -2339,8 +2340,9 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "established",
-      "lastScore": 16.2,
-      "lastCategory": "Second Wave"
+      "lastScore": 61.6,
+      "lastCategory": "Second Wave",
+      "watchSince": "2026-W44"
     },
     "mb:127d8614-0876-4408-886c-6f110b047a78": {
       "key": "mb:127d8614-0876-4408-886c-6f110b047a78",
@@ -2367,7 +2369,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -2376,7 +2378,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "mb:272989c8-5535-492d-a25c-9f58803e027f": {
@@ -2404,7 +2406,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -2413,7 +2415,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "mb:9167f739-da47-4495-9d63-9c13b40114ac": {
@@ -2441,7 +2443,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -2450,7 +2452,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "mb:ceb3f5b7-9f1a-430f-afbe-976fdcf30482": {
@@ -2479,7 +2481,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 5,
+          "total": 19,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -2488,7 +2490,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "established",
-      "lastScore": 5,
+      "lastScore": 19,
       "lastCategory": "Second Wave"
     },
     "mb:875203e1-8e58-4b86-8dcb-7190faf411c5": {
@@ -2517,7 +2519,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 4.2,
+          "total": 16,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -2526,7 +2528,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "established",
-      "lastScore": 4.2,
+      "lastScore": 16,
       "lastCategory": "Second Wave"
     },
     "mb:b1e26560-60e5-4236-bbdb-9aa5a8d5ee19": {
@@ -2556,7 +2558,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 4.2,
+          "total": 16,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -2565,7 +2567,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "established",
-      "lastScore": 4.2,
+      "lastScore": 16,
       "lastCategory": "Second Wave"
     },
     "mb:ea696191-407a-4bf2-8302-7e05f6c163c5": {
@@ -2595,7 +2597,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 6,
+          "total": 22.8,
           "coverage": 0.3,
           "category": "Rising Momentum",
           "band": "mid"
@@ -2604,7 +2606,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "mid",
-      "lastScore": 6,
+      "lastScore": 22.8,
       "lastCategory": "Rising Momentum"
     },
     "mb:e881b225-42b1-41d9-9d5e-eff55568585b": {
@@ -2631,7 +2633,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 9,
+          "total": 34.2,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -2640,7 +2642,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "micro",
-      "lastScore": 9,
+      "lastScore": 34.2,
       "lastCategory": "Early Signal"
     },
     "mb:d8fd8d9b-473b-4f06-83c8-869b1bb9de89": {
@@ -2667,7 +2669,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -2676,7 +2678,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "mb:36086094-c2a4-49b9-8572-0fbf12fc3409": {
@@ -2705,7 +2707,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 13,
+          "total": 49.4,
           "coverage": 0.3,
           "category": "Breakout Track",
           "band": "micro"
@@ -2715,7 +2717,7 @@
       "identity": "strong",
       "identityConflict": true,
       "band": "micro",
-      "lastScore": 13,
+      "lastScore": 49.4,
       "lastCategory": "Breakout Track"
     },
     "mb:a0e8a1b1-5f8f-475a-a253-17415c17d0ff": {
@@ -2745,7 +2747,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -2754,7 +2756,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "dz:1504061": {
@@ -2776,7 +2778,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 6,
+          "total": 22.8,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -2785,7 +2787,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "micro",
-      "lastScore": 6,
+      "lastScore": 22.8,
       "lastCategory": "Early Signal"
     },
     "mb:71d58182-aa37-4c04-b21a-efe46ea0f221": {
@@ -2812,7 +2814,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 4.2,
+          "total": 16,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -2821,7 +2823,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "established",
-      "lastScore": 4.2,
+      "lastScore": 16,
       "lastCategory": "Second Wave"
     },
     "mb:de22adae-f8ac-414f-b653-b0162611bd60": {
@@ -2850,7 +2852,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 5,
+          "total": 19,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -2859,7 +2861,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "established",
-      "lastScore": 5,
+      "lastScore": 19,
       "lastCategory": "Second Wave"
     },
     "mb:381086ea-f511-4aba-bdf9-71c753dc5077": {
@@ -2888,7 +2890,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -2897,7 +2899,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "mb:95e1ead9-4d31-4808-a7ac-32c3614c116b": {
@@ -2928,7 +2930,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 4.2,
+          "total": 16,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -2937,7 +2939,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "established",
-      "lastScore": 4.2,
+      "lastScore": 16,
       "lastCategory": "Second Wave"
     },
     "mb:cb3d3e49-bf08-4cdb-bfa8-4dc7c458cea1": {
@@ -2965,7 +2967,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 10,
+          "total": 38,
           "coverage": 0.3,
           "category": "Breakout Track",
           "band": "micro"
@@ -2975,7 +2977,7 @@
       "identity": "strong",
       "identityConflict": true,
       "band": "micro",
-      "lastScore": 10,
+      "lastScore": 38,
       "lastCategory": "Breakout Track"
     },
     "mb:89aa5ecb-59ad-46f5-b3eb-2d424e941f19": {
@@ -3003,7 +3005,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -3012,7 +3014,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "mb:cf59723d-febb-4481-9b9b-3cb2c7f2a7e6": {
@@ -3040,7 +3042,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 7.8,
+          "total": 29.6,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "small"
@@ -3049,7 +3051,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "small",
-      "lastScore": 7.8,
+      "lastScore": 29.6,
       "lastCategory": "Early Signal"
     },
     "mb:a2a3f910-b188-43e7-81d0-f1ac2a2f3e12": {
@@ -3078,7 +3080,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 6,
+          "total": 22.8,
           "coverage": 0.3,
           "category": "Rising Momentum",
           "band": "mid"
@@ -3087,7 +3089,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "mid",
-      "lastScore": 6,
+      "lastScore": 22.8,
       "lastCategory": "Rising Momentum"
     },
     "mb:97b8d224-5660-419c-8dff-4b3bf0c33983": {
@@ -3116,7 +3118,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 4.2,
+          "total": 16,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -3126,7 +3128,7 @@
       "identity": "strong",
       "identityConflict": true,
       "band": "established",
-      "lastScore": 4.2,
+      "lastScore": 16,
       "lastCategory": "Second Wave"
     },
     "mb:a0723a3c-4135-438e-85c5-012712144ede": {
@@ -3155,7 +3157,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 4.2,
+          "total": 16,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -3164,7 +3166,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "established",
-      "lastScore": 4.2,
+      "lastScore": 16,
       "lastCategory": "Second Wave"
     },
     "mb:c20ee61f-071f-4e65-9c81-45ee931a54ce": {
@@ -3195,7 +3197,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 4.2,
+          "total": 16,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -3204,7 +3206,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "established",
-      "lastScore": 4.2,
+      "lastScore": 16,
       "lastCategory": "Second Wave"
     },
     "mb:081a2d60-9791-4e05-a075-f1890355eeee": {
@@ -3233,7 +3235,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -3242,7 +3244,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "mb:af9c073c-f230-4527-8fcd-2338fe1e129e": {
@@ -3269,7 +3271,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 7.8,
+          "total": 29.6,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "small"
@@ -3278,7 +3280,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "small",
-      "lastScore": 7.8,
+      "lastScore": 29.6,
       "lastCategory": "Early Signal"
     },
     "mb:e4a51f17-a57b-47b1-b37b-f552d0f8e9e6": {
@@ -3307,7 +3309,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -3316,7 +3318,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "mb:5ec1ecc6-4535-4911-a27a-e26343f4a189": {
@@ -3344,7 +3346,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -3353,7 +3355,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "mb:9e6a6a2f-f696-4cc0-87f1-e4f712e46802": {
@@ -3381,7 +3383,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 8,
+          "total": 30.4,
           "coverage": 0.3,
           "category": "Rising Momentum",
           "band": "mid"
@@ -3390,7 +3392,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "mid",
-      "lastScore": 8,
+      "lastScore": 30.4,
       "lastCategory": "Rising Momentum"
     },
     "mb:d02dd67e-f655-4600-bc47-f789f59e7367": {
@@ -3420,7 +3422,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 4.2,
+          "total": 16,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -3429,7 +3431,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "established",
-      "lastScore": 4.2,
+      "lastScore": 16,
       "lastCategory": "Second Wave"
     },
     "mb:319f70f9-7ca3-4fa8-bcda-c06ba3f9ba30": {
@@ -3454,7 +3456,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 8,
+          "total": 30.4,
           "coverage": 0.3,
           "category": "Breakout Track",
           "band": "small"
@@ -3463,7 +3465,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "small",
-      "lastScore": 8,
+      "lastScore": 30.4,
       "lastCategory": "Breakout Track"
     },
     "mb:7ba8efd8-9cef-49dd-8399-3e90dac43fa6": {
@@ -3490,7 +3492,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 6,
+          "total": 22.8,
           "coverage": 0.3,
           "category": "Rising Momentum",
           "band": "mid"
@@ -3499,7 +3501,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "mid",
-      "lastScore": 6,
+      "lastScore": 22.8,
       "lastCategory": "Rising Momentum"
     },
     "mb:f4fdbb4c-e4b7-47a0-b83b-d91bbfcfa387": {
@@ -3529,7 +3531,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 4.2,
+          "total": 16,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -3538,7 +3540,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "established",
-      "lastScore": 4.2,
+      "lastScore": 16,
       "lastCategory": "Second Wave"
     },
     "mb:3465eadc-85d2-4517-a37a-7da41f38da2e": {
@@ -3566,7 +3568,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 13,
+          "total": 49.4,
           "coverage": 0.3,
           "category": "Breakout Track",
           "band": "micro"
@@ -3575,7 +3577,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "micro",
-      "lastScore": 13,
+      "lastScore": 49.4,
       "lastCategory": "Breakout Track"
     },
     "mb:f06b96ed-0e3f-4182-ab26-df6748cba5f3": {
@@ -3596,7 +3598,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 5,
+          "total": 19,
           "coverage": 0.3,
           "category": "Rising Momentum",
           "band": "mid"
@@ -3605,7 +3607,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "mid",
-      "lastScore": 5,
+      "lastScore": 19,
       "lastCategory": "Rising Momentum"
     },
     "mb:a2c37c30-8945-49b8-9d35-128ba707f284": {
@@ -3632,7 +3634,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 11,
+          "total": 41.8,
           "coverage": 0.3,
           "category": "Breakout Track",
           "band": "small"
@@ -3641,7 +3643,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "small",
-      "lastScore": 11,
+      "lastScore": 41.8,
       "lastCategory": "Breakout Track"
     },
     "mb:82cc5b8b-22e8-48e3-9f97-6ab39ac316d6": {
@@ -3670,7 +3672,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 5,
+          "total": 19,
           "coverage": 0.3,
           "category": "Rising Momentum",
           "band": "mid"
@@ -3679,7 +3681,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "mid",
-      "lastScore": 5,
+      "lastScore": 19,
       "lastCategory": "Rising Momentum"
     },
     "mb:7e987fc0-7606-4637-8eb1-8c9c3e57a65c": {
@@ -3705,7 +3707,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 12,
+          "total": 45.6,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -3714,7 +3716,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "micro",
-      "lastScore": 12,
+      "lastScore": 45.6,
       "lastCategory": "Early Signal"
     },
     "mb:8f7e6ae6-1292-406c-b75a-4d3437ec6187": {
@@ -3735,7 +3737,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 9,
+          "total": 34.2,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -3745,7 +3747,7 @@
       "identity": "strong",
       "identityConflict": true,
       "band": "micro",
-      "lastScore": 9,
+      "lastScore": 34.2,
       "lastCategory": "Early Signal"
     },
     "mb:ca9766a0-1c30-43e6-a213-bac1334efc4a": {
@@ -3769,7 +3771,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 9,
+          "total": 34.2,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -3778,7 +3780,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "micro",
-      "lastScore": 9,
+      "lastScore": 34.2,
       "lastCategory": "Early Signal"
     },
     "mb:9ccaca30-60aa-4890-ae6c-ab55225ee274": {
@@ -3805,7 +3807,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 8,
+          "total": 30.4,
           "coverage": 0.3,
           "category": "Breakout Track",
           "band": "small"
@@ -3814,7 +3816,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "small",
-      "lastScore": 8,
+      "lastScore": 30.4,
       "lastCategory": "Breakout Track"
     },
     "dz:82310622": {
@@ -3832,7 +3834,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 6,
+          "total": 22.8,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -3841,7 +3843,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "micro",
-      "lastScore": 6,
+      "lastScore": 22.8,
       "lastCategory": "Early Signal"
     },
     "mb:87d59d19-2615-4ada-853f-d552bf3b56e5": {
@@ -3867,7 +3869,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 10,
+          "total": 38,
           "coverage": 0.3,
           "category": "Breakout Track",
           "band": "micro"
@@ -3877,7 +3879,7 @@
       "identity": "strong",
       "identityConflict": true,
       "band": "micro",
-      "lastScore": 10,
+      "lastScore": 38,
       "lastCategory": "Breakout Track"
     },
     "mb:1c4b484c-746c-48b8-88b2-40f09e15159d": {
@@ -3903,7 +3905,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 4.8,
+          "total": 18.2,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "small"
@@ -3912,7 +3914,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "small",
-      "lastScore": 4.8,
+      "lastScore": 18.2,
       "lastCategory": "Early Signal"
     },
     "mb:b361878c-cdaa-4276-9a44-2a705df1e315": {
@@ -3936,7 +3938,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 10,
+          "total": 38,
           "coverage": 0.3,
           "category": "Breakout Track",
           "band": "micro"
@@ -3945,7 +3947,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "micro",
-      "lastScore": 10,
+      "lastScore": 38,
       "lastCategory": "Breakout Track"
     },
     "mb:7eb1ce54-a355-41f9-8d68-e018b096d427": {
@@ -3975,7 +3977,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 15.2,
+          "total": 57.8,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -3984,7 +3986,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "established",
-      "lastScore": 15.2,
+      "lastScore": 57.8,
       "lastCategory": "Second Wave"
     },
     "mb:925c7673-0e85-410f-b7e4-d9705a7aa619": {
@@ -4013,7 +4015,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 6,
+          "total": 22.8,
           "coverage": 0.3,
           "category": "Rising Momentum",
           "band": "mid"
@@ -4022,7 +4024,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "mid",
-      "lastScore": 6,
+      "lastScore": 22.8,
       "lastCategory": "Rising Momentum"
     },
     "mb:afb6cc6d-a060-4f5e-bc3a-00d4b6832e41": {
@@ -4046,12 +4048,12 @@
         "Pop"
       ],
       "area": "Palo Alto",
-      "status": "candidate",
+      "status": "watchlist",
       "firstSeen": "2026-W44",
       "history": [
         {
           "week": "2026-W44",
-          "total": 17,
+          "total": 64.6,
           "coverage": 0.3,
           "category": "Breakout Track",
           "band": "small"
@@ -4060,8 +4062,9 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "small",
-      "lastScore": 17,
-      "lastCategory": "Breakout Track"
+      "lastScore": 64.6,
+      "lastCategory": "Breakout Track",
+      "watchSince": "2026-W44"
     },
     "mb:078813f4-ddb7-489b-8354-38adf86db227": {
       "key": "mb:078813f4-ddb7-489b-8354-38adf86db227",
@@ -4081,7 +4084,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 9,
+          "total": 34.2,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -4090,7 +4093,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "micro",
-      "lastScore": 9,
+      "lastScore": 34.2,
       "lastCategory": "Early Signal"
     },
     "mb:f23ef341-33bd-47c1-b83c-846a78581f05": {
@@ -4119,7 +4122,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 4.2,
+          "total": 16,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -4128,7 +4131,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "established",
-      "lastScore": 4.2,
+      "lastScore": 16,
       "lastCategory": "Second Wave"
     },
     "mb:e8117b20-07df-48c3-840c-e192e0152533": {
@@ -4149,7 +4152,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 10,
+          "total": 38,
           "coverage": 0.3,
           "category": "Breakout Track",
           "band": "micro"
@@ -4158,7 +4161,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "micro",
-      "lastScore": 10,
+      "lastScore": 38,
       "lastCategory": "Breakout Track"
     },
     "mb:396a9525-0994-4542-b480-c4587feeb476": {
@@ -4188,7 +4191,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 10.2,
+          "total": 38.8,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -4197,7 +4200,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "established",
-      "lastScore": 10.2,
+      "lastScore": 38.8,
       "lastCategory": "Second Wave"
     },
     "mb:b299e6fc-a7cb-4c7d-a798-0692b60b9e48": {
@@ -4225,7 +4228,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 8,
+          "total": 30.4,
           "coverage": 0.3,
           "category": "Breakout Track",
           "band": "small"
@@ -4234,7 +4237,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "small",
-      "lastScore": 8,
+      "lastScore": 30.4,
       "lastCategory": "Breakout Track"
     },
     "dz:230": {
@@ -4254,7 +4257,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 10.2,
+          "total": 38.8,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -4263,7 +4266,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "established",
-      "lastScore": 10.2,
+      "lastScore": 38.8,
       "lastCategory": "Second Wave"
     },
     "mb:866efe9a-5898-415d-98ae-062d5d0debd3": {
@@ -4291,7 +4294,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 10,
+          "total": 38,
           "coverage": 0.3,
           "category": "Breakout Track",
           "band": "micro"
@@ -4300,7 +4303,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "micro",
-      "lastScore": 10,
+      "lastScore": 38,
       "lastCategory": "Breakout Track"
     },
     "mb:fd87acc7-e0a0-4a45-bc2a-d2ab5c10be68": {
@@ -4326,12 +4329,12 @@
         "Rock"
       ],
       "area": "Dublin",
-      "status": "candidate",
+      "status": "watchlist",
       "firstSeen": "2026-W44",
       "history": [
         {
           "week": "2026-W44",
-          "total": 19,
+          "total": 72.2,
           "coverage": 0.3,
           "category": "Rising Momentum",
           "band": "mid"
@@ -4340,8 +4343,9 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "mid",
-      "lastScore": 19,
-      "lastCategory": "Rising Momentum"
+      "lastScore": 72.2,
+      "lastCategory": "Rising Momentum",
+      "watchSince": "2026-W44"
     },
     "mb:e520459c-dff4-491d-a6e4-c97be35e0044": {
       "key": "mb:e520459c-dff4-491d-a6e4-c97be35e0044",
@@ -4370,7 +4374,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 4.2,
+          "total": 16,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -4379,7 +4383,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "established",
-      "lastScore": 4.2,
+      "lastScore": 16,
       "lastCategory": "Second Wave"
     },
     "mb:85d76093-9865-4605-97fa-8c910929d366": {
@@ -4408,7 +4412,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 10.2,
+          "total": 38.8,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -4418,7 +4422,7 @@
       "identity": "strong",
       "identityConflict": true,
       "band": "established",
-      "lastScore": 10.2,
+      "lastScore": 38.8,
       "lastCategory": "Second Wave"
     },
     "mb:d8c85c0e-ad88-47a7-a1df-b70608c2f52f": {
@@ -4446,7 +4450,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 7.8,
+          "total": 29.6,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "small"
@@ -4455,7 +4459,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "small",
-      "lastScore": 7.8,
+      "lastScore": 29.6,
       "lastCategory": "Early Signal"
     },
     "mb:e665ce26-6ce9-4c42-8f6a-7a361a0ba328": {
@@ -4482,7 +4486,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -4491,7 +4495,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "mb:355cc194-b8db-4af2-8678-c7ad54213f4b": {
@@ -4520,7 +4524,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 3,
+          "total": 11.4,
           "coverage": 0.3,
           "category": "Rising Momentum",
           "band": "mid"
@@ -4530,7 +4534,7 @@
       "identity": "strong",
       "identityConflict": true,
       "band": "mid",
-      "lastScore": 3,
+      "lastScore": 11.4,
       "lastCategory": "Rising Momentum"
     },
     "mb:1882fe91-cdd9-49c9-9956-8e06a3810bd4": {
@@ -4559,7 +4563,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 4.2,
+          "total": 16,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -4568,7 +4572,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "established",
-      "lastScore": 4.2,
+      "lastScore": 16,
       "lastCategory": "Second Wave"
     },
     "mb:73e5e69d-3554-40d8-8516-00cb38737a1c": {
@@ -4600,7 +4604,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 4.2,
+          "total": 16,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -4609,7 +4613,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "established",
-      "lastScore": 4.2,
+      "lastScore": 16,
       "lastCategory": "Second Wave"
     },
     "mb:8ba17cf6-bec2-4ae4-9820-b1cda47adc08": {
@@ -4637,7 +4641,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 5,
+          "total": 19,
           "coverage": 0.3,
           "category": "Rising Momentum",
           "band": "mid"
@@ -4647,7 +4651,7 @@
       "identity": "strong",
       "identityConflict": true,
       "band": "mid",
-      "lastScore": 5,
+      "lastScore": 19,
       "lastCategory": "Rising Momentum"
     },
     "mb:c9cd225b-4883-428e-82c2-73e0b6282fb6": {
@@ -4675,7 +4679,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -4684,7 +4688,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "mb:5b24fbab-c58f-4c37-a59d-ab232e2d98c4": {
@@ -4717,7 +4721,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 4.2,
+          "total": 16,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -4726,7 +4730,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "established",
-      "lastScore": 4.2,
+      "lastScore": 16,
       "lastCategory": "Second Wave"
     },
     "mb:6b8275bf-566f-4da0-9472-6e4e3aa5441e": {
@@ -4754,7 +4758,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 10,
+          "total": 38,
           "coverage": 0.3,
           "category": "Breakout Track",
           "band": "micro"
@@ -4764,7 +4768,7 @@
       "identity": "strong",
       "identityConflict": true,
       "band": "micro",
-      "lastScore": 10,
+      "lastScore": 38,
       "lastCategory": "Breakout Track"
     },
     "mb:d8b0d6bd-91a8-4b8f-b943-9a791eed288b": {
@@ -4790,7 +4794,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 5,
+          "total": 19,
           "coverage": 0.3,
           "category": "Rising Momentum",
           "band": "mid"
@@ -4799,7 +4803,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "mid",
-      "lastScore": 5,
+      "lastScore": 19,
       "lastCategory": "Rising Momentum"
     },
     "mb:89ad4ac3-39f7-470e-963a-56509c546377": {
@@ -4824,7 +4828,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 12,
+          "total": 45.6,
           "coverage": 0.3,
           "category": "Rising Momentum",
           "band": "mid"
@@ -4833,7 +4837,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "mid",
-      "lastScore": 12,
+      "lastScore": 45.6,
       "lastCategory": "Rising Momentum"
     },
     "mb:61ee1029-4f35-43ce-83dd-2eb8d4eef85e": {
@@ -4857,7 +4861,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 3,
+          "total": 11.4,
           "coverage": 0.3,
           "category": "Rising Momentum",
           "band": "mid"
@@ -4866,7 +4870,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "mid",
-      "lastScore": 3,
+      "lastScore": 11.4,
       "lastCategory": "Rising Momentum"
     },
     "mb:75a72702-a5ef-4513-bca5-c5b944903546": {
@@ -4895,7 +4899,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 11,
+          "total": 41.8,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -4905,7 +4909,7 @@
       "identity": "strong",
       "identityConflict": true,
       "band": "established",
-      "lastScore": 11,
+      "lastScore": 41.8,
       "lastCategory": "Second Wave"
     },
     "mb:6b128dd7-e998-4edb-a4f5-400fef190445": {
@@ -4935,7 +4939,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 8,
+          "total": 30.4,
           "coverage": 0.3,
           "category": "Rising Momentum",
           "band": "mid"
@@ -4945,7 +4949,7 @@
       "identity": "strong",
       "identityConflict": true,
       "band": "mid",
-      "lastScore": 8,
+      "lastScore": 30.4,
       "lastCategory": "Rising Momentum"
     },
     "mb:c07f0676-9143-4217-8a9f-4c26bd636f13": {
@@ -4975,7 +4979,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 10.2,
+          "total": 38.8,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -4984,7 +4988,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "established",
-      "lastScore": 10.2,
+      "lastScore": 38.8,
       "lastCategory": "Second Wave"
     },
     "mb:afb680f2-b6eb-4cd7-a70b-a63b25c763d5": {
@@ -5014,7 +5018,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 4.2,
+          "total": 16,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -5023,7 +5027,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "established",
-      "lastScore": 4.2,
+      "lastScore": 16,
       "lastCategory": "Second Wave"
     },
     "mb:0d79fe8e-ba27-4859-bb8c-2f255f346853": {
@@ -5053,7 +5057,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 10.2,
+          "total": 38.8,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -5062,7 +5066,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "established",
-      "lastScore": 10.2,
+      "lastScore": 38.8,
       "lastCategory": "Second Wave"
     },
     "mb:e636b15f-00c5-45fd-9c33-845a08c8f92d": {
@@ -5091,7 +5095,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 13.8,
+          "total": 52.4,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "small"
@@ -5100,7 +5104,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "small",
-      "lastScore": 13.8,
+      "lastScore": 52.4,
       "lastCategory": "Early Signal"
     },
     "mb:c234fa42-e6a6-443e-937e-2f4b073538a3": {
@@ -5130,7 +5134,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 7.2,
+          "total": 27.4,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -5139,7 +5143,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "established",
-      "lastScore": 7.2,
+      "lastScore": 27.4,
       "lastCategory": "Second Wave"
     },
     "mb:f4abc0b5-3f7a-4eff-8f78-ac078dbce533": {
@@ -5168,7 +5172,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 4.2,
+          "total": 16,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -5177,7 +5181,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "established",
-      "lastScore": 4.2,
+      "lastScore": 16,
       "lastCategory": "Second Wave"
     },
     "mb:96855c21-b832-4366-ba12-0d2330c36a86": {
@@ -5202,12 +5206,12 @@
         "Alternative"
       ],
       "area": "Pasadena",
-      "status": "candidate",
+      "status": "watchlist",
       "firstSeen": "2026-W44",
       "history": [
         {
           "week": "2026-W44",
-          "total": 20,
+          "total": 76,
           "coverage": 0.3,
           "category": "Rising Momentum",
           "band": "mid"
@@ -5216,8 +5220,9 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "mid",
-      "lastScore": 20,
-      "lastCategory": "Rising Momentum"
+      "lastScore": 76,
+      "lastCategory": "Rising Momentum",
+      "watchSince": "2026-W44"
     },
     "mb:081e71fb-4291-4a0c-a0f7-52b6c9ea8b31": {
       "key": "mb:081e71fb-4291-4a0c-a0f7-52b6c9ea8b31",
@@ -5244,7 +5249,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 11,
+          "total": 41.8,
           "coverage": 0.3,
           "category": "Breakout Track",
           "band": "small"
@@ -5253,7 +5258,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "small",
-      "lastScore": 11,
+      "lastScore": 41.8,
       "lastCategory": "Breakout Track"
     },
     "mb:3478a5d1-bd96-4584-aa54-4d6e0a329658": {
@@ -5283,7 +5288,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 12,
+          "total": 45.6,
           "coverage": 0.3,
           "category": "Rising Momentum",
           "band": "mid"
@@ -5292,7 +5297,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "mid",
-      "lastScore": 12,
+      "lastScore": 45.6,
       "lastCategory": "Rising Momentum"
     },
     "mb:eead7215-59da-45f5-b719-62f349ef4133": {
@@ -5321,7 +5326,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 9,
+          "total": 34.2,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -5331,7 +5336,7 @@
       "identity": "strong",
       "identityConflict": true,
       "band": "micro",
-      "lastScore": 9,
+      "lastScore": 34.2,
       "lastCategory": "Early Signal"
     },
     "mb:502cf908-9921-48bc-bf0e-265c881c0156": {
@@ -5362,7 +5367,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 6,
+          "total": 22.8,
           "coverage": 0.3,
           "category": "Rising Momentum",
           "band": "mid"
@@ -5371,7 +5376,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "mid",
-      "lastScore": 6,
+      "lastScore": 22.8,
       "lastCategory": "Rising Momentum"
     },
     "mb:22bec108-cd77-4b50-a9dd-449239909bf9": {
@@ -5394,7 +5399,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 9,
+          "total": 34.2,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -5403,7 +5408,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "micro",
-      "lastScore": 9,
+      "lastScore": 34.2,
       "lastCategory": "Early Signal"
     },
     "mb:609a2ea3-f446-4e31-8eef-9f7591afb55a": {
@@ -5432,7 +5437,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 6,
+          "total": 22.8,
           "coverage": 0.3,
           "category": "Rising Momentum",
           "band": "mid"
@@ -5441,7 +5446,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "mid",
-      "lastScore": 6,
+      "lastScore": 22.8,
       "lastCategory": "Rising Momentum"
     },
     "dz:14397499": {
@@ -5461,7 +5466,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 6,
+          "total": 22.8,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -5470,7 +5475,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "micro",
-      "lastScore": 6,
+      "lastScore": 22.8,
       "lastCategory": "Early Signal"
     },
     "mb:bf24ca37-25f4-4e34-9aec-460b94364cfc": {
@@ -5499,7 +5504,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -5508,7 +5513,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "mb:39ab1aed-75e0-4140-bd47-540276886b60": {
@@ -5541,7 +5546,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 9,
+          "total": 34.2,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -5551,7 +5556,7 @@
       "identity": "strong",
       "identityConflict": true,
       "band": "micro",
-      "lastScore": 9,
+      "lastScore": 34.2,
       "lastCategory": "Early Signal"
     },
     "mb:8be564c3-dfba-440b-af8c-4ffbceeef45e": {
@@ -5580,7 +5585,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 9,
+          "total": 34.2,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -5590,7 +5595,7 @@
       "identity": "strong",
       "identityConflict": true,
       "band": "micro",
-      "lastScore": 9,
+      "lastScore": 34.2,
       "lastCategory": "Early Signal"
     },
     "dz:65791": {
@@ -5610,7 +5615,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 4.2,
+          "total": 16,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -5619,7 +5624,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "established",
-      "lastScore": 4.2,
+      "lastScore": 16,
       "lastCategory": "Second Wave"
     },
     "mb:4c3cffca-37b7-4ecd-9320-e6dcc2cb837a": {
@@ -5644,7 +5649,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 6,
+          "total": 22.8,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -5654,7 +5659,7 @@
       "identity": "strong",
       "identityConflict": true,
       "band": "micro",
-      "lastScore": 6,
+      "lastScore": 22.8,
       "lastCategory": "Early Signal"
     },
     "mb:dc7fd424-6ba4-45cc-b407-7716c7bb3605": {
@@ -5681,7 +5686,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 6,
+          "total": 22.8,
           "coverage": 0.3,
           "category": "Rising Momentum",
           "band": "mid"
@@ -5690,7 +5695,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "mid",
-      "lastScore": 6,
+      "lastScore": 22.8,
       "lastCategory": "Rising Momentum"
     },
     "mb:5f3be62e-d166-453e-a3ea-07b9227fafae": {
@@ -5715,7 +5720,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 4.8,
+          "total": 18.2,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "small"
@@ -5724,7 +5729,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "small",
-      "lastScore": 4.8,
+      "lastScore": 18.2,
       "lastCategory": "Early Signal"
     },
     "mb:bd13909f-1c29-4c27-a874-d4aaf27c5b1a": {
@@ -5756,7 +5761,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 10.2,
+          "total": 38.8,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -5765,7 +5770,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "established",
-      "lastScore": 10.2,
+      "lastScore": 38.8,
       "lastCategory": "Second Wave"
     },
     "mb:134e6410-6954-45d1-bd4a-0f2d2ad5471d": {
@@ -5795,7 +5800,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 4.2,
+          "total": 16,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -5804,7 +5809,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "established",
-      "lastScore": 4.2,
+      "lastScore": 16,
       "lastCategory": "Second Wave"
     },
     "mb:b8a7c51f-362c-4dcb-a259-bc6e0095f0a6": {
@@ -5834,7 +5839,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 10.2,
+          "total": 38.8,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -5844,7 +5849,7 @@
       "identity": "strong",
       "identityConflict": true,
       "band": "established",
-      "lastScore": 10.2,
+      "lastScore": 38.8,
       "lastCategory": "Second Wave"
     },
     "mb:6f1a58bf-9b1b-49cf-a44a-6cefad7ae04f": {
@@ -5875,7 +5880,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 10.2,
+          "total": 38.8,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -5885,7 +5890,7 @@
       "identity": "strong",
       "identityConflict": true,
       "band": "established",
-      "lastScore": 10.2,
+      "lastScore": 38.8,
       "lastCategory": "Second Wave"
     },
     "mb:62b914a7-d775-4bb4-bb5e-d46e7df115b5": {
@@ -5914,7 +5919,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 4.2,
+          "total": 16,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -5923,7 +5928,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "established",
-      "lastScore": 4.2,
+      "lastScore": 16,
       "lastCategory": "Second Wave"
     },
     "mb:f7441bc7-d7de-4813-a2fc-31a4033d396d": {
@@ -5952,7 +5957,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 4.2,
+          "total": 16,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -5962,7 +5967,7 @@
       "identity": "strong",
       "identityConflict": true,
       "band": "established",
-      "lastScore": 4.2,
+      "lastScore": 16,
       "lastCategory": "Second Wave"
     },
     "mb:e0140a67-e4d1-4f13-8a01-364355bee46e": {
@@ -5995,7 +6000,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 4.2,
+          "total": 16,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -6004,7 +6009,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "established",
-      "lastScore": 4.2,
+      "lastScore": 16,
       "lastCategory": "Second Wave"
     },
     "mb:f4d5cc07-3bc9-4836-9b15-88a08359bc63": {
@@ -6037,7 +6042,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 4.2,
+          "total": 16,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -6046,7 +6051,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "established",
-      "lastScore": 4.2,
+      "lastScore": 16,
       "lastCategory": "Second Wave"
     },
     "dz:218804405": {
@@ -6066,7 +6071,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 10,
+          "total": 38,
           "coverage": 0.3,
           "category": "Breakout Track",
           "band": "micro"
@@ -6075,7 +6080,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "micro",
-      "lastScore": 10,
+      "lastScore": 38,
       "lastCategory": "Breakout Track"
     },
     "mb:acd1a23c-eba0-4d76-8b92-109d404d5531": {
@@ -6100,7 +6105,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 7.8,
+          "total": 29.6,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "small"
@@ -6109,7 +6114,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "small",
-      "lastScore": 7.8,
+      "lastScore": 29.6,
       "lastCategory": "Early Signal"
     },
     "mb:80bd07ef-4e48-4e2c-b5ad-e590e3879cf7": {
@@ -6134,7 +6139,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 7.8,
+          "total": 29.6,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "small"
@@ -6143,7 +6148,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "small",
-      "lastScore": 7.8,
+      "lastScore": 29.6,
       "lastCategory": "Early Signal"
     },
     "mb:ada7a83c-e3e1-40f1-93f9-3e73dbc9298a": {
@@ -6173,7 +6178,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 4.2,
+          "total": 16,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -6182,7 +6187,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "established",
-      "lastScore": 4.2,
+      "lastScore": 16,
       "lastCategory": "Second Wave"
     },
     "mb:cc197bad-dc9c-440d-a5b5-d52ba2e14234": {
@@ -6214,7 +6219,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 4.2,
+          "total": 16,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -6224,7 +6229,7 @@
       "identity": "strong",
       "identityConflict": true,
       "band": "established",
-      "lastScore": 4.2,
+      "lastScore": 16,
       "lastCategory": "Second Wave"
     },
     "mb:db8fad3a-e131-47a1-8782-c2ee93708cdd": {
@@ -6255,7 +6260,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -6264,7 +6269,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "mb:63aa26c3-d59b-4da4-84ac-716b54f1ef4d": {
@@ -6295,7 +6300,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 4.2,
+          "total": 16,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -6304,7 +6309,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "established",
-      "lastScore": 4.2,
+      "lastScore": 16,
       "lastCategory": "Second Wave"
     },
     "mb:35feae82-8b2c-4f8f-ae7a-af5662848947": {
@@ -6334,7 +6339,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 4.2,
+          "total": 16,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -6343,7 +6348,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "established",
-      "lastScore": 4.2,
+      "lastScore": 16,
       "lastCategory": "Second Wave"
     },
     "mb:a74b1b7f-71a5-4011-9441-d0b5e4122711": {
@@ -6374,7 +6379,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 10.2,
+          "total": 38.8,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -6384,7 +6389,7 @@
       "identity": "strong",
       "identityConflict": true,
       "band": "established",
-      "lastScore": 10.2,
+      "lastScore": 38.8,
       "lastCategory": "Second Wave"
     },
     "mb:abbf7d85-9a7f-4a6c-80bd-bf71f2c7d520": {
@@ -6413,7 +6418,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 9,
+          "total": 34.2,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -6423,7 +6428,7 @@
       "identity": "strong",
       "identityConflict": true,
       "band": "micro",
-      "lastScore": 9,
+      "lastScore": 34.2,
       "lastCategory": "Early Signal"
     },
     "mb:980604d4-fc2b-4778-8fc5-a7d28e52ab85": {
@@ -6446,7 +6451,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 6,
+          "total": 22.8,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -6455,7 +6460,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "micro",
-      "lastScore": 6,
+      "lastScore": 22.8,
       "lastCategory": "Early Signal"
     },
     "mb:b643c24d-4cd6-4531-88bc-62b39ce43ee1": {
@@ -6482,7 +6487,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 4.8,
+          "total": 18.2,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "small"
@@ -6491,7 +6496,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "small",
-      "lastScore": 4.8,
+      "lastScore": 18.2,
       "lastCategory": "Early Signal"
     },
     "mb:526aab94-697f-44a9-b630-41d1c0505953": {
@@ -6520,7 +6525,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -6529,7 +6534,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "mb:c98d40fd-f6cf-4b26-883e-eaa515ee2851": {
@@ -6559,7 +6564,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -6568,7 +6573,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "mb:11f570ff-44d9-4e9c-8812-e6d56103c5c1": {
@@ -6598,7 +6603,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 13,
+          "total": 49.4,
           "coverage": 0.3,
           "category": "Breakout Track",
           "band": "micro"
@@ -6607,7 +6612,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "micro",
-      "lastScore": 13,
+      "lastScore": 49.4,
       "lastCategory": "Breakout Track"
     },
     "mb:d1079f38-4f47-484f-8aa2-975c3ff52904": {
@@ -6628,7 +6633,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 4.8,
+          "total": 18.2,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "small"
@@ -6637,7 +6642,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "small",
-      "lastScore": 4.8,
+      "lastScore": 18.2,
       "lastCategory": "Early Signal"
     },
     "mb:6f9d4b59-e6bb-405b-97b8-accdb02b820f": {
@@ -6661,7 +6666,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 9,
+          "total": 34.2,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -6670,7 +6675,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "micro",
-      "lastScore": 9,
+      "lastScore": 34.2,
       "lastCategory": "Early Signal"
     },
     "mb:dfe9a7c4-8cf2-47f4-9dcb-d233c2b86ec3": {
@@ -6699,7 +6704,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 7.2,
+          "total": 27.4,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -6708,7 +6713,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "established",
-      "lastScore": 7.2,
+      "lastScore": 27.4,
       "lastCategory": "Second Wave"
     },
     "mb:3e7f4b20-2023-495a-90e7-1b055428cbd6": {
@@ -6731,7 +6736,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 13,
+          "total": 49.4,
           "coverage": 0.3,
           "category": "Breakout Track",
           "band": "micro"
@@ -6740,7 +6745,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "micro",
-      "lastScore": 13,
+      "lastScore": 49.4,
       "lastCategory": "Breakout Track"
     },
     "mb:760bc4f0-e794-46ae-acdb-8f1ca3ba8aec": {
@@ -6762,7 +6767,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 10,
+          "total": 38,
           "coverage": 0.3,
           "category": "Breakout Track",
           "band": "micro"
@@ -6771,7 +6776,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "micro",
-      "lastScore": 10,
+      "lastScore": 38,
       "lastCategory": "Breakout Track"
     },
     "mb:bc883961-64d4-46b3-8b1c-64009854291c": {
@@ -6799,7 +6804,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 8,
+          "total": 30.4,
           "coverage": 0.3,
           "category": "Breakout Track",
           "band": "small"
@@ -6808,7 +6813,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "small",
-      "lastScore": 8,
+      "lastScore": 30.4,
       "lastCategory": "Breakout Track"
     },
     "mb:38f2e3b1-cc8d-43d1-b840-929247eeecac": {
@@ -6835,7 +6840,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 7.8,
+          "total": 29.6,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "small"
@@ -6844,7 +6849,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "small",
-      "lastScore": 7.8,
+      "lastScore": 29.6,
       "lastCategory": "Early Signal"
     },
     "mb:8d96e5fb-42b4-4653-b8f3-2a31e5834dc7": {
@@ -6870,7 +6875,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 10,
+          "total": 38,
           "coverage": 0.3,
           "category": "Breakout Track",
           "band": "micro"
@@ -6880,7 +6885,7 @@
       "identity": "strong",
       "identityConflict": true,
       "band": "micro",
-      "lastScore": 10,
+      "lastScore": 38,
       "lastCategory": "Breakout Track"
     },
     "mb:e5712ceb-c37a-4c49-a11c-ccf4e21852d4": {
@@ -6910,7 +6915,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 5,
+          "total": 19,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -6919,7 +6924,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "established",
-      "lastScore": 5,
+      "lastScore": 19,
       "lastCategory": "Second Wave"
     },
     "mb:bdc343bd-1c45-4a5d-b956-c4429f3dbba5": {
@@ -6948,7 +6953,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 8,
+          "total": 30.4,
           "coverage": 0.3,
           "category": "Breakout Track",
           "band": "small"
@@ -6957,7 +6962,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "small",
-      "lastScore": 8,
+      "lastScore": 30.4,
       "lastCategory": "Breakout Track"
     },
     "mb:5f000e69-3cfd-4871-8f1b-faa7f0d4bcbc": {
@@ -6987,7 +6992,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -6996,7 +7001,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "mb:2b37ba5e-2162-46ca-bbad-f076f6a333bd": {
@@ -7022,7 +7027,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 3,
+          "total": 11.4,
           "coverage": 0.3,
           "category": "Rising Momentum",
           "band": "mid"
@@ -7031,7 +7036,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "mid",
-      "lastScore": 3,
+      "lastScore": 11.4,
       "lastCategory": "Rising Momentum"
     },
     "mb:b7539c32-53e7-4908-bda3-81449c367da6": {
@@ -7063,7 +7068,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 4.2,
+          "total": 16,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -7072,7 +7077,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "established",
-      "lastScore": 4.2,
+      "lastScore": 16,
       "lastCategory": "Second Wave"
     },
     "mb:83d91898-7763-47d7-b03b-b92132375c47": {
@@ -7101,7 +7106,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 4.2,
+          "total": 16,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -7110,7 +7115,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "established",
-      "lastScore": 4.2,
+      "lastScore": 16,
       "lastCategory": "Second Wave"
     },
     "mb:cc2c9c3c-b7bc-4b8b-84d8-4fbd8779e493": {
@@ -7141,7 +7146,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 7.8,
+          "total": 29.6,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "small"
@@ -7151,7 +7156,7 @@
       "identity": "strong",
       "identityConflict": true,
       "band": "small",
-      "lastScore": 7.8,
+      "lastScore": 29.6,
       "lastCategory": "Early Signal"
     },
     "dz:348134981": {
@@ -7172,7 +7177,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 12,
+          "total": 45.6,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -7181,7 +7186,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "micro",
-      "lastScore": 12,
+      "lastScore": 45.6,
       "lastCategory": "Early Signal"
     },
     "mb:d87e52c5-bb8d-4da8-b941-9f4928627dc8": {
@@ -7211,7 +7216,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 9,
+          "total": 34.2,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -7221,7 +7226,7 @@
       "identity": "strong",
       "identityConflict": true,
       "band": "micro",
-      "lastScore": 9,
+      "lastScore": 34.2,
       "lastCategory": "Early Signal"
     },
     "mb:99075985-0d80-4692-a15e-b16f78831792": {
@@ -7250,7 +7255,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 5,
+          "total": 19,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -7259,7 +7264,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "established",
-      "lastScore": 5,
+      "lastScore": 19,
       "lastCategory": "Second Wave"
     },
     "mb:3325cdfa-8efc-4662-b3df-c094b78b9da8": {
@@ -7286,7 +7291,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 5,
+          "total": 19,
           "coverage": 0.3,
           "category": "Rising Momentum",
           "band": "mid"
@@ -7295,7 +7300,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "mid",
-      "lastScore": 5,
+      "lastScore": 19,
       "lastCategory": "Rising Momentum"
     },
     "mb:56a55378-f155-48de-80a5-d80104221267": {
@@ -7324,7 +7329,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 15.2,
+          "total": 57.8,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -7333,7 +7338,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "established",
-      "lastScore": 15.2,
+      "lastScore": 57.8,
       "lastCategory": "Second Wave"
     },
     "mb:79239441-bfd5-4981-a70c-55c3f15c1287": {
@@ -7363,7 +7368,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 4.2,
+          "total": 16,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -7373,7 +7378,7 @@
       "identity": "strong",
       "identityConflict": true,
       "band": "established",
-      "lastScore": 4.2,
+      "lastScore": 16,
       "lastCategory": "Second Wave"
     },
     "mb:f59c5520-5f46-4d2c-b2c4-822eabf53419": {
@@ -7403,7 +7408,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 4.2,
+          "total": 16,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -7413,7 +7418,7 @@
       "identity": "strong",
       "identityConflict": true,
       "band": "established",
-      "lastScore": 4.2,
+      "lastScore": 16,
       "lastCategory": "Second Wave"
     },
     "mb:8e68819d-71be-4e7d-b41d-f1df81b01d3f": {
@@ -7442,7 +7447,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 4.2,
+          "total": 16,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -7452,7 +7457,7 @@
       "identity": "strong",
       "identityConflict": true,
       "band": "established",
-      "lastScore": 4.2,
+      "lastScore": 16,
       "lastCategory": "Second Wave"
     },
     "mb:b5fa29f1-6c22-4321-a488-b5f363b06b06": {
@@ -7483,7 +7488,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -7492,7 +7497,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "mb:79c6b6f4-cb92-4f03-a1ef-82e7aa4eddbb": {
@@ -7520,7 +7525,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 8,
+          "total": 30.4,
           "coverage": 0.3,
           "category": "Breakout Track",
           "band": "small"
@@ -7529,7 +7534,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "small",
-      "lastScore": 8,
+      "lastScore": 30.4,
       "lastCategory": "Breakout Track"
     },
     "mb:7e2e4e3a-4e85-4d5a-b78e-5e4afd467a3e": {
@@ -7558,7 +7563,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 5,
+          "total": 19,
           "coverage": 0.3,
           "category": "Rising Momentum",
           "band": "mid"
@@ -7567,7 +7572,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "mid",
-      "lastScore": 5,
+      "lastScore": 19,
       "lastCategory": "Rising Momentum"
     },
     "mb:2f031686-3f01-4f33-a4fc-fb3944532efa": {
@@ -7591,7 +7596,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 6,
+          "total": 22.8,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -7600,7 +7605,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "micro",
-      "lastScore": 6,
+      "lastScore": 22.8,
       "lastCategory": "Early Signal"
     },
     "mb:5b11f4ce-a62d-471e-81fc-a69a8278c7da": {
@@ -7629,7 +7634,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 4.2,
+          "total": 16,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -7638,7 +7643,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "established",
-      "lastScore": 4.2,
+      "lastScore": 16,
       "lastCategory": "Second Wave"
     },
     "mb:6bbb3983-ce8a-4971-96e0-7cae73268fc4": {
@@ -7668,7 +7673,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 10,
+          "total": 38,
           "coverage": 0.3,
           "category": "Breakout Track",
           "band": "micro"
@@ -7678,7 +7683,7 @@
       "identity": "strong",
       "identityConflict": true,
       "band": "micro",
-      "lastScore": 10,
+      "lastScore": 38,
       "lastCategory": "Breakout Track"
     },
     "mb:87ac8ea4-4663-4d81-8f6a-8a80e318e9ec": {
@@ -7705,7 +7710,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 4.8,
+          "total": 18.2,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "small"
@@ -7714,7 +7719,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "small",
-      "lastScore": 4.8,
+      "lastScore": 18.2,
       "lastCategory": "Early Signal"
     },
     "mb:faabeed5-3dd0-4be5-aec5-e6486e68db2f": {
@@ -7740,7 +7745,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 3,
+          "total": 11.4,
           "coverage": 0.3,
           "category": "Rising Momentum",
           "band": "mid"
@@ -7749,7 +7754,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "mid",
-      "lastScore": 3,
+      "lastScore": 11.4,
       "lastCategory": "Rising Momentum"
     },
     "mb:0b427dad-1ee5-48f1-aa4b-026680a3338e": {
@@ -7778,7 +7783,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 6,
+          "total": 22.8,
           "coverage": 0.3,
           "category": "Rising Momentum",
           "band": "mid"
@@ -7787,7 +7792,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "mid",
-      "lastScore": 6,
+      "lastScore": 22.8,
       "lastCategory": "Rising Momentum"
     },
     "mb:78002ec9-8574-4f8f-b8b2-cf89981df13e": {
@@ -7808,7 +7813,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 6,
+          "total": 22.8,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -7817,7 +7822,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "micro",
-      "lastScore": 6,
+      "lastScore": 22.8,
       "lastCategory": "Early Signal"
     },
     "mb:4a779683-5404-4b90-a0d7-242495158265": {
@@ -7844,7 +7849,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 11,
+          "total": 41.8,
           "coverage": 0.3,
           "category": "Breakout Track",
           "band": "small"
@@ -7853,7 +7858,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "small",
-      "lastScore": 11,
+      "lastScore": 41.8,
       "lastCategory": "Breakout Track"
     },
     "mb:ede7c451-6309-4751-8ce0-cde337483b89": {
@@ -7878,7 +7883,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 6,
+          "total": 22.8,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -7887,7 +7892,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "micro",
-      "lastScore": 6,
+      "lastScore": 22.8,
       "lastCategory": "Early Signal"
     },
     "mb:086f15ec-a6ef-424b-a711-12da9c3efc25": {
@@ -7908,7 +7913,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 6,
+          "total": 22.8,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -7917,7 +7922,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "micro",
-      "lastScore": 6,
+      "lastScore": 22.8,
       "lastCategory": "Early Signal"
     },
     "mb:66c662b6-6e2f-4930-8610-912e24c63ed1": {
@@ -7950,7 +7955,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 4.2,
+          "total": 16,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -7959,7 +7964,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "established",
-      "lastScore": 4.2,
+      "lastScore": 16,
       "lastCategory": "Second Wave"
     },
     "mb:9b2f64a8-98ea-433b-bfe0-2675c02b08db": {
@@ -7986,7 +7991,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 4.8,
+          "total": 18.2,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "small"
@@ -7995,7 +8000,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "small",
-      "lastScore": 4.8,
+      "lastScore": 18.2,
       "lastCategory": "Early Signal"
     },
     "mb:60bb7169-b83b-4603-a319-7bcbd1130cc9": {
@@ -8019,7 +8024,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 11,
+          "total": 41.8,
           "coverage": 0.3,
           "category": "Breakout Track",
           "band": "small"
@@ -8028,7 +8033,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "small",
-      "lastScore": 11,
+      "lastScore": 41.8,
       "lastCategory": "Breakout Track"
     },
     "mb:e1cd6e0e-7c6c-4f8f-896e-a4a0c60a3b33": {
@@ -8051,7 +8056,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 10,
+          "total": 38,
           "coverage": 0.3,
           "category": "Breakout Track",
           "band": "micro"
@@ -8060,7 +8065,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "micro",
-      "lastScore": 10,
+      "lastScore": 38,
       "lastCategory": "Breakout Track"
     },
     "mb:b7179522-d90d-4b02-8082-af4e3589f337": {
@@ -8089,7 +8094,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 8,
+          "total": 30.4,
           "coverage": 0.3,
           "category": "Breakout Track",
           "band": "small"
@@ -8098,7 +8103,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "small",
-      "lastScore": 8,
+      "lastScore": 30.4,
       "lastCategory": "Breakout Track"
     },
     "mb:75cacabd-bb0d-47ed-aa13-7efbf0216963": {
@@ -8121,7 +8126,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 10,
+          "total": 38,
           "coverage": 0.3,
           "category": "Breakout Track",
           "band": "micro"
@@ -8130,7 +8135,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "micro",
-      "lastScore": 10,
+      "lastScore": 38,
       "lastCategory": "Breakout Track"
     },
     "mb:2bd0c272-dd22-4395-8381-18fa2fa59f1e": {
@@ -8157,7 +8162,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 2,
+          "total": 7.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -8166,7 +8171,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "established",
-      "lastScore": 2,
+      "lastScore": 7.6,
       "lastCategory": "Second Wave"
     },
     "mb:2547c5e3-314c-4332-981d-f18c902a4086": {
@@ -8196,7 +8201,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 4.8,
+          "total": 18.2,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "small"
@@ -8205,7 +8210,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "small",
-      "lastScore": 4.8,
+      "lastScore": 18.2,
       "lastCategory": "Early Signal"
     },
     "mb:25f3fb28-2c6d-4e11-b862-34109da60418": {
@@ -8230,7 +8235,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 6,
+          "total": 22.8,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -8239,7 +8244,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "micro",
-      "lastScore": 6,
+      "lastScore": 22.8,
       "lastCategory": "Early Signal"
     },
     "mb:3860c53e-ae01-4f62-a0c9-0b60f06dbd90": {
@@ -8262,7 +8267,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 10,
+          "total": 38,
           "coverage": 0.3,
           "category": "Breakout Track",
           "band": "micro"
@@ -8271,7 +8276,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "micro",
-      "lastScore": 10,
+      "lastScore": 38,
       "lastCategory": "Breakout Track"
     },
     "mb:56638db6-beda-4700-ab05-df6e430c5444": {
@@ -8294,7 +8299,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 10,
+          "total": 38,
           "coverage": 0.3,
           "category": "Breakout Track",
           "band": "micro"
@@ -8303,7 +8308,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "micro",
-      "lastScore": 10,
+      "lastScore": 38,
       "lastCategory": "Breakout Track"
     },
     "mb:42e71830-7c04-48ee-b34b-81574751871a": {
@@ -8327,7 +8332,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 6,
+          "total": 22.8,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -8336,7 +8341,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "micro",
-      "lastScore": 6,
+      "lastScore": 22.8,
       "lastCategory": "Early Signal"
     },
     "mb:122d63fc-8671-43e4-9752-34e846d62a9c": {
@@ -8366,7 +8371,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 4.2,
+          "total": 16,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -8375,7 +8380,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "established",
-      "lastScore": 4.2,
+      "lastScore": 16,
       "lastCategory": "Second Wave"
     },
     "mb:df36f6db-5987-46ed-9d02-0cf36ed4e060": {
@@ -8404,7 +8409,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -8413,7 +8418,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "mb:a2d14623-d702-4b69-9f31-b11ff17f6e7a": {
@@ -8433,7 +8438,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 6,
+          "total": 22.8,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -8442,7 +8447,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "micro",
-      "lastScore": 6,
+      "lastScore": 22.8,
       "lastCategory": "Early Signal"
     },
     "mb:650e7db6-b795-4eb5-a702-5ea2fc46c848": {
@@ -8471,7 +8476,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -8480,7 +8485,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "mb:6ffb8ea9-2370-44d8-b678-e9237bbd347b": {
@@ -8512,7 +8517,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -8521,7 +8526,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "mb:c74a9a82-29bf-486d-bf93-b4516ac3e338": {
@@ -8549,7 +8554,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 4.8,
+          "total": 18.2,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "small"
@@ -8558,7 +8563,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "small",
-      "lastScore": 4.8,
+      "lastScore": 18.2,
       "lastCategory": "Early Signal"
     },
     "mb:bdd02d22-b88e-40d7-8ee5-e94a29bf249e": {
@@ -8580,7 +8585,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 6,
+          "total": 22.8,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -8589,7 +8594,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "micro",
-      "lastScore": 6,
+      "lastScore": 22.8,
       "lastCategory": "Early Signal"
     },
     "mb:8dd98bdc-80ec-4e93-8509-2f46bafc09a7": {
@@ -8618,7 +8623,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -8627,7 +8632,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "mb:67f66c07-6e61-4026-ade5-7e782fad3a5d": {
@@ -8657,7 +8662,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -8666,7 +8671,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "mb:b6d7ec94-830c-44dd-b699-ce66556b7e55": {
@@ -8695,7 +8700,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 12.2,
+          "total": 46.4,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -8704,7 +8709,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "established",
-      "lastScore": 12.2,
+      "lastScore": 46.4,
       "lastCategory": "Second Wave"
     },
     "mb:bc710bcf-8815-42cf-bad2-3f1d12246aeb": {
@@ -8734,7 +8739,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -8743,7 +8748,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "mb:e17bdfba-440f-42ae-a48b-cc31dfb3d356": {
@@ -8773,7 +8778,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 6,
+          "total": 22.8,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -8782,7 +8787,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "micro",
-      "lastScore": 6,
+      "lastScore": 22.8,
       "lastCategory": "Early Signal"
     },
     "mb:6e0c7c0e-cba5-4c2c-a652-38f71ef5785d": {
@@ -8811,7 +8816,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -8820,7 +8825,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "mb:a6623d39-2d8e-4f70-8242-0a9553b91e50": {
@@ -8844,12 +8849,12 @@
         "Electronic"
       ],
       "area": "Melbourne",
-      "status": "candidate",
+      "status": "watchlist",
       "firstSeen": "2026-W44",
       "history": [
         {
           "week": "2026-W44",
-          "total": 16,
+          "total": 60.8,
           "coverage": 0.3,
           "category": "Breakout Track",
           "band": "micro"
@@ -8859,8 +8864,9 @@
       "identity": "strong",
       "identityConflict": true,
       "band": "micro",
-      "lastScore": 16,
-      "lastCategory": "Breakout Track"
+      "lastScore": 60.8,
+      "lastCategory": "Breakout Track",
+      "watchSince": "2026-W44"
     },
     "mb:e684ed8b-bced-4e0f-bdfa-462861891409": {
       "key": "mb:e684ed8b-bced-4e0f-bdfa-462861891409",
@@ -8888,7 +8894,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 4.8,
+          "total": 18.2,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "small"
@@ -8897,7 +8903,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "small",
-      "lastScore": 4.8,
+      "lastScore": 18.2,
       "lastCategory": "Early Signal"
     },
     "mb:bfaf9b70-d1fd-4d3e-b730-3e67e6f8f9bb": {
@@ -8926,7 +8932,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -8936,7 +8942,7 @@
       "identity": "strong",
       "identityConflict": true,
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "mb:d11684ba-6aea-4c0d-a1c7-15e802cdcc55": {
@@ -8955,7 +8961,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 10,
+          "total": 38,
           "coverage": 0.3,
           "category": "Breakout Track",
           "band": "micro"
@@ -8964,7 +8970,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "micro",
-      "lastScore": 10,
+      "lastScore": 38,
       "lastCategory": "Breakout Track"
     },
     "mb:2e8ca124-e38a-4dab-93dd-c9f3d415902b": {
@@ -8994,7 +9000,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 8,
+          "total": 30.4,
           "coverage": 0.3,
           "category": "Breakout Track",
           "band": "small"
@@ -9003,7 +9009,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "small",
-      "lastScore": 8,
+      "lastScore": 30.4,
       "lastCategory": "Breakout Track"
     },
     "nm:studymusic": {
@@ -9019,7 +9025,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 3,
+          "total": 11.4,
           "coverage": 0.3,
           "category": "Rising Momentum",
           "band": "unknown"
@@ -9028,7 +9034,7 @@
       "lastSeen": "2026-W44",
       "identity": "weak",
       "band": "unknown",
-      "lastScore": 3,
+      "lastScore": 11.4,
       "lastCategory": "Rising Momentum"
     },
     "nm:derrol": {
@@ -9044,7 +9050,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 3,
+          "total": 11.4,
           "coverage": 0.3,
           "category": "Rising Momentum",
           "band": "unknown"
@@ -9053,7 +9059,7 @@
       "lastSeen": "2026-W44",
       "identity": "weak",
       "band": "unknown",
-      "lastScore": 3,
+      "lastScore": 11.4,
       "lastCategory": "Rising Momentum"
     },
     "mb:7de39798-7866-45e6-a67c-64a33d2a1995": {
@@ -9082,7 +9088,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 8,
+          "total": 30.4,
           "coverage": 0.3,
           "category": "Breakout Track",
           "band": "small"
@@ -9091,7 +9097,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "small",
-      "lastScore": 8,
+      "lastScore": 30.4,
       "lastCategory": "Breakout Track"
     },
     "mb:a18e2149-d298-454f-a462-6572962f7348": {
@@ -9114,7 +9120,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 6,
+          "total": 22.8,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -9123,7 +9129,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "micro",
-      "lastScore": 6,
+      "lastScore": 22.8,
       "lastCategory": "Early Signal"
     },
     "mb:ee0b11de-0c8a-4267-9886-198f4579e1db": {
@@ -9153,7 +9159,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 5,
+          "total": 19,
           "coverage": 0.3,
           "category": "Rising Momentum",
           "band": "mid"
@@ -9162,7 +9168,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "mid",
-      "lastScore": 5,
+      "lastScore": 19,
       "lastCategory": "Rising Momentum"
     },
     "mb:65f4f0c5-ef9e-490c-aee3-909e7ae6b2ab": {
@@ -9192,7 +9198,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -9201,7 +9207,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "mb:73d2a9d4-de5d-4bcd-9acb-ddf67dfd71ac": {
@@ -9226,7 +9232,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 3,
+          "total": 11.4,
           "coverage": 0.3,
           "category": "Rising Momentum",
           "band": "mid"
@@ -9235,7 +9241,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "mid",
-      "lastScore": 3,
+      "lastScore": 11.4,
       "lastCategory": "Rising Momentum"
     },
     "mb:8f92558c-2baa-4758-8c38-615519e9deda": {
@@ -9261,7 +9267,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -9270,7 +9276,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "mb:70248960-cb53-4ea4-943a-edb18f7d336f": {
@@ -9297,7 +9303,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -9306,7 +9312,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "mb:d1393ecb-431b-4fde-a6ea-d769f2f040cb": {
@@ -9333,7 +9339,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 14,
+          "total": 53.2,
           "coverage": 0.3,
           "category": "Rising Momentum",
           "band": "mid"
@@ -9342,7 +9348,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "mid",
-      "lastScore": 14,
+      "lastScore": 53.2,
       "lastCategory": "Rising Momentum"
     },
     "mb:cc45b39c-c7c2-4db3-98f2-9c0220c76d7c": {
@@ -9369,7 +9375,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 4.8,
+          "total": 18.2,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "small"
@@ -9378,7 +9384,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "small",
-      "lastScore": 4.8,
+      "lastScore": 18.2,
       "lastCategory": "Early Signal"
     },
     "mb:c59c787f-75cf-405b-b4f0-8445f730bcbe": {
@@ -9405,7 +9411,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 6,
+          "total": 22.8,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -9414,7 +9420,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "micro",
-      "lastScore": 6,
+      "lastScore": 22.8,
       "lastCategory": "Early Signal"
     },
     "mb:a62e299b-4707-4ff5-ad53-d80b2b03319d": {
@@ -9441,7 +9447,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -9451,7 +9457,7 @@
       "identity": "strong",
       "identityConflict": true,
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "mb:9939a762-5ca9-4c12-a735-0d62e21df4e3": {
@@ -9476,7 +9482,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 4.8,
+          "total": 18.2,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "small"
@@ -9485,7 +9491,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "small",
-      "lastScore": 4.8,
+      "lastScore": 18.2,
       "lastCategory": "Early Signal"
     },
     "dz:405567": {
@@ -9503,7 +9509,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 4.8,
+          "total": 18.2,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "small"
@@ -9512,7 +9518,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "small",
-      "lastScore": 4.8,
+      "lastScore": 18.2,
       "lastCategory": "Early Signal"
     },
     "mb:3b387def-cfed-4c35-a038-bc3e8d30e377": {
@@ -9530,7 +9536,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 6,
+          "total": 22.8,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -9539,7 +9545,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "micro",
-      "lastScore": 6,
+      "lastScore": 22.8,
       "lastCategory": "Early Signal"
     },
     "mb:aab35942-f176-4f77-bbf9-1d6aa98ccf3f": {
@@ -9565,7 +9571,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -9574,7 +9580,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "mb:a6e613d6-ff65-4972-beff-303a1b10ab05": {
@@ -9600,7 +9606,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 3,
+          "total": 11.4,
           "coverage": 0.3,
           "category": "Rising Momentum",
           "band": "mid"
@@ -9609,7 +9615,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "mid",
-      "lastScore": 3,
+      "lastScore": 11.4,
       "lastCategory": "Rising Momentum"
     },
     "mb:03e4fba5-9d58-481c-a6cb-469dd66761aa": {
@@ -9634,7 +9640,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 6,
+          "total": 22.8,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -9643,7 +9649,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "micro",
-      "lastScore": 6,
+      "lastScore": 22.8,
       "lastCategory": "Early Signal"
     },
     "mb:f2506ff4-4091-4e57-ac5b-156110732aa9": {
@@ -9670,7 +9676,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 4.8,
+          "total": 18.2,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "small"
@@ -9679,7 +9685,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "small",
-      "lastScore": 4.8,
+      "lastScore": 18.2,
       "lastCategory": "Early Signal"
     },
     "mb:9eb2030a-c311-4cbf-a8f2-c57a58aa18ce": {
@@ -9706,7 +9712,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 4.8,
+          "total": 18.2,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "small"
@@ -9715,7 +9721,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "small",
-      "lastScore": 4.8,
+      "lastScore": 18.2,
       "lastCategory": "Early Signal"
     },
     "mb:5dca4d22-d6c8-4e70-8ca1-4543e43353c7": {
@@ -9742,7 +9748,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -9751,7 +9757,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "mb:92a42e82-b36f-4308-82c1-68bad2e03c89": {
@@ -9779,7 +9785,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 3,
+          "total": 11.4,
           "coverage": 0.3,
           "category": "Rising Momentum",
           "band": "mid"
@@ -9788,7 +9794,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "mid",
-      "lastScore": 3,
+      "lastScore": 11.4,
       "lastCategory": "Rising Momentum"
     },
     "mb:859d0860-d480-4efd-970c-c05d5f1776b8": {
@@ -9815,7 +9821,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -9824,7 +9830,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "mb:cdf5b0a1-ce40-4bb8-92dc-baa602ff83c1": {
@@ -9851,7 +9857,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 4.8,
+          "total": 18.2,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "small"
@@ -9860,7 +9866,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "small",
-      "lastScore": 4.8,
+      "lastScore": 18.2,
       "lastCategory": "Early Signal"
     },
     "mb:e337c918-098f-418e-97a2-81dc224b1bf9": {
@@ -9887,7 +9893,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 3,
+          "total": 11.4,
           "coverage": 0.3,
           "category": "Rising Momentum",
           "band": "mid"
@@ -9896,7 +9902,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "mid",
-      "lastScore": 3,
+      "lastScore": 11.4,
       "lastCategory": "Rising Momentum"
     },
     "mb:0a858b1f-34fa-4f8f-b7be-657372bb9598": {
@@ -9919,7 +9925,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 6,
+          "total": 22.8,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -9928,7 +9934,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "micro",
-      "lastScore": 6,
+      "lastScore": 22.8,
       "lastCategory": "Early Signal"
     },
     "mb:301b45a4-b8b9-410e-8344-4b4eaf96691a": {
@@ -9956,7 +9962,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -9965,7 +9971,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "mb:5a2ab31d-e000-4fb6-bea6-e494835dc20d": {
@@ -9987,7 +9993,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 6,
+          "total": 22.8,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -9996,7 +10002,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "micro",
-      "lastScore": 6,
+      "lastScore": 22.8,
       "lastCategory": "Early Signal"
     },
     "mb:483ccf02-0faf-458e-88fc-e39e03cb9875": {
@@ -10019,7 +10025,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 6,
+          "total": 22.8,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -10028,7 +10034,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "micro",
-      "lastScore": 6,
+      "lastScore": 22.8,
       "lastCategory": "Early Signal"
     },
     "mb:49ab0e3b-97ad-40c0-a664-5f40ce8129c7": {
@@ -10054,7 +10060,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 4.8,
+          "total": 18.2,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "small"
@@ -10063,7 +10069,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "small",
-      "lastScore": 4.8,
+      "lastScore": 18.2,
       "lastCategory": "Early Signal"
     },
     "mb:8c32bb01-58a3-453b-8050-8c0620edb0e5": {
@@ -10090,7 +10096,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -10099,7 +10105,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "mb:0688add2-c282-4ee2-ba61-223ffdb3c201": {
@@ -10126,7 +10132,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 3,
+          "total": 11.4,
           "coverage": 0.3,
           "category": "Rising Momentum",
           "band": "mid"
@@ -10135,7 +10141,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "mid",
-      "lastScore": 3,
+      "lastScore": 11.4,
       "lastCategory": "Rising Momentum"
     },
     "mb:b665b768-0d83-4363-950c-31ed39317c15": {
@@ -10162,7 +10168,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -10171,7 +10177,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "mb:ba67b7da-cca7-4c3f-ba19-05349f0f7d97": {
@@ -10198,7 +10204,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 4.8,
+          "total": 18.2,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "small"
@@ -10207,7 +10213,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "small",
-      "lastScore": 4.8,
+      "lastScore": 18.2,
       "lastCategory": "Early Signal"
     },
     "mb:201412c6-7ced-472b-87a9-9259ec3c07d3": {
@@ -10234,7 +10240,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -10243,7 +10249,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "mb:d27808c8-d3a6-4bbe-acc2-22d5e19f3bca": {
@@ -10269,7 +10275,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 3,
+          "total": 11.4,
           "coverage": 0.3,
           "category": "Rising Momentum",
           "band": "mid"
@@ -10279,7 +10285,7 @@
       "identity": "strong",
       "identityConflict": true,
       "band": "mid",
-      "lastScore": 3,
+      "lastScore": 11.4,
       "lastCategory": "Rising Momentum"
     },
     "mb:6d9e7506-8b53-4dd8-992a-512b18f3b6ba": {
@@ -10302,7 +10308,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 4.8,
+          "total": 18.2,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "small"
@@ -10311,7 +10317,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "small",
-      "lastScore": 4.8,
+      "lastScore": 18.2,
       "lastCategory": "Early Signal"
     },
     "mb:b6c33634-9cd0-4fb7-84b8-ebb078195070": {
@@ -10329,7 +10335,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 6,
+          "total": 22.8,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -10338,7 +10344,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "micro",
-      "lastScore": 6,
+      "lastScore": 22.8,
       "lastCategory": "Early Signal"
     },
     "mb:4eca1aa0-c79f-481b-af8a-4a2d6c41aa5c": {
@@ -10365,7 +10371,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -10374,7 +10380,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "mb:e2529584-b250-4a22-821c-16d3d8120978": {
@@ -10399,7 +10405,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 4.8,
+          "total": 18.2,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "small"
@@ -10408,7 +10414,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "small",
-      "lastScore": 4.8,
+      "lastScore": 18.2,
       "lastCategory": "Early Signal"
     },
     "mb:60c143b1-f1c1-404b-a674-ce51a05f022c": {
@@ -10433,7 +10439,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 6,
+          "total": 22.8,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -10442,7 +10448,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "micro",
-      "lastScore": 6,
+      "lastScore": 22.8,
       "lastCategory": "Early Signal"
     },
     "mb:0307edfc-437c-4b48-8700-80680e66a228": {
@@ -10469,7 +10475,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -10478,7 +10484,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "mb:e64eef7f-c698-469d-a2b3-75837934ec77": {
@@ -10503,7 +10509,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 4.8,
+          "total": 18.2,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "small"
@@ -10512,7 +10518,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "small",
-      "lastScore": 4.8,
+      "lastScore": 18.2,
       "lastCategory": "Early Signal"
     },
     "mb:f3830a42-5c4c-4974-8ae0-bb19002629b0": {
@@ -10539,7 +10545,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 3,
+          "total": 11.4,
           "coverage": 0.3,
           "category": "Rising Momentum",
           "band": "mid"
@@ -10548,7 +10554,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "mid",
-      "lastScore": 3,
+      "lastScore": 11.4,
       "lastCategory": "Rising Momentum"
     },
     "mb:c539265b-99c9-49fb-b47f-bb1dce6d5cf3": {
@@ -10567,7 +10573,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 6,
+          "total": 22.8,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -10576,7 +10582,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "micro",
-      "lastScore": 6,
+      "lastScore": 22.8,
       "lastCategory": "Early Signal"
     },
     "mb:684875cb-f334-4979-8043-ee8ec91000b9": {
@@ -10601,7 +10607,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 6,
+          "total": 22.8,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -10610,7 +10616,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "micro",
-      "lastScore": 6,
+      "lastScore": 22.8,
       "lastCategory": "Early Signal"
     },
     "mb:a500b896-7109-4d69-bc0f-cf6a04bfc78a": {
@@ -10637,7 +10643,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 4.8,
+          "total": 18.2,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "small"
@@ -10646,7 +10652,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "small",
-      "lastScore": 4.8,
+      "lastScore": 18.2,
       "lastCategory": "Early Signal"
     },
     "mb:a1652aa0-8fae-4f6b-b914-6ab6a1291fdd": {
@@ -10669,7 +10675,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 4.8,
+          "total": 18.2,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "small"
@@ -10678,7 +10684,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "small",
-      "lastScore": 4.8,
+      "lastScore": 18.2,
       "lastCategory": "Early Signal"
     },
     "mb:70f0e309-5418-49b6-a130-666e2f76eecd": {
@@ -10705,7 +10711,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -10714,7 +10720,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "mb:4a75faf4-995d-42dd-88b6-e5ff2d61e791": {
@@ -10737,7 +10743,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 6,
+          "total": 22.8,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -10746,7 +10752,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "micro",
-      "lastScore": 6,
+      "lastScore": 22.8,
       "lastCategory": "Early Signal"
     },
     "mb:17862c0f-a9b1-46dd-b85d-7af965974afd": {
@@ -10773,7 +10779,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 4.8,
+          "total": 18.2,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "small"
@@ -10782,7 +10788,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "small",
-      "lastScore": 4.8,
+      "lastScore": 18.2,
       "lastCategory": "Early Signal"
     },
     "mb:a16371b9-7d36-497a-a9d4-42b0a0440c5e": {
@@ -10810,7 +10816,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 3,
+          "total": 11.4,
           "coverage": 0.3,
           "category": "Rising Momentum",
           "band": "mid"
@@ -10819,7 +10825,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "mid",
-      "lastScore": 3,
+      "lastScore": 11.4,
       "lastCategory": "Rising Momentum"
     },
     "dz:409492": {
@@ -10832,12 +10838,12 @@
       },
       "genres": [],
       "area": null,
-      "status": "candidate",
+      "status": "watchlist",
       "firstSeen": "2026-W44",
       "history": [
         {
           "week": "2026-W44",
-          "total": 17,
+          "total": 64.6,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -10846,8 +10852,9 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "micro",
-      "lastScore": 17,
-      "lastCategory": "Early Signal"
+      "lastScore": 64.6,
+      "lastCategory": "Early Signal",
+      "watchSince": "2026-W44"
     },
     "mb:35f3e736-e27b-4a26-892c-c00179d163d5": {
       "key": "mb:35f3e736-e27b-4a26-892c-c00179d163d5",
@@ -10871,7 +10878,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -10880,7 +10887,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "mb:95f3afcb-5770-4e1a-9fcc-356c92b29838": {
@@ -10904,7 +10911,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 6,
+          "total": 22.8,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -10913,7 +10920,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "micro",
-      "lastScore": 6,
+      "lastScore": 22.8,
       "lastCategory": "Early Signal"
     },
     "mb:5d4e2988-ccea-4962-b51c-cfd20a3d67b8": {
@@ -10933,7 +10940,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 6,
+          "total": 22.8,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -10942,7 +10949,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "micro",
-      "lastScore": 6,
+      "lastScore": 22.8,
       "lastCategory": "Early Signal"
     },
     "dz:4577473": {
@@ -10960,7 +10967,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 6,
+          "total": 22.8,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -10969,7 +10976,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "micro",
-      "lastScore": 6,
+      "lastScore": 22.8,
       "lastCategory": "Early Signal"
     },
     "mb:2869c510-2679-4a3f-bf15-e5e8b49f2f28": {
@@ -10996,7 +11003,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 4.8,
+          "total": 18.2,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "small"
@@ -11005,7 +11012,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "small",
-      "lastScore": 4.8,
+      "lastScore": 18.2,
       "lastCategory": "Early Signal"
     },
     "mb:e137e810-ed64-4d74-b2c8-9e24cff43dd3": {
@@ -11026,12 +11033,12 @@
       },
       "genres": [],
       "area": "Victoria",
-      "status": "candidate",
+      "status": "watchlist",
       "firstSeen": "2026-W44",
       "history": [
         {
           "week": "2026-W44",
-          "total": 21,
+          "total": 79.8,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -11040,8 +11047,9 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "micro",
-      "lastScore": 21,
-      "lastCategory": "Early Signal"
+      "lastScore": 79.8,
+      "lastCategory": "Early Signal",
+      "watchSince": "2026-W44"
     },
     "mb:b0caf649-6cbb-4279-a511-d5b5a0a31a93": {
       "key": "mb:b0caf649-6cbb-4279-a511-d5b5a0a31a93",
@@ -11062,7 +11070,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 6,
+          "total": 22.8,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -11072,7 +11080,7 @@
       "identity": "strong",
       "identityConflict": true,
       "band": "micro",
-      "lastScore": 6,
+      "lastScore": 22.8,
       "lastCategory": "Early Signal"
     },
     "mb:c8618794-f2ec-4654-939f-f583800f4377": {
@@ -11095,7 +11103,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 6,
+          "total": 22.8,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -11104,7 +11112,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "micro",
-      "lastScore": 6,
+      "lastScore": 22.8,
       "lastCategory": "Early Signal"
     },
     "mb:ca470d02-5eba-4050-a7f7-f3ab3474656c": {
@@ -11129,7 +11137,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 4.8,
+          "total": 18.2,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "small"
@@ -11138,7 +11146,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "small",
-      "lastScore": 4.8,
+      "lastScore": 18.2,
       "lastCategory": "Early Signal"
     },
     "mb:8200b223-647e-4ba6-8bc5-a718f0d8b7f6": {
@@ -11158,7 +11166,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 6,
+          "total": 22.8,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -11167,7 +11175,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "micro",
-      "lastScore": 6,
+      "lastScore": 22.8,
       "lastCategory": "Early Signal"
     },
     "mb:f07c6afe-ee84-4cd5-9b11-5c541d1dff3b": {
@@ -11189,7 +11197,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 6,
+          "total": 22.8,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -11198,7 +11206,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "micro",
-      "lastScore": 6,
+      "lastScore": 22.8,
       "lastCategory": "Early Signal"
     },
     "mb:66fc5bf8-daa4-4241-b378-9bc9077939d2": {
@@ -11225,7 +11233,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 7.2,
+          "total": 27.4,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -11234,7 +11242,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "established",
-      "lastScore": 7.2,
+      "lastScore": 27.4,
       "lastCategory": "Second Wave"
     },
     "mb:234c4204-a118-4f58-9361-9073156cde2d": {
@@ -11258,7 +11266,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 6,
+          "total": 22.8,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -11267,7 +11275,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "micro",
-      "lastScore": 6,
+      "lastScore": 22.8,
       "lastCategory": "Early Signal"
     },
     "dz:7337294": {
@@ -11285,7 +11293,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 6,
+          "total": 22.8,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -11294,7 +11302,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "micro",
-      "lastScore": 6,
+      "lastScore": 22.8,
       "lastCategory": "Early Signal"
     },
     "mb:b00cb756-0259-4a50-bbcb-ad22186c5518": {
@@ -11320,7 +11328,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 4.8,
+          "total": 18.2,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "small"
@@ -11329,7 +11337,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "small",
-      "lastScore": 4.8,
+      "lastScore": 18.2,
       "lastCategory": "Early Signal"
     },
     "mb:357ff05d-848a-44cf-b608-cb34b5701ae5": {
@@ -11354,7 +11362,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 4.8,
+          "total": 18.2,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "small"
@@ -11363,7 +11371,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "small",
-      "lastScore": 4.8,
+      "lastScore": 18.2,
       "lastCategory": "Early Signal"
     },
     "dz:5256746": {
@@ -11381,7 +11389,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 6,
+          "total": 22.8,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -11390,7 +11398,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "micro",
-      "lastScore": 6,
+      "lastScore": 22.8,
       "lastCategory": "Early Signal"
     },
     "mb:5c4c90a4-539f-4101-83cf-301bc6a94e06": {
@@ -11416,7 +11424,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 4.8,
+          "total": 18.2,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "small"
@@ -11425,7 +11433,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "small",
-      "lastScore": 4.8,
+      "lastScore": 18.2,
       "lastCategory": "Early Signal"
     },
     "mb:1dc93959-bf38-4cd6-9c84-a95373129cd1": {
@@ -11449,7 +11457,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 6,
+          "total": 22.8,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -11459,7 +11467,7 @@
       "identity": "strong",
       "identityConflict": true,
       "band": "micro",
-      "lastScore": 6,
+      "lastScore": 22.8,
       "lastCategory": "Early Signal"
     },
     "dz:2739511": {
@@ -11477,7 +11485,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 6,
+          "total": 22.8,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -11486,7 +11494,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "micro",
-      "lastScore": 6,
+      "lastScore": 22.8,
       "lastCategory": "Early Signal"
     },
     "dz:413509151": {
@@ -11504,7 +11512,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 6,
+          "total": 22.8,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -11513,7 +11521,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "micro",
-      "lastScore": 6,
+      "lastScore": 22.8,
       "lastCategory": "Early Signal"
     },
     "mb:20485631-5c2a-4cec-918a-1c7df650c072": {
@@ -11535,7 +11543,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 6,
+          "total": 22.8,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -11545,7 +11553,7 @@
       "identity": "strong",
       "identityConflict": true,
       "band": "micro",
-      "lastScore": 6,
+      "lastScore": 22.8,
       "lastCategory": "Early Signal"
     },
     "mb:25f3abd9-63b5-471a-bd25-feb9672dfa11": {
@@ -11572,7 +11580,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -11581,7 +11589,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "mb:fc0b6d53-d174-4b91-9c8e-dc0564275ff6": {
@@ -11606,7 +11614,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 6,
+          "total": 22.8,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -11615,7 +11623,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "micro",
-      "lastScore": 6,
+      "lastScore": 22.8,
       "lastCategory": "Early Signal"
     },
     "mb:8e3426c4-7f1f-43f5-9234-96a32d3b60a1": {
@@ -11642,7 +11650,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 4.8,
+          "total": 18.2,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "small"
@@ -11651,7 +11659,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "small",
-      "lastScore": 4.8,
+      "lastScore": 18.2,
       "lastCategory": "Early Signal"
     },
     "mb:3bda6c16-f5cf-4999-a10f-6e44c0cfb254": {
@@ -11671,7 +11679,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 6,
+          "total": 22.8,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -11680,7 +11688,7 @@
       "lastSeen": "2026-W44",
       "identity": "strong",
       "band": "micro",
-      "lastScore": 6,
+      "lastScore": 22.8,
       "lastCategory": "Early Signal"
     },
     "dz:13624541": {
@@ -11698,7 +11706,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 6,
+          "total": 22.8,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -11707,7 +11715,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "micro",
-      "lastScore": 6,
+      "lastScore": 22.8,
       "lastCategory": "Early Signal"
     },
     "dz:58371412": {
@@ -11725,7 +11733,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 6,
+          "total": 22.8,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -11734,7 +11742,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "micro",
-      "lastScore": 6,
+      "lastScore": 22.8,
       "lastCategory": "Early Signal"
     },
     "dz:382478": {
@@ -11752,7 +11760,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 6,
+          "total": 22.8,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -11761,7 +11769,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "micro",
-      "lastScore": 6,
+      "lastScore": 22.8,
       "lastCategory": "Early Signal"
     },
     "dz:219349695": {
@@ -11779,7 +11787,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 6,
+          "total": 22.8,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -11788,7 +11796,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "micro",
-      "lastScore": 6,
+      "lastScore": 22.8,
       "lastCategory": "Early Signal"
     },
     "dz:142990212": {
@@ -11806,7 +11814,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 4.8,
+          "total": 18.2,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "small"
@@ -11815,7 +11823,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "small",
-      "lastScore": 4.8,
+      "lastScore": 18.2,
       "lastCategory": "Early Signal"
     },
     "dz:75268922": {
@@ -11833,7 +11841,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 6,
+          "total": 22.8,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -11842,7 +11850,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "micro",
-      "lastScore": 6,
+      "lastScore": 22.8,
       "lastCategory": "Early Signal"
     },
     "dz:392142": {
@@ -11860,7 +11868,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 4.8,
+          "total": 18.2,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "small"
@@ -11869,7 +11877,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "small",
-      "lastScore": 4.8,
+      "lastScore": 18.2,
       "lastCategory": "Early Signal"
     },
     "dz:70050": {
@@ -11887,7 +11895,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 4.8,
+          "total": 18.2,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "small"
@@ -11896,7 +11904,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "small",
-      "lastScore": 4.8,
+      "lastScore": 18.2,
       "lastCategory": "Early Signal"
     },
     "dz:10042552": {
@@ -11914,7 +11922,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 4.8,
+          "total": 18.2,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "small"
@@ -11923,7 +11931,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "small",
-      "lastScore": 4.8,
+      "lastScore": 18.2,
       "lastCategory": "Early Signal"
     },
     "dz:7969818": {
@@ -11941,7 +11949,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 4.8,
+          "total": 18.2,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "small"
@@ -11950,7 +11958,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "small",
-      "lastScore": 4.8,
+      "lastScore": 18.2,
       "lastCategory": "Early Signal"
     },
     "dz:14638319": {
@@ -11968,7 +11976,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 6,
+          "total": 22.8,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -11977,7 +11985,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "micro",
-      "lastScore": 6,
+      "lastScore": 22.8,
       "lastCategory": "Early Signal"
     },
     "dz:8136": {
@@ -11995,7 +12003,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 4.8,
+          "total": 18.2,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "small"
@@ -12004,7 +12012,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "small",
-      "lastScore": 4.8,
+      "lastScore": 18.2,
       "lastCategory": "Early Signal"
     },
     "dz:554766": {
@@ -12022,7 +12030,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 4.8,
+          "total": 18.2,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "small"
@@ -12031,7 +12039,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "small",
-      "lastScore": 4.8,
+      "lastScore": 18.2,
       "lastCategory": "Early Signal"
     },
     "dz:2863401": {
@@ -12049,7 +12057,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 6,
+          "total": 22.8,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -12058,7 +12066,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "micro",
-      "lastScore": 6,
+      "lastScore": 22.8,
       "lastCategory": "Early Signal"
     },
     "dz:4458813": {
@@ -12076,7 +12084,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 6,
+          "total": 22.8,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -12085,7 +12093,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "micro",
-      "lastScore": 6,
+      "lastScore": 22.8,
       "lastCategory": "Early Signal"
     },
     "dz:140293892": {
@@ -12103,7 +12111,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 4.8,
+          "total": 18.2,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "small"
@@ -12112,7 +12120,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "small",
-      "lastScore": 4.8,
+      "lastScore": 18.2,
       "lastCategory": "Early Signal"
     },
     "dz:533": {
@@ -12130,7 +12138,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -12139,7 +12147,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "dz:280057": {
@@ -12157,7 +12165,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 4.8,
+          "total": 18.2,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "small"
@@ -12166,7 +12174,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "small",
-      "lastScore": 4.8,
+      "lastScore": 18.2,
       "lastCategory": "Early Signal"
     },
     "dz:1337926": {
@@ -12184,7 +12192,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 6,
+          "total": 22.8,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -12193,7 +12201,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "micro",
-      "lastScore": 6,
+      "lastScore": 22.8,
       "lastCategory": "Early Signal"
     },
     "dz:343277": {
@@ -12211,7 +12219,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 6,
+          "total": 22.8,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -12220,7 +12228,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "micro",
-      "lastScore": 6,
+      "lastScore": 22.8,
       "lastCategory": "Early Signal"
     },
     "dz:258200": {
@@ -12238,7 +12246,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 4.8,
+          "total": 18.2,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "small"
@@ -12247,7 +12255,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "small",
-      "lastScore": 4.8,
+      "lastScore": 18.2,
       "lastCategory": "Early Signal"
     },
     "dz:417": {
@@ -12265,7 +12273,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 10.8,
+          "total": 41,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "small"
@@ -12274,7 +12282,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "small",
-      "lastScore": 10.8,
+      "lastScore": 41,
       "lastCategory": "Early Signal"
     },
     "dz:196461": {
@@ -12292,7 +12300,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 6,
+          "total": 22.8,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -12301,7 +12309,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "micro",
-      "lastScore": 6,
+      "lastScore": 22.8,
       "lastCategory": "Early Signal"
     },
     "dz:54838802": {
@@ -12319,7 +12327,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -12328,7 +12336,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "dz:261897451": {
@@ -12346,7 +12354,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 6,
+          "total": 22.8,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -12355,7 +12363,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "micro",
-      "lastScore": 6,
+      "lastScore": 22.8,
       "lastCategory": "Early Signal"
     },
     "dz:12510170": {
@@ -12373,7 +12381,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 6,
+          "total": 22.8,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -12382,7 +12390,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "micro",
-      "lastScore": 6,
+      "lastScore": 22.8,
       "lastCategory": "Early Signal"
     },
     "dz:412225992": {
@@ -12400,7 +12408,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 6,
+          "total": 22.8,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -12409,7 +12417,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "micro",
-      "lastScore": 6,
+      "lastScore": 22.8,
       "lastCategory": "Early Signal"
     },
     "dz:2252591": {
@@ -12427,7 +12435,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -12436,7 +12444,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "dz:457920": {
@@ -12454,7 +12462,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 6,
+          "total": 22.8,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -12463,7 +12471,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "micro",
-      "lastScore": 6,
+      "lastScore": 22.8,
       "lastCategory": "Early Signal"
     },
     "dz:151688": {
@@ -12481,7 +12489,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 4.8,
+          "total": 18.2,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "small"
@@ -12490,7 +12498,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "small",
-      "lastScore": 4.8,
+      "lastScore": 18.2,
       "lastCategory": "Early Signal"
     },
     "dz:6016660": {
@@ -12508,7 +12516,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 3,
+          "total": 11.4,
           "coverage": 0.3,
           "category": "Rising Momentum",
           "band": "mid"
@@ -12517,7 +12525,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "mid",
-      "lastScore": 3,
+      "lastScore": 11.4,
       "lastCategory": "Rising Momentum"
     },
     "dz:211123": {
@@ -12535,7 +12543,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 4.8,
+          "total": 18.2,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "small"
@@ -12544,7 +12552,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "small",
-      "lastScore": 4.8,
+      "lastScore": 18.2,
       "lastCategory": "Early Signal"
     },
     "dz:181216727": {
@@ -12562,7 +12570,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 6,
+          "total": 22.8,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -12571,7 +12579,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "micro",
-      "lastScore": 6,
+      "lastScore": 22.8,
       "lastCategory": "Early Signal"
     },
     "dz:12251454": {
@@ -12589,7 +12597,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -12598,7 +12606,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "dz:9619214": {
@@ -12616,7 +12624,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 6,
+          "total": 22.8,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -12625,7 +12633,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "micro",
-      "lastScore": 6,
+      "lastScore": 22.8,
       "lastCategory": "Early Signal"
     },
     "dz:6921083": {
@@ -12643,7 +12651,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 6,
+          "total": 22.8,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -12652,7 +12660,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "micro",
-      "lastScore": 6,
+      "lastScore": 22.8,
       "lastCategory": "Early Signal"
     },
     "dz:10246628": {
@@ -12670,7 +12678,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 4.8,
+          "total": 18.2,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "small"
@@ -12679,7 +12687,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "small",
-      "lastScore": 4.8,
+      "lastScore": 18.2,
       "lastCategory": "Early Signal"
     },
     "dz:4300": {
@@ -12697,7 +12705,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 3,
+          "total": 11.4,
           "coverage": 0.3,
           "category": "Rising Momentum",
           "band": "mid"
@@ -12706,7 +12714,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "mid",
-      "lastScore": 3,
+      "lastScore": 11.4,
       "lastCategory": "Rising Momentum"
     },
     "dz:4956203": {
@@ -12724,7 +12732,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 4.8,
+          "total": 18.2,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "small"
@@ -12733,7 +12741,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "small",
-      "lastScore": 4.8,
+      "lastScore": 18.2,
       "lastCategory": "Early Signal"
     },
     "dz:5033078": {
@@ -12751,7 +12759,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 6,
+          "total": 22.8,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -12760,7 +12768,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "micro",
-      "lastScore": 6,
+      "lastScore": 22.8,
       "lastCategory": "Early Signal"
     },
     "dz:449167": {
@@ -12778,7 +12786,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 4.8,
+          "total": 18.2,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "small"
@@ -12787,7 +12795,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "small",
-      "lastScore": 4.8,
+      "lastScore": 18.2,
       "lastCategory": "Early Signal"
     },
     "dz:2130": {
@@ -12805,7 +12813,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 3,
+          "total": 11.4,
           "coverage": 0.3,
           "category": "Rising Momentum",
           "band": "mid"
@@ -12814,7 +12822,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "mid",
-      "lastScore": 3,
+      "lastScore": 11.4,
       "lastCategory": "Rising Momentum"
     },
     "dz:355122252": {
@@ -12832,7 +12840,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 6,
+          "total": 22.8,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -12841,7 +12849,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "micro",
-      "lastScore": 6,
+      "lastScore": 22.8,
       "lastCategory": "Early Signal"
     },
     "dz:5102078": {
@@ -12859,7 +12867,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 6,
+          "total": 22.8,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -12868,7 +12876,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "micro",
-      "lastScore": 6,
+      "lastScore": 22.8,
       "lastCategory": "Early Signal"
     },
     "dz:4649104": {
@@ -12886,7 +12894,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -12895,7 +12903,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "dz:5849210": {
@@ -12913,7 +12921,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -12922,7 +12930,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "dz:14141161": {
@@ -12940,7 +12948,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 4.8,
+          "total": 18.2,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "small"
@@ -12949,7 +12957,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "small",
-      "lastScore": 4.8,
+      "lastScore": 18.2,
       "lastCategory": "Early Signal"
     },
     "dz:5193": {
@@ -12967,7 +12975,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 6,
+          "total": 22.8,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -12976,7 +12984,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "micro",
-      "lastScore": 6,
+      "lastScore": 22.8,
       "lastCategory": "Early Signal"
     },
     "dz:206": {
@@ -12994,7 +13002,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -13003,7 +13011,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "dz:392271": {
@@ -13021,7 +13029,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 6,
+          "total": 22.8,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -13030,7 +13038,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "micro",
-      "lastScore": 6,
+      "lastScore": 22.8,
       "lastCategory": "Early Signal"
     },
     "dz:14803977": {
@@ -13048,7 +13056,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 3,
+          "total": 11.4,
           "coverage": 0.3,
           "category": "Rising Momentum",
           "band": "mid"
@@ -13057,7 +13065,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "mid",
-      "lastScore": 3,
+      "lastScore": 11.4,
       "lastCategory": "Rising Momentum"
     },
     "dz:56170302": {
@@ -13075,7 +13083,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 4.8,
+          "total": 18.2,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "small"
@@ -13084,7 +13092,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "small",
-      "lastScore": 4.8,
+      "lastScore": 18.2,
       "lastCategory": "Early Signal"
     },
     "dz:61895922": {
@@ -13102,7 +13110,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 6,
+          "total": 22.8,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -13111,7 +13119,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "micro",
-      "lastScore": 6,
+      "lastScore": 22.8,
       "lastCategory": "Early Signal"
     },
     "dz:13": {
@@ -13129,7 +13137,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -13138,7 +13146,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "dz:1": {
@@ -13156,7 +13164,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -13165,7 +13173,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "dz:647650": {
@@ -13183,7 +13191,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -13192,7 +13200,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "dz:5062414": {
@@ -13210,7 +13218,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 7.2,
+          "total": 27.4,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -13219,7 +13227,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "established",
-      "lastScore": 7.2,
+      "lastScore": 27.4,
       "lastCategory": "Second Wave"
     },
     "dz:14": {
@@ -13237,7 +13245,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -13246,7 +13254,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "dz:74309": {
@@ -13264,7 +13272,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -13273,7 +13281,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "dz:5578942": {
@@ -13291,7 +13299,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -13300,7 +13308,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "dz:11025166": {
@@ -13318,7 +13326,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 3,
+          "total": 11.4,
           "coverage": 0.3,
           "category": "Rising Momentum",
           "band": "mid"
@@ -13327,7 +13335,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "mid",
-      "lastScore": 3,
+      "lastScore": 11.4,
       "lastCategory": "Rising Momentum"
     },
     "dz:404": {
@@ -13345,7 +13353,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -13354,7 +13362,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "dz:458": {
@@ -13372,7 +13380,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 7.2,
+          "total": 27.4,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -13381,7 +13389,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "established",
-      "lastScore": 7.2,
+      "lastScore": 27.4,
       "lastCategory": "Second Wave"
     },
     "dz:10977": {
@@ -13399,7 +13407,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -13408,7 +13416,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "dz:1194083": {
@@ -13426,7 +13434,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -13435,7 +13443,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "dz:535": {
@@ -13453,7 +13461,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -13462,7 +13470,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "dz:416239": {
@@ -13480,7 +13488,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -13489,7 +13497,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "dz:52": {
@@ -13507,7 +13515,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -13516,7 +13524,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "dz:396349": {
@@ -13534,7 +13542,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -13543,7 +13551,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "dz:402": {
@@ -13561,7 +13569,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -13570,7 +13578,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "dz:80365122": {
@@ -13588,7 +13596,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -13597,7 +13605,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "dz:167095": {
@@ -13615,7 +13623,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -13624,7 +13632,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "dz:6630050": {
@@ -13642,7 +13650,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -13651,7 +13659,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "dz:1309": {
@@ -13669,7 +13677,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -13678,7 +13686,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "dz:13923487": {
@@ -13696,7 +13704,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -13705,7 +13713,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "dz:10159994": {
@@ -13723,7 +13731,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -13732,7 +13740,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "dz:49280302": {
@@ -13750,7 +13758,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -13759,7 +13767,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "dz:412": {
@@ -13777,7 +13785,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -13786,7 +13794,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "dz:9219": {
@@ -13804,7 +13812,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -13813,7 +13821,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "dz:1462230": {
@@ -13831,7 +13839,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 12.2,
+          "total": 46.4,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -13840,7 +13848,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "established",
-      "lastScore": 12.2,
+      "lastScore": 46.4,
       "lastCategory": "Second Wave"
     },
     "dz:17": {
@@ -13858,7 +13866,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -13867,7 +13875,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "dz:182": {
@@ -13885,7 +13893,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -13894,7 +13902,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "dz:11289472": {
@@ -13912,7 +13920,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -13921,7 +13929,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "dz:542": {
@@ -13939,7 +13947,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -13948,7 +13956,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "dz:11": {
@@ -13966,7 +13974,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -13975,7 +13983,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "dz:9064930": {
@@ -13993,7 +14001,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -14002,7 +14010,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "dz:1188": {
@@ -14020,7 +14028,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -14029,7 +14037,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "dz:4344192": {
@@ -14047,7 +14055,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -14056,7 +14064,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "dz:4860761": {
@@ -14074,7 +14082,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -14083,7 +14091,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "dz:12436": {
@@ -14101,7 +14109,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -14110,7 +14118,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "dz:705": {
@@ -14128,7 +14136,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -14137,7 +14145,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "dz:183716": {
@@ -14155,7 +14163,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 7.2,
+          "total": 27.4,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -14164,7 +14172,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "established",
-      "lastScore": 7.2,
+      "lastScore": 27.4,
       "lastCategory": "Second Wave"
     },
     "dz:76600632": {
@@ -14182,7 +14190,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 4.8,
+          "total": 18.2,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "small"
@@ -14191,7 +14199,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "small",
-      "lastScore": 4.8,
+      "lastScore": 18.2,
       "lastCategory": "Early Signal"
     },
     "dz:413": {
@@ -14209,7 +14217,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -14218,7 +14226,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "dz:483": {
@@ -14236,7 +14244,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -14245,7 +14253,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "dz:1327": {
@@ -14263,7 +14271,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -14272,7 +14280,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "dz:3839": {
@@ -14290,7 +14298,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -14299,7 +14307,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "dz:997": {
@@ -14317,7 +14325,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -14326,7 +14334,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "dz:117": {
@@ -14344,7 +14352,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.2,
+          "total": 4.6,
           "coverage": 0.3,
           "category": "Second Wave",
           "band": "established"
@@ -14353,7 +14361,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "established",
-      "lastScore": 1.2,
+      "lastScore": 4.6,
       "lastCategory": "Second Wave"
     },
     "dz:151521512": {
@@ -14371,7 +14379,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 6,
+          "total": 22.8,
           "coverage": 0.3,
           "category": "Breakout Track",
           "band": "micro"
@@ -14380,7 +14388,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "micro",
-      "lastScore": 6,
+      "lastScore": 22.8,
       "lastCategory": "Breakout Track"
     },
     "dz:13975931": {
@@ -14479,7 +14487,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.5,
+          "total": 5.7,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -14488,7 +14496,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "micro",
-      "lastScore": 1.5,
+      "lastScore": 5.7,
       "lastCategory": "Early Signal"
     },
     "dz:174938477": {
@@ -14560,7 +14568,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 6,
+          "total": 22.8,
           "coverage": 0.3,
           "category": "Breakout Track",
           "band": "micro"
@@ -14569,7 +14577,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "micro",
-      "lastScore": 6,
+      "lastScore": 22.8,
       "lastCategory": "Breakout Track"
     },
     "dz:268463782": {
@@ -14668,7 +14676,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.5,
+          "total": 5.7,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -14677,7 +14685,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "micro",
-      "lastScore": 1.5,
+      "lastScore": 5.7,
       "lastCategory": "Early Signal"
     },
     "dz:202933587": {
@@ -14911,7 +14919,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 3,
+          "total": 11.4,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -14920,7 +14928,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "micro",
-      "lastScore": 3,
+      "lastScore": 11.4,
       "lastCategory": "Early Signal"
     },
     "dz:393541": {
@@ -15046,7 +15054,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 3,
+          "total": 11.4,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -15055,7 +15063,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "micro",
-      "lastScore": 3,
+      "lastScore": 11.4,
       "lastCategory": "Early Signal"
     },
     "dz:55494692": {
@@ -15235,7 +15243,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.5,
+          "total": 5.7,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -15244,7 +15252,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "micro",
-      "lastScore": 1.5,
+      "lastScore": 5.7,
       "lastCategory": "Early Signal"
     },
     "dz:74766092": {
@@ -15316,7 +15324,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.5,
+          "total": 5.7,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -15325,7 +15333,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "micro",
-      "lastScore": 1.5,
+      "lastScore": 5.7,
       "lastCategory": "Early Signal"
     },
     "dz:12658809": {
@@ -15424,7 +15432,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.5,
+          "total": 5.7,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -15433,7 +15441,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "micro",
-      "lastScore": 1.5,
+      "lastScore": 5.7,
       "lastCategory": "Early Signal"
     },
     "dz:10168310": {
@@ -15586,7 +15594,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.5,
+          "total": 5.7,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -15595,7 +15603,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "micro",
-      "lastScore": 1.5,
+      "lastScore": 5.7,
       "lastCategory": "Early Signal"
     },
     "dz:7954262": {
@@ -15829,7 +15837,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.5,
+          "total": 5.7,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -15838,7 +15846,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "micro",
-      "lastScore": 1.5,
+      "lastScore": 5.7,
       "lastCategory": "Early Signal"
     },
     "dz:6347082": {
@@ -16234,7 +16242,7 @@
       "history": [
         {
           "week": "2026-W44",
-          "total": 1.5,
+          "total": 5.7,
           "coverage": 0.3,
           "category": "Early Signal",
           "band": "micro"
@@ -16243,7 +16251,7 @@
       "lastSeen": "2026-W44",
       "identity": "deezer",
       "band": "micro",
-      "lastScore": 1.5,
+      "lastScore": 5.7,
       "lastCategory": "Early Signal"
     },
     "dz:1222473": {

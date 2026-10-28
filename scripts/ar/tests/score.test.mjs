@@ -27,6 +27,7 @@ test("baseline week: growth components are unavailable, coverage reflects it, no
   assert.equal(s.dataMax, 25);
   assert.equal(s.coverage, 0.3);
   assert.equal(s.total, 0);
+  assert.equal(s.rawTotal, 0);
   assert.equal(gate(s, config).pass, false);
 });
 
@@ -129,7 +130,7 @@ test("a dip breaks the streak", () => {
 test("established artists are Second Wave and need 85", () => {
   const prev = { week: "2026-W44", weeksBefore: 1, artist: artist({ deezer: { fans: 1000000, topTracks: [] }, lastfm: { listeners: 500000, playcount: 9000000 } }) };
   const cur = artist({ deezer: { fans: 1100000, topTracks: [] }, lastfm: { listeners: 560000, playcount: 11000000 }, press: [{ outlet: "NME", title: "x", url: "u", date: "2026-10-30T00:00:00Z" }, { outlet: "DIY", title: "x", url: "u", date: "2026-10-30T00:00:00Z" }] });
-  const s = scoreArtist({ current: cur, previous: [prev], week, config });
+  const s = scoreArtist({ current: cur, previous: [prev], week, config, context: ctx });
   assert.equal(s.category, "Second Wave");
   assert.ok(s.total < 85);
   assert.ok(gate(s, config).reasons.some((r) => r.includes("< 85")));
@@ -167,4 +168,15 @@ test("a Deezer/MusicBrainz link mismatch is a note for the editorial run, not a 
   const s = scoreArtist({ current: artist({ identityConflict: true }), previous: [], week, config });
   assert.equal(s.flags.length, 0);
   assert.equal(s.notes.length, 1);
+});
+
+test("the score is normalized over measurable points and coverage carries the uncertainty", () => {
+  // Deezer only, two snapshots: audience (20) + sustained (5) + validation (15) + breakout (10) measurable = 50 of 95
+  const prev = { week: "2026-W44", weeksBefore: 1, artist: artist({ deezer: { fans: 1000, topTracks: [] } }) };
+  const cur = artist({ deezer: { fans: 1400, topTracks: [] }, press: [{ outlet: "NME", title: "x", url: "u", date: "2026-10-30T00:00:00Z" }, { outlet: "DIY", title: "x", url: "u", date: "2026-10-30T00:00:00Z" }] });
+  const s = scoreArtist({ current: cur, previous: [prev], week, config, context: ctx });
+  assert.equal(s.dataMax, 50);
+  assert.equal(s.rawTotal, 20 + 5 + 11);
+  assert.equal(s.total, Math.round(((36 / 50) * 95) * 10) / 10);
+  assert.equal(gate(s, config).reasons.some((r) => r.startsWith("coverage")), true); // 53% < 70%
 });

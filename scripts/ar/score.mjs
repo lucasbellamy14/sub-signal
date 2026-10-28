@@ -142,9 +142,13 @@ export function scoreArtist({ current, previous = [], week, config, rosterMember
   c.editorial = { pts: 0, max: 5, available: false, inputs: {}, note: "assigned in the editorial run" };
 
   const dataComponents = ["streaming", "audience", "sustained", "validation", "breakout"];
-  const total = round(dataComponents.reduce((n, k) => n + c[k].pts, 0));
+  const rawTotal = round(dataComponents.reduce((n, k) => n + c[k].pts, 0));
   const dataMax = dataComponents.reduce((n, k) => n + c[k].max, 0);
   const coverage = round(dataMax / 95);
+  // Documented rule: the score is the share of the MEASURABLE data points earned, scaled to the 95 data
+  // points, so a missing source lowers coverage (which the gate checks) instead of silently capping the
+  // score. rawTotal keeps the unscaled sum for the record.
+  const total = dataMax ? round((rawTotal / dataMax) * 95) : 0;
   const sources = ["deezer", "lastfm"].filter((k) => current[k]).length + (current.charts?.length ? 1 : 0) + (current.press?.length ? 1 : 0);
 
   let category;
@@ -158,7 +162,7 @@ export function scoreArtist({ current, previous = [], week, config, rosterMember
   const notes = [];
   if (current.identityConflict) notes.push("MusicBrainz links a different Deezer artist; editorial run must confirm identity");
 
-  return { total, coverage, dataMax, band, category, components: c, sources, flags, notes, evidence, rosterMember };
+  return { total, rawTotal, coverage, dataMax, band, category, components: c, sources, flags, notes, evidence, rosterMember };
 }
 
 export function gate(score, config) {

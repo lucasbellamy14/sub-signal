@@ -64,7 +64,7 @@ export function buildShortlist({ snapshot, history = [], ledger, config, now = n
   };
 }
 
-const pick = (s) => ({ key: s.key, name: s.name, slug: s.slug, total: s.score.total, coverage: s.score.coverage, band: s.score.band, category: s.score.category, components: Object.fromEntries(Object.entries(s.score.components).map(([k, v]) => [k, { pts: v.pts, max: v.max }])), evidence: s.score.evidence, flags: s.score.flags, notes: s.score.notes, gate: s.gate.reasons });
+const pick = (s) => ({ key: s.key, name: s.name, slug: s.slug, total: s.score.total, rawTotal: s.score.rawTotal, coverage: s.score.coverage, band: s.score.band, category: s.score.category, components: Object.fromEntries(Object.entries(s.score.components).map(([k, v]) => [k, { pts: v.pts, max: v.max }])), evidence: s.score.evidence, flags: s.score.flags, notes: s.score.notes, gate: s.gate.reasons });
 const round = (n) => Math.round(n * 100) / 100;
 
 /** Median top-track rank per size band across this week's pool; null for bands too small to be meaningful. */
@@ -107,6 +107,6 @@ export function renderReport(sl, snapshot, config) {
   const issues = [];
   for (const [k, v] of Object.entries(snapshot.sources)) if (v === "unavailable" || v === "partial") issues.push(`${k} was ${v}`);
   if (snapshot.sources.lastfm === "disabled") issues.push("Last.fm key not configured, so streaming growth and listener growth cannot be scored");
-  L.push(`**Issues:** ${issues.length ? issues.join("; ") : "none"}`, ``, `Thresholds: publish ${config.thresholds.publish} (Second Wave ${config.thresholds.secondWave}), watch ${config.thresholds.watch}, min coverage ${Math.round(config.thresholds.minCoverage * 100)}%, min sources ${config.thresholds.minSources}, cap ${config.weeklyCap}/week.`);
+  L.push(`**Issues:** ${issues.length ? issues.join("; ") : "none"}`, ``, `Scores are the share of measurable data points earned, scaled to 95; coverage says how much could be measured. Thresholds: publish ${config.thresholds.publish} (Second Wave ${config.thresholds.secondWave}), watch ${config.thresholds.watch}, min coverage ${Math.round(config.thresholds.minCoverage * 100)}%, min sources ${config.thresholds.minSources}, cap ${config.weeklyCap}/week.`);
   return L.join("\n") + "\n";
 }
