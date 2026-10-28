@@ -33,8 +33,7 @@ jobs:
           if gh issue view "$ISSUE" --repo "$REPO" --comments --json comments --jq '.comments[].body' | grep -q '^## Editorial run'; then
             echo "week $WEEK: data run and editorial run both reported"
           else
-            gh issue comment "$ISSUE" --repo "$REPO" --body "## Watchdog
-
-No editorial run reported for week $WEEK by Tuesday. The Monday desktop scheduled task on Lucas's Mac did not run (app closed or asleep?) or failed before pushing. It runs on the next app launch; otherwise start it by hand from the Scheduled list in the Claude app."
+            printf '## Watchdog\n\nNo editorial run reported for week %s by Tuesday. The Monday desktop scheduled task on the Mac did not run (app closed or asleep?) or failed before pushing. It runs on the next app launch; otherwise start it by hand from the Scheduled list in the Claude app.\n' "$WEEK" > body.md
+            gh issue comment "$ISSUE" --repo "$REPO" --body-file body.md
             echo "editorial run missing"; exit 1
           fi
