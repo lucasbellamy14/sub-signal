@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { useState } from "react";
 import GenerativeArt from "@/components/GenerativeArt";
+import { PHOTOS } from "@/lib/signal";
 
 /**
  * Artist photo with a graceful fallback. Looks for /images/artists/{slug}.jpg
@@ -25,12 +26,16 @@ export default function ArtistImage({
   position?: string;
 }) {
   const [failed, setFailed] = useState(false);
+  // A photo shown from Deezer's CDN (recorded in photos.json) is linked, not copied,
+  // so it bypasses Next's optimizer; local files go through it as before.
+  const remote = PHOTOS[slug]?.url;
 
   if (failed) return <GenerativeArt slug={slug} index={index} />;
 
   return (
     <Image
-      src={`/images/artists/${slug}.jpg`}
+      src={remote || `/images/artists/${slug}.jpg`}
+      unoptimized={Boolean(remote)}
       alt={`${name} — artist photo`}
       fill
       sizes={sizes}

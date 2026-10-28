@@ -12,7 +12,9 @@
     "check-links": "node scripts/check-links.mjs",
     "sync-artists": "node scripts/sync-artists.mjs",
     "ar:run": "node scripts/ar/run.mjs",
-    "ar:test": "node --test scripts/ar/tests/*.test.mjs"
+    "ar:test": "node --test scripts/ar/tests/*.test.mjs",
+    "ar:draft": "node scripts/ar/draft.mjs",
+    "ar:photo": "node scripts/ar/photo.mjs"
   },
   "dependencies": {
     "html2canvas": "^1.4.1",
@@ -28,6 +30,7 @@
     "eslint": "^8",
     "eslint-config-next": "14.2.35",
     "postcss": "^8",
+    "sharp": "^0.33.5",
     "tailwindcss": "^3.4.1",
     "typescript": "^5"
   }

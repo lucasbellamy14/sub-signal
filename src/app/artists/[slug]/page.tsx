@@ -9,6 +9,8 @@ import SaveButton from "@/components/SaveButton";
 import ArtistSpecSheet from "@/components/ArtistSpecSheet";
 import { PlayArtistButton } from "@/components/PlayButtons";
 import SpotifyEmbed from "@/components/SpotifyEmbed";
+import ArtistSignal from "@/components/ArtistSignal";
+import PhotoCredit from "@/components/PhotoCredit";
 
 export function generateStaticParams() {
   return ARTISTS.map((artist) => ({ slug: artist.slug }));
@@ -67,6 +69,7 @@ export default function ArtistPage({ params }: { params: { slug: string } }) {
             }}
           />
         </div>
+        <PhotoCredit slug={artist.slug} />
         <div style={{ height: "1px", background: "rgba(57,255,90,0.15)", marginBottom: "2rem" }} />
       </div>
 
@@ -120,6 +123,8 @@ export default function ArtistPage({ params }: { params: { slug: string } }) {
         </div>
 
         <ArtistSpecSheet artist={artist} />
+
+        <ArtistSignal slug={artist.slug} />
 
         <div style={{ marginBottom: "2rem" }}>
           <SocialLinks

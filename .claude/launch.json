@@ -4,8 +4,25 @@
     {
       "name": "sub-signal",
       "runtimeExecutable": "npm",
-      "runtimeArgs": ["run", "dev"],
+      "runtimeArgs": [
+        "run",
+        "dev"
+      ],
       "port": 3000
+    },
+    {
+      "name": "sub-signal-drafts",
+      "runtimeExecutable": "env",
+      "runtimeArgs": [
+        "NEXT_PUBLIC_SHOW_DRAFTS=1",
+        "npm",
+        "run",
+        "dev",
+        "--",
+        "-p",
+        "3101"
+      ],
+      "port": 3101
     }
   ]
 }

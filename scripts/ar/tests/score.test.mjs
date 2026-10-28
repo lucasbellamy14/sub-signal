@@ -137,7 +137,7 @@ test("established artists are Second Wave and need 85", () => {
 
 test("roster members never pass the gate; missing MusicBrainz identity is flagged", () => {
   const s1 = scoreArtist({ current: artist(), previous: [], week, config, rosterMember: true });
-  assert.ok(gate(s1, config).reasons.includes("already on Sub Signal"));
+  assert.ok(gate(s1, config).reasons.includes("already on Sub Signal or in draft"));
   const s2 = scoreArtist({ current: artist({ mbid: null }), previous: [], week, config });
   assert.ok(s2.flags.some((f) => f.startsWith("identity")));
 });

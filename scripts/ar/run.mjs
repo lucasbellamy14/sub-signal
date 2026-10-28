@@ -47,14 +47,20 @@ const src = { deezer: deezer(http), lastfm: lastfm(http), apple: apple(http), pr
 const t0 = Date.now();
 log(`A&R data run · week ${week} · roster ${roster.length} · Last.fm ${src.lastfm.enabled ? "on" : "OFF (no LASTFM_API_KEY)"}${limit ? ` · limit ${limit}` : ""}`);
 
-log("Pool");
-const pool = await buildPool({ config, ledger, roster, src, log, week, limit });
-log(`  ${pool.stats.total} artists (${JSON.stringify(pool.stats)})`);
-
-log("Collect");
-const snapshot = await collect({ pool, ledger, config, src, log, week });
-
 const snapDir = path.join(DATA, "snapshots");
+let snapshot;
+if (args.includes("--rescore")) {
+  // Recompute scores, shortlist and report from the week's existing snapshot (no network): for tuning thresholds.
+  snapshot = readJson(path.join(snapDir, `${week}.json`));
+  log(`Rescore from existing snapshot (${Object.keys(snapshot.artists).length} artists)`);
+} else {
+  log("Pool");
+  const pool = await buildPool({ config, ledger, roster, src, log, week, limit });
+  log(`  ${pool.stats.total} artists (${JSON.stringify(pool.stats)})`);
+  log("Collect");
+  snapshot = await collect({ pool, ledger, config, src, log, week });
+}
+
 const history = fs.existsSync(snapDir)
   ? fs
       .readdirSync(snapDir)

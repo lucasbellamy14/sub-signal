@@ -60,7 +60,7 @@ export async function buildPool({ config, ledger, roster, src, log, week, limit 
 
   // 4. Watchlist and recent candidates from the ledger
   for (const a of Object.values(ledger.artists)) {
-    if (a.status === "watchlist" || a.status === "shortlisted") add(a.name, { tag: a.status, deezerId: a.deezerId, mbid: a.mbid });
+    if (a.status === "watchlist" || a.status === "shortlisted" || a.status === "drafted" || a.status === "published") add(a.name, { tag: a.status, deezerId: a.deezerId, mbid: a.mbid });
     else if (a.status === "candidate" && a.lastSeen && weeksAgo(a.lastSeen, week) <= 2) add(a.name, { tag: "recent", deezerId: a.deezerId, mbid: a.mbid });
   }
 

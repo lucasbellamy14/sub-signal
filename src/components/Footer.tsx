@@ -93,6 +93,20 @@ export default function Footer() {
             >
               Contact
             </a>
+            <a
+              href="/credits"
+              style={{
+                fontFamily: "var(--font-display)",
+                fontSize: "0.8rem",
+                letterSpacing: "0.15em",
+                textTransform: "uppercase",
+                color: "#9a9a9a",
+                textDecoration: "none",
+                transition: "color 0.2s",
+              }}
+            >
+              Credits
+            </a>
           </nav>
 
           {/* Copyright */}

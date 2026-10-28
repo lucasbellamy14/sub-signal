@@ -169,7 +169,7 @@ export function gate(score, config) {
   if (score.coverage < t.minCoverage) reasons.push(`coverage ${Math.round(score.coverage * 100)}% < ${Math.round(t.minCoverage * 100)}%`);
   if (score.sources < t.minSources) reasons.push(`${score.sources} source(s) < ${t.minSources}`);
   if (score.flags.length) reasons.push(...score.flags);
-  if (score.rosterMember) reasons.push("already on Sub Signal");
+  if (score.rosterMember) reasons.push("already on Sub Signal or in draft");
   return { pass: reasons.length === 0, reasons };
 }
 

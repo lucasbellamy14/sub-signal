@@ -19,7 +19,8 @@ export function buildShortlist({ snapshot, history = [], ledger, config, now = n
       .sort((a, b) => a.weeksBefore - b.weeksBefore);
     const L = ledger.artists[key];
     const rosterMember = cur.pool.includes("roster") || L?.status === "roster";
-    const score = scoreArtist({ current: cur, previous, week: { id: week, now }, config, rosterMember, context });
+    const inProgress = L?.status === "drafted" || L?.status === "published";
+    const score = scoreArtist({ current: cur, previous, week: { id: week, now }, config, rosterMember: rosterMember || inProgress, context });
     const g = gate(score, config);
     scored.push({ key, name: cur.name, slug: cur.slug, score, gate: g });
 
@@ -28,7 +29,7 @@ export function buildShortlist({ snapshot, history = [], ledger, config, now = n
       L.lastScore = score.total;
       L.lastCategory = score.category;
       L.history = [...(L.history || []).filter((h) => h.week !== week), { week, total: score.total, coverage: score.coverage, category: score.category, band: score.band }].slice(-26);
-      if (!rosterMember) {
+      if (!rosterMember && !inProgress) {
         if (g.pass) L.status = "shortlisted";
         else if (score.total >= t.watch || (score.total >= t.publish && !g.pass)) {
           if (L.status !== "watchlist") L.watchSince = week;
@@ -58,6 +59,7 @@ export function buildShortlist({ snapshot, history = [], ledger, config, now = n
     watch: watch.map(pick),
     rosterMomentum: rosterMomentum.map(pick),
     excluded,
+    scored: scored.sort(byScore).map(pick),
     stats: { scored: scored.length, candidates: candidates.length, roster: roster.length, eligible: eligible.length, watch: watch.length, meanCoverage: round(scored.reduce((n, s) => n + s.score.coverage, 0) / Math.max(1, scored.length)) },
   };
 }

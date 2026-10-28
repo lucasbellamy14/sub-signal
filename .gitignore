@@ -35,8 +35,10 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# Claude scratch files
-.claude/
+# Claude scratch files (but the repo's skills are shared with the cloud editorial run)
+.claude/*
+!.claude/skills/
+!.claude/skills/**
 
 # Research docs (kept out of website repo)
 Sub_Signal_*.xlsx

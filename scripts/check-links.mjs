@@ -58,13 +58,35 @@ for (const b of blocks) {
 }
 
 console.log("\nSource links (every URL cited in a timeline)");
-const urls = [...new Set([...artists.matchAll(/sources: \[([^\]]*)\]/g)].flatMap((m) => [...m[1].matchAll(/"([^"]+)"/g)].map((x) => x[1])))];
+// Which artists cite each URL, so a cited page can be checked for the artist's name.
+// Drafts are always name-checked (the editorial run's gate); --strict checks everyone.
+const strict = process.argv.includes("--strict");
+const norm = (s) => s.toLowerCase().normalize("NFKD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-z0-9]+/g, " ").trim();
+const citedBy = new Map();
+for (const b of blocks) {
+  const name = (b.match(/name: "([^"]+)"/) || [])[1];
+  const draft = /draft:\s*true/.test(b);
+  for (const m of b.matchAll(/sources: \[([^\]]*)\]/g)) for (const x of m[1].matchAll(/"([^"]+)"/g)) {
+    if (!citedBy.has(x[1])) citedBy.set(x[1], []);
+    citedBy.get(x[1]).push({ name, draft });
+  }
+}
 let warned = 0;
-for (const u of urls) {
+for (const [u, who] of citedBy) {
+  const label = u.replace(/^https?:\/\//, "").slice(0, 70);
   try {
     const res = await fetch(u, { method: "GET", redirect: "follow", headers: { "User-Agent": "Mozilla/5.0 (SubSignal link checker)" } });
-    if (res.ok) report(true, u.replace(/^https?:\/\//, "").slice(0, 70));
-    else if ([401, 402, 403, 429].includes(res.status)) { warned++; console.log(`  warn  ${u.replace(/^https?:\/\//, "").slice(0, 70)} — site blocks automated checks (HTTP ${res.status}); check by hand`); }
+    if (res.ok) {
+      const toCheck = who.filter((w) => strict || w.draft);
+      if (toCheck.length) {
+        const text = norm((await res.text()).slice(0, 400000).replace(/<script[\s\S]*?<\/script>|<style[\s\S]*?<\/style>/gi, " ").replace(/<[^>]+>/g, " ").replace(/&[a-z#0-9]+;/gi, " "));
+        for (const w of toCheck) {
+          const found = text.includes(norm(w.name)) || norm(w.name).split(" ").filter((t) => t.length > 3).every((t) => text.includes(t));
+          report(found, label, found ? `mentions ${w.name}` : `page does not mention "${w.name}" — wrong source or paywalled; cite a page that names the artist`);
+        }
+      } else report(true, label);
+    }
+    else if ([401, 402, 403, 429].includes(res.status)) { warned++; console.log(`  warn  ${label} — site blocks automated checks (HTTP ${res.status}); check by hand`); }
     else report(false, u, `HTTP ${res.status}`);
   } catch (e) {
     report(false, u, e.message);
@@ -72,12 +94,21 @@ for (const u of urls) {
 }
 if (warned) console.log(`  (${warned} source link(s) could not be checked automatically)`);
 
-console.log("\nPhotos");
+console.log("\nPhotos (a local file, a recorded Deezer hotlink, or generative art for drafts that have neither)");
+const photosMeta = JSON.parse(fs.existsSync(path.join(ROOT, "src", "data", "photos.json")) ? read("src/data/photos.json") : "{}");
 for (const b of blocks) {
-  if (/draft:\s*true/.test(b)) continue;
+  const draft = /draft:\s*true/.test(b);
   const slug = (b.match(/slug: "([^"]+)"/) || [])[1];
-  const ok = fs.existsSync(path.join(ROOT, "public", "images", "artists", `${slug}.jpg`));
-  report(ok, slug, ok ? "" : "no photo — run `npm run photos`");
+  const local = fs.existsSync(path.join(ROOT, "public", "images", "artists", `${slug}.jpg`));
+  const meta = photosMeta[slug];
+  if (meta?.url) {
+    const r = await fetch(meta.url, { method: "GET", redirect: "follow" }).catch(() => null);
+    report(Boolean(r && r.ok), slug, r && r.ok ? "hotlink ok" : "hotlinked photo is unreachable");
+  } else if (local) {
+    if (meta?.source === "commons" && (!meta.license || !meta.sourceUrl)) report(false, slug, "Commons photo without a licence/credit in photos.json");
+    else report(true, slug, meta?.source === "commons" ? `Commons, ${meta.license}` : "");
+  } else if (draft) report(true, slug, "no photo: generative art will be used");
+  else report(true, slug, "no photo: generative art");
 }
 
 console.log(bad ? `\n${bad} problem(s) found.` : "\nAll links and photos check out.");
