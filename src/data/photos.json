@@ -1,1 +1,291 @@
-{}
+{
+  "absolutely": {
+    "source": "commons",
+    "author": "Infsai",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Absolutely_(Abby-Lynn_Keen)_performing_as_a_support_on_This_Tour_May_Contain_New_Music_in_%C5%81%C3%B3d%C5%BA_(cropped).jpg"
+  },
+  "alessi-rose": {
+    "source": "deezer",
+    "url": "https://api.deezer.com/artist/172810197/image?size=xl",
+    "sourceUrl": "https://www.deezer.com/artist/172810197"
+  },
+  "bleech-9-3": {
+    "source": "commons",
+    "author": "Sol Procter-Tarabanov",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bleech_The_Grace_2025_06.jpg"
+  },
+  "bleood": {
+    "source": "deezer",
+    "url": "https://api.deezer.com/artist/243491891/image?size=xl",
+    "sourceUrl": "https://www.deezer.com/artist/243491891"
+  },
+  "cece-natalie": {
+    "source": "deezer",
+    "url": "https://api.deezer.com/artist/180888967/image?size=xl",
+    "sourceUrl": "https://www.deezer.com/artist/180888967"
+  },
+  "chalk": {
+    "source": "deezer",
+    "url": "https://api.deezer.com/artist/285237501/image?size=xl",
+    "sourceUrl": "https://www.deezer.com/artist/285237501"
+  },
+  "contradash": {
+    "source": "deezer",
+    "url": "https://api.deezer.com/artist/72774102/image?size=xl",
+    "sourceUrl": "https://www.deezer.com/artist/72774102"
+  },
+  "devon-again": {
+    "source": "deezer",
+    "url": "https://api.deezer.com/artist/137662042/image?size=xl",
+    "sourceUrl": "https://www.deezer.com/artist/137662042"
+  },
+  "dove-ellis": {
+    "source": "deezer",
+    "url": "https://api.deezer.com/artist/209116837/image?size=xl",
+    "sourceUrl": "https://www.deezer.com/artist/209116837"
+  },
+  "eaves-wilder": {
+    "source": "deezer",
+    "url": "https://api.deezer.com/artist/98350192/image?size=xl",
+    "sourceUrl": "https://www.deezer.com/artist/98350192"
+  },
+  "english-teacher": {
+    "source": "commons",
+    "author": "User22039",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:English_Teacher_ESNS24.jpg"
+  },
+  "fakemink": {
+    "source": "commons",
+    "author": "Teddy Westside",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fakemink_performing_in_London%2C_photographed_by_Teddy_Westside.jpg"
+  },
+  "fcukers": {
+    "source": "commons",
+    "author": "Plyd",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fcukers_at_Trans_Musicales_2024%2C_2.jpg"
+  },
+  "gazelle-twin": {
+    "source": "deezer",
+    "url": "https://api.deezer.com/artist/883033/image?size=xl",
+    "sourceUrl": "https://www.deezer.com/artist/883033"
+  },
+  "gia-margaret": {
+    "source": "commons",
+    "author": "Joe Vitale 5",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:GiaMargaret2023.jpg"
+  },
+  "hand-habits": {
+    "source": "deezer",
+    "url": "https://api.deezer.com/artist/5354261/image?size=xl",
+    "sourceUrl": "https://www.deezer.com/artist/5354261"
+  },
+  "indigo-de-souza": {
+    "source": "commons",
+    "author": "David Lee from Redmond, WA, USA",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Indigo_De_Souza_(51974621420).jpg"
+  },
+  "jade-lemac": {
+    "source": "deezer",
+    "url": "https://api.deezer.com/artist/15050459/image?size=xl",
+    "sourceUrl": "https://www.deezer.com/artist/15050459"
+  },
+  "jahson-paynter": {
+    "source": "deezer",
+    "url": "https://api.deezer.com/artist/89640012/image?size=xl",
+    "sourceUrl": "https://www.deezer.com/artist/89640012"
+  },
+  "jean-dawson": {
+    "source": "commons",
+    "author": "Tdffaman",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jean_dawson_los_angeles.jpg"
+  },
+  "jenny-hval": {
+    "source": "deezer",
+    "url": "https://api.deezer.com/artist/1022679/image?size=xl",
+    "sourceUrl": "https://www.deezer.com/artist/1022679"
+  },
+  "jessica-93": {
+    "source": "commons",
+    "author": "Vinckie",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jessica93_(7).jpg"
+  },
+  "jessy-lanza": {
+    "source": "commons",
+    "author": "Shuathmore",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jessy_Lanza.jpg"
+  },
+  "kllo": {
+    "source": "deezer",
+    "url": "https://api.deezer.com/artist/8818636/image?size=xl",
+    "sourceUrl": "https://www.deezer.com/artist/8818636"
+  },
+  "lael-neale": {
+    "source": "commons",
+    "author": "Paul Hudson from United Kingdom",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:TGE_2023_Day_1_-_Lael_Neale_(52891553320).jpg"
+  },
+  "lime-garden": {
+    "source": "deezer",
+    "url": "https://api.deezer.com/artist/125360612/image?size=xl",
+    "sourceUrl": "https://www.deezer.com/artist/125360612"
+  },
+  "mk-gee": {
+    "source": "commons",
+    "author": "Twundy",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mk.gee_Dallas_2024_1_(cropped).jpg"
+  },
+  "model-actriz": {
+    "source": "deezer",
+    "url": "https://api.deezer.com/artist/11333772/image?size=xl",
+    "sourceUrl": "https://www.deezer.com/artist/11333772"
+  },
+  "natanya": {
+    "source": "deezer",
+    "url": "https://api.deezer.com/artist/72609812/image?size=xl",
+    "sourceUrl": "https://www.deezer.com/artist/72609812"
+  },
+  "nettspend": {
+    "source": "commons",
+    "author": "@justusedd on Instagram",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nettspend.webp"
+  },
+  "nia-archives": {
+    "source": "commons",
+    "author": "Michielderoo",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nia_Archives_2024-11-16_Amsterdam.jpg"
+  },
+  "ninajirachi": {
+    "source": "commons",
+    "author": "BakedPotatoLord",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nina_in_Ft._Collins_Colorado_in_Jan_2026.jpg"
+  },
+  "oliver-malcolm": {
+    "source": "deezer",
+    "url": "https://api.deezer.com/artist/9147912/image?size=xl",
+    "sourceUrl": "https://www.deezer.com/artist/9147912"
+  },
+  "paris-texas": {
+    "source": "deezer",
+    "url": "https://api.deezer.com/artist/124530852/image?size=xl",
+    "sourceUrl": "https://www.deezer.com/artist/124530852"
+  },
+  "quiet-light": {
+    "source": "deezer",
+    "url": "https://api.deezer.com/artist/74266162/image?size=xl",
+    "sourceUrl": "https://www.deezer.com/artist/74266162"
+  },
+  "riz-la-vie": {
+    "source": "deezer",
+    "url": "https://api.deezer.com/artist/11728357/image?size=xl",
+    "sourceUrl": "https://www.deezer.com/artist/11728357"
+  },
+  "sailorr": {
+    "source": "commons",
+    "author": "WJCT Public Media",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sailorr_September_2022_(cropped).png"
+  },
+  "sam-amidon": {
+    "source": "commons",
+    "author": "Sólveig",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sam_amidon.JPG"
+  },
+  "sarah-kinsley": {
+    "source": "commons",
+    "author": "David Lee",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sarah_Kinsley.jpg"
+  },
+  "sassy-009": {
+    "source": "deezer",
+    "url": "https://api.deezer.com/artist/13131403/image?size=xl",
+    "sourceUrl": "https://www.deezer.com/artist/13131403"
+  },
+  "shes-green": {
+    "source": "deezer",
+    "url": "https://api.deezer.com/artist/159930562/image?size=xl",
+    "sourceUrl": "https://www.deezer.com/artist/159930562"
+  },
+  "slauson-malone-1": {
+    "source": "deezer",
+    "url": "https://api.deezer.com/artist/165006527/image?size=xl",
+    "sourceUrl": "https://www.deezer.com/artist/165006527"
+  },
+  "sofia-isella": {
+    "source": "commons",
+    "author": "Planetaryfire",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sofia_Isella_cologne_13-08-2025_(cropped).jpg"
+  },
+  "sprints": {
+    "source": "commons",
+    "author": "Paul Hudson from United Kingdom",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sprints_(52072572619).jpg"
+  },
+  "sudan-archives": {
+    "source": "commons",
+    "author": "Elise Malterre",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:EliseMalterreofSudanArchivesAmazesAllAtTreefort2019.jpg"
+  },
+  "the-deep": {
+    "source": "deezer",
+    "url": "https://api.deezer.com/artist/335352/image?size=xl",
+    "sourceUrl": "https://www.deezer.com/artist/335352"
+  },
+  "the-sophs": {
+    "source": "deezer",
+    "url": "https://api.deezer.com/artist/320355391/image?size=xl",
+    "sourceUrl": "https://www.deezer.com/artist/320355391"
+  },
+  "tiffany-day": {
+    "source": "commons",
+    "author": "Tiffany Day",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tiffany_Day_-_No_Luck_2.png"
+  },
+  "whatmore": {
+    "source": "deezer",
+    "url": "https://api.deezer.com/artist/4916927/image?size=xl",
+    "sourceUrl": "https://www.deezer.com/artist/4916927"
+  }
+}
