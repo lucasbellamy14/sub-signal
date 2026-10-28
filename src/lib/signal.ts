@@ -38,8 +38,8 @@ export interface ArtistPhoto {
   sourceUrl: string;
 }
 
-export const SIGNALS = signal as Record<string, ArtistSignal>;
-export const PHOTOS = photos as Record<string, ArtistPhoto>;
+export const SIGNALS = signal as unknown as Record<string, ArtistSignal>;
+export const PHOTOS = photos as unknown as Record<string, ArtistPhoto>;
 
 export const getSignal = (slug: string): ArtistSignal | undefined => SIGNALS[slug];
 export const getPhoto = (slug: string): ArtistPhoto | undefined => PHOTOS[slug];
