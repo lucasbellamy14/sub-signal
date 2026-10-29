@@ -77,7 +77,9 @@ WEEK=$(ls data/ar/shortlists | sort | tail -n 1 | sed 's/\.json$//')
 6. **Record** the report (step 8's text) in `data/ar/reports/$WEEK.md`
    under a heading `## Editorial run` (append; keep the data run's text).
    Do this even when no artist cleared the gate.
-7. **Commit and push** on a branch `claude/ar-$WEEK` with message
+7. **Commit and push** on a branch `claude/ar-$WEEK` (create it from main with
+   `git checkout -B claude/ar-$WEEK main`; if a rehearsal or earlier attempt
+   already pushed that branch, push with `--force-with-lease`) with message
    `A&R $WEEK: <n> draft profile(s): <names>` (or `A&R $WEEK: no drafts`).
    Push with `git push -u git@github.com:lucasbellamy14/sub-signal.git claude/ar-$WEEK`
    (SSH; never HTTPS). You do NOT open the pull request or comment on the
