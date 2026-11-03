@@ -15,6 +15,21 @@ is open; if the app is closed at the time it runs on the next launch, and the
 watchdog says so on Tuesday if nothing arrived. No GitHub login is needed:
 pushes use the Mac's SSH key, and the workflow does the rest.
 
+### Desktop task prompt (current wording; paste into the task in the Claude app → Scheduled → "Sub Signal weekly A&R editorial" → edit)
+
+```
+You are running Sub Signal's weekly editorial step unattended. Nobody is watching; do not ask questions; if something blocks you, write it into the report instead.
+
+Repository (local checkout, pushes work over SSH): /Users/lucasbellamy/Desktop/CLAUDE MISC/sub-signal
+
+1. cd into that folder. Run: git checkout main && git pull git@github.com:lucasbellamy14/sub-signal.git main
+   If node_modules is missing, run npm ci. Make sure no dev server is running in this folder before any build (never run `npm run build` while `next dev` runs there).
+2. Read the file .claude/skills/weekly-ar/SKILL.md in that folder and follow it exactly, start to finish. It defines the house rules (numbers only from data/ar, every fact sourced from a page you read, no private details, licensed photos only, skip rather than pad), the procedure (data-first check, npm run ar:draft, research, npm run ar:photo, the gates: npm run check-links, npx tsc --noEmit, npm run lint, npm run build, npm run ar:test), and the report format.
+3. The week id is the current ISO week (date +%G-W%V). GitHub's scheduled data run is sometimes hours late: if main has no "A&R data: week <week>" commit made today, the skill's step 0 tells you to run the data step yourself (node scripts/ar/run.mjs, about 20 minutes) and push that one data commit to main. Do that rather than stopping.
+4. Keep every new artist entry as draft: true. Apart from the data commit in step 3, never push to main. Append the "## Editorial run" report section to data/ar/reports/<week>.md even when no artist cleared the gate, commit on branch claude/ar-<week>, and push it with the SSH URL above. If that branch already exists on GitHub, start from it as the skill says; never force-push. The repository's GitHub workflow opens the pull request and posts the report on the week's issue; you do not need gh or any GitHub login.
+5. End by printing the report section you wrote, and leave the checkout on main (git checkout main).
+```
+
 ## Alternative: cloud scheduled task (claude.ai/code/routines)
 
 Needs the GitHub account connected to the Claude account
