@@ -42,8 +42,16 @@ request. You never publish directly in PR mode.
 ## Procedure
 
 ```
-WEEK=$(ls data/ar/shortlists | sort | tail -n 1 | sed 's/\.json$//')
+WEEK=$(date +%G-W%V)   # the current ISO week; the data run names its files the same way
 ```
+
+0. **Data first.** GitHub's scheduled data run can be hours late. Check
+   `git log -1 --format=%cI --grep "A&R data: week $WEEK" main`. If it prints
+   nothing, or a date before today, run the data step yourself (about 20
+   minutes): `node scripts/ar/run.mjs`, then
+   `git add data/ar && git -c user.name="sub-signal-ar[bot]" -c user.email="sub-signal-ar@users.noreply.github.com" commit -m "A&R data: week $WEEK" && git push git@github.com:lucasbellamy14/sub-signal.git main`.
+   This is the only push to main the run may make. If GitHub's run lands
+   later it refreshes the same files; no harm done.
 
 1. **Read** `data/ar/shortlists/$WEEK.json` (`eligible`, `overflow`, `watch`),
    `data/ar/reports/$WEEK.md`, and `src/data/artists.ts` for the house style.
@@ -77,9 +85,12 @@ WEEK=$(ls data/ar/shortlists | sort | tail -n 1 | sed 's/\.json$//')
 6. **Record** the report (step 8's text) in `data/ar/reports/$WEEK.md`
    under a heading `## Editorial run` (append; keep the data run's text).
    Do this even when no artist cleared the gate.
-7. **Commit and push** on a branch `claude/ar-$WEEK` (create it from main with
-   `git checkout -B claude/ar-$WEEK main`; if a rehearsal or earlier attempt
-   already pushed that branch, push with `--force-with-lease`) with message
+7. **Commit and push** on a branch `claude/ar-$WEEK`. Create it with
+   `git checkout -B claude/ar-$WEEK main`. If the remote branch already exists
+   (an earlier attempt this week), start from it instead so a plain push works:
+   `git fetch git@github.com:lucasbellamy14/sub-signal.git claude/ar-$WEEK && git checkout -B claude/ar-$WEEK FETCH_HEAD && git merge main`;
+   if the data report conflicts, take main's version and re-append your
+   section. **Never force-push** (it is blocked in unattended mode). Message
    `A&R $WEEK: <n> draft profile(s): <names>` (or `A&R $WEEK: no drafts`).
    Push with `git push -u git@github.com:lucasbellamy14/sub-signal.git claude/ar-$WEEK`
    (SSH; never HTTPS). You do NOT open the pull request or comment on the
